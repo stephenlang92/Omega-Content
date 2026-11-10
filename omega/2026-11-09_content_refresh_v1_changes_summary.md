@@ -8,13 +8,13 @@
 ---
 
 ### 📌 Ghi chú điều hướng & Quy chuẩn hiển thị:
-- **Click vào link tại cột [Bản gốc] hoặc [Bản v1]:** Mở trực tiếp file markdown trong editor / side panel để đối chiếu song song.
+- **Docs-as-Code (Git Tracked):** Nội dung mới đã được cập nhật trực tiếp vào *_source.md (xóa bỏ file phụ _v1.md). Mở tab **Source Control** trong IDE hoặc xem commit trên GitHub Omega-Content để xem Side-by-Side Diff.
 - **Bảo tồn cấu trúc (100%):** Giữ nguyên URL slug và toàn bộ các thẻ H2 đang index của bài gốc.
 - **Fact-check 2026:** Chuẩn hóa toàn bộ biểu phí Shopify, tính năng Ads (Meta Advantage+, TikTok Smart+) và chính sách PayPal Seller Protection theo thực tế 2026.
 
 ---
 
-| STT | Bài viết & URL Slug | Bản gốc (Source) | Bản v1 (Refresh) | Biến động từ | Tóm tắt thay đổi chính & Điểm tối ưu |
+| STT | Bài viết & URL Slug | Bản nội dung (source.md) | Kế hoạch Audit | Biến động từ | Tóm tắt thay đổi chính & Điểm tối ưu |
 |:---:|:---|:---:|:---:|:---:|:---|
 | 1 | **Catalog Match Rate Guide**<br>`catalog-match-rate` | [`source.md`](file:///D:/Antigravity/ShopifySEO/sites/omega/outputs/content/catalog_match_rate/catalog_match_rate_source.md) | [`source_v1.md`](file:///D:/Antigravity/ShopifySEO/sites/omega/outputs/content/catalog_match_rate/catalog_match_rate_source_v1.md) | +856 từ<br>*(1,879 ➔ 2,735)* | • <b>Fact-check 2026:</b> Cập nhật thuật ngữ Advantage+ Catalog Ads thay Dynamic Ads; cảnh báo CMR Paused sau 28 ngày không phát sinh event.<br>• <b>Information Gain:</b> Bổ sung bảng đối chiếu CMR vs EMQ; chèn bảng mã lỗi content_ids và xung đột mã Shopify Variant ID.<br>• <b>FAQ & CRO:</b> Thêm 4 câu hỏi FAQ chuẩn PAA; lồng ghép hook app Omega Facebook Pixel. |
 | 2 | **Digital Product Side Hustles**<br>`digital-product-side-hustles` | [`source.md`](file:///D:/Antigravity/ShopifySEO/sites/omega/outputs/content/digital_products_side_hustle/digital_products_side_hustle_source.md) | [`source_v1.md`](file:///D:/Antigravity/ShopifySEO/sites/omega/outputs/content/digital_products_side_hustle/digital_products_side_hustle_source_v1.md) | +1,163 từ<br>*(1,942 ➔ 3,105)* | • <b>Fact-check & Sửa lỗi:</b> Khắc phục mâu thuẫn con số '18' ở Meta Description/Sapo thành 'Top 8' nhất quán.<br>• <b>Information Gain:</b> Bổ sung bộ công cụ AI 2026 (Notion AI, Canva Magic Studio, Midjourney v6); chèn bảng ma trận quyết định Digital Product Decision Matrix (doanh thu kỳ vọng, biên lợi nhuận, độ khó).<br>• <b>FAQ:</b> Thêm 4 câu hỏi FAQ thực chiến cho người làm side hustle. |

@@ -6,7 +6,7 @@ published_date: "2026-06-29T17:00:00.000Z"
 category: "Market Insights"
 author: "Anita Nguyen"
 thumbnail: "https://strapi.omegatheme.com/uploads/Hey_Mantle_Alternatives_2_af7e364597.png"
-meta_description: "Hey Mantle is shutting down. Protect your business growth with our deep review of the top 5 SASI and Shopify App Store analytics alternatives."
+meta_description: "Hey Mantle has officially shut down. Protect your business growth with our deep review of the top 5 SASI and Shopify App Store analytics alternatives."
 ---
 
 # Top 5 Hey Mantle Alternatives for SASI & Shopify App Analytics
@@ -17,45 +17,51 @@ meta_description: "Hey Mantle is shutting down. Protect your business growth wit
 ![Featured Image](https://strapi.omegatheme.com/uploads/Hey_Mantle_Alternatives_2_af7e364597.png)
 
 ## Meta Description
-Hey Mantle is shutting down. Protect your business growth with our deep review of the top 5 SASI and Shopify App Store analytics alternatives.
+Hey Mantle has officially shut down. Protect your business growth with our deep review of the top 5 SASI and Shopify App Store analytics alternatives.
 
 ---
 
-HeyMantle gave Shopify app teams one place to handle billing, watch revenue, study churn, and follow App Store rankings. That era is closing. On June 16, 2026, the company announced a [full wind-down](https://docs.heymantle.com/migrating-off-mantle/wind-down) of every product, dashboard, API, and tracking tool. The shutdown is permanent, and the stored data goes with it. This guide walks through the dates that matter, what the loss of SASI means for visibility, and the five best Hey Mantle alternatives for SASI and Shopify app analytics, so the move stays calm and the data stays safe.
+For years, **SASI (The Shopify App Store Index)** powered by Hey Mantle was the undisputed benchmark for tracking app store rankings, keyword visibility, and category "Top Movers" across the Shopify ecosystem. Combined with native billing and cohort analytics, Mantle sat at the very heart of how thousands of Shopify app founders ran their software businesses.
+
+That era has officially come to an end. Following the company's [full wind-down](https://docs.heymantle.com/migrating-off-mantle/wind-down) announcement on June 16, 2026, Mantle has completely switched off every dashboard, API, and tracking snippet, and all historic platform databases have been permanently deleted.
+
+If you've recently navigated to `sasi.heymantle.com` only to find a closed portal, or you're wondering how to track your app's keyword positions and MRR moving forward, you are not alone. This guide explains what made SASI indispensable and details the **top 5 Hey Mantle alternatives** for Shopify app analytics and rank tracking in the post-Mantle landscape.
+
+> **Quick Summary: What is SASI Shopify & Where Is It Now?**  
+> **SASI (Shopify App Store Index)** was Hey Mantle's proprietary marketplace intelligence tool that tracked daily Shopify App Store keyword rankings, category index shifts, and "Top Movers." As of late 2026, Hey Mantle and SASI have permanently shut down. Mantle officially designated **App Store Pulse** as the direct visibility successor, while **Letsmetrix** serves as the leading 100% free alternative combining daily ASO keyword rank tracking with real-time MRR and churn analytics.
 
 ![Mantle is winding down](https://strapi.omegatheme.com/uploads/Mantle_is_winding_down_e26c1ddfea.png)
 
 ## Why the Mantle Shutdown Calls for a Quick Response
 
-For three years, Mantle sat at the center of how many Shopify app founders ran their businesses. The platform pulled billing, analytics, affiliates, email, helpdesk, usage events, and App Store intelligence into one workspace. That bundle is now ending in full. The company confirmed there is no new owner and no rescue. The properties switch off, and the data behind them gets deleted.
+For three years, Mantle sat at the center of how many Shopify app founders ran their businesses. The platform pulled billing, analytics, affiliates, email, helpdesk, usage events, and App Store intelligence into one workspace. That bundle has now ended in full. The company confirmed there was no new owner and no rescue. All properties have switched off, and the data behind them has been deleted.
 
-This matters for one simple reason. A like-for-like swap does not exist. No single tool replaces everything Mantle did at once. Most teams will rebuild that stack with a few focused tools, each strong in one area. The work splits into three jobs: export the history before it disappears, set up fresh tracking so the record continues, and rebuild billing on native rails.
+This matters for one simple reason. A like-for-like swap does not exist. No single tool replaces everything Mantle did at once. Most teams are rebuilding that stack with a few focused tools, each strong in one area. If you opened your bookmark recently to find the dashboards dark and the tracking snippets unresponsive, the focus now splits into three jobs: recover any local CSV exports your team saved, set up fresh tracking immediately so your ranking record resumes, and ensure billing runs cleanly on native rails.
 
-The cost of waiting grows fast. Miss a deadline and the dashboards go dark, the tracking snippets stop reporting, and any data you skipped is gone for good. Ranking history is the part teams overlook. App Store positions form a time series. You cannot rebuild last year's rankings after the fact, so every day without tracking widens the gap in your record.
+The cost of waiting grows fast. With the old dashboards offline, every day you operate without a replacement tracker widens the blind spot in your historical record. Ranking history is the part teams overlook most. App Store positions form a continuous time series. You cannot rebuild last month's rankings after the fact, so deploying a new rank tracker today is critical to re-establishing your baseline.
 
 ## The Two Deadlines That Shape Your Migration
 
-The countdown runs on two clocks. The clock that applies to your account depends on whether you use Mantle Billing. Mark both dates now and plan backward from the one that fits your setup.
+The wind-down executed across two strict deadlines that have now fully passed. Here is where the ecosystem currently stands as of November 2026:
 
-|  |  |  |
-| --- | --- | --- |
-| **Account type** | **Shutdown date** | **First action to take** |
-| Accounts without Mantle Billing (analytics, affiliates, usage events, SASI) | August 14, 2026 | Export every raw dashboard and start a new tracking tool right away. |
-| Accounts using Mantle Billing (full workspace) | September 30, 2026 | Move billing to Shopify App Pricing and export records before the cutoff. |
+| Account Type | Official Shutdown Date | Current Status (Post-Shutdown) | Immediate Action Required |
+| --- | --- | --- | --- |
+| **Accounts without Mantle Billing** (Analytics, Affiliates, Usage Events, SASI) | **August 14, 2026** | Servers permanently offline; all historical databases deleted | Initialize tracking on a new platform (Letsmetrix or App Store Pulse) immediately |
+| **Accounts using Mantle Billing** (Full Workspace) | **September 30, 2026** | Billing engine, dashboards, and APIs permanently terminated | Verify 100% of subscription flows are active on Shopify Native App Pricing |
 
 ### Accounts without Mantle Billing
 
-Teams that use Mantle only for analytics, affiliate management, usage events, or SASI face the earlier deadline. All of these services stop on August 14, 2026. After that point, the dashboards turn off, the snippets stop sending data, and any metric you did not export is lost. The window is short, so this group should act first.
+Teams that used Mantle only for analytics, affiliate management, usage events, or SASI reached their cutoff first. All of these services stopped on August 14, 2026. The dashboards turned off, the snippets stopped receiving events, and any metric not exported beforehand was purged. If you were in this cohort and haven't set up a replacement yet, your top priority is restoring daily keyword and revenue visibility right away.
 
 ### Accounts using Mantle Billing
 
-Teams that route subscriptions through Mantle Billing get a longer runway. These accounts stay live until September 30, 2026, and the later date covers the whole workspace, not billing alone. Analytics, email, and helpdesk keep running beside the billing engine until that final date. Mantle points these partners toward [Shopify's App Pricing](https://shopify.dev/docs/apps/launch/billing/shopify-app-pricing) for the move. Even with extra time, billing changes need engineering cycles, so an early start pays off.
+Teams that routed subscriptions through Mantle Billing had until September 30, 2026, which covered the entire workspace—including analytics, email, and helpdesk alongside the billing engine. Now that the September 30 cutoff has passed, Mantle's billing infrastructure is fully decommissioned. Mantle directed partners toward [Shopify's App Pricing](https://shopify.dev/docs/apps/launch/billing/shopify-app-pricing) (native Billing API) to handle recurring plans and usage charges directly inside the Shopify Partner ecosystem.
 
-👉 If your account uses Mantle Billing, the September 30 date applies to everything, but the safe move is to export and rebuild on the August timeline anyway. Spare time beats a rushed cutover.
+👉 If you missed exporting your historical rankings before the August 14 and September 30 cutoff dates, that historic time-series data cannot be retrieved from Mantle's servers. However, your app's ongoing organic performance cannot wait—establishing a new rank-tracking baseline today eliminates discovery blind spots moving forward.
 
 ## What SASI Tracked, and Why Its Loss Creates a Blind Spot
 
-To pick the right replacement, it helps to name what made Mantle's tracking valuable. The Shopify App Store Index, known as SASI, was the core tool for visibility. It turned raw App Store movement into clear signals a team could act on.
+To pick the right replacement, it helps to name what made Mantle's tracking valuable. The Shopify App Store Index, known as SASI, was the core tool for visibility. It turned raw App Store movement into clear signals a team could act on, including its widely followed **"Top Movers"** leaderboard, which highlighted apps gaining or losing the most category ground over 24-hour and 7-day windows.
 
 ### Daily rank checks
 
@@ -79,23 +85,23 @@ App teams need direct replacements that fit the Shopify setup, hold onto search 
 
 [**Letsmetrix**](https://letsmetrix.com) fits teams that leaned on Mantle's reporting and want continuity without a new bill. Shopify app builders made it for the Shopify app market, so it speaks the language of the people who run apps for a living.
 
-- **Core metrics**: it tracks Monthly Recurring Revenue (MRR), total revenue, user churn, and net growth in real time.
-- **ASO focus**: a built-in audit suite watches keyword rankings and daily search performance across the App Store, which covers the gap SASI leaves behind.
+- **Core metrics**: it connects directly via the Shopify Partner API to track Monthly Recurring Revenue (MRR), total revenue, user churn, customer lifetime value, and net growth in real time.
+- **ASO focus**: a built-in audit suite watches keyword rankings, category positions, review velocity, and daily search performance across the App Store, directly covering the visibility gap SASI left behind.
 - **No subscription cost**: the core dashboards stay free, so the swap adds no migration budget. That removes the main reason teams stall.
 - **Pricing**: Letsmetrix is 100% free. The core analytics and ASO tools carry no monthly charge.
-- **Where it stops**: it sticks to metrics. It does not run subscription billing and does not include a helpdesk, so pair it with a billing engine.
+- **Where it stops**: it sticks to metrics. It does not run subscription billing and does not include a helpdesk, so pair it with Shopify's native billing engine.
 
-💡 For teams whose first need is rank tracking plus core SaaS metrics on day one, Letsmetrix gives a free way to keep watching MRR, churn, growth, and App Store position after the shutdown.
+💡 For teams whose first need is rank tracking plus core SaaS metrics on day one, Letsmetrix gives a free way to keep watching MRR, churn, growth, and App Store position in the post-shutdown era.
 
 ### 2. SaaS Insights: Clean Revenue and Cohort Tracking
 
 ![SaaS Insights](https://strapi.omegatheme.com/uploads/Saa_S_Insights_3b77023637.png)
 
-SaaS Insights offers a modern dashboard aimed at the revenue and cohort data Mantle users are about to lose. It targets founders who want clear charts without heavy setup.
+SaaS Insights offers a modern dashboard aimed at the revenue and cohort data Mantle users lost during the wind-down. It targets founders who want clear charts without heavy setup.
 
 - **Cohort and conversion data**: it groups customers into clear cohorts and tracks trial-to-paid moves, upgrades, and downgrades in real time.
 - **Partner integration**: it connects through your Shopify Partner account and reads daily revenue to report MRR and net payouts in one view.
-- **Fast setup**: the dashboard takes a few minutes to stand up, which suits teams that need a backup before the summer data wipe.
+- **Fast setup**: the dashboard takes a few minutes to stand up, which suits teams that need immediate reporting continuity.
 - **App Store tracking**: it also follows keyword rankings and competitor positions, so it covers both revenue and visibility.
 - **Pricing**: plans start at $49 per month.
 - **Where it stops**: its core strength is internal revenue and customer lifecycles, so keyword work plays a supporting role rather than the lead.
@@ -104,11 +110,11 @@ SaaS Insights offers a modern dashboard aimed at the revenue and cohort data Man
 
 ![App Store Pulse.png](https://strapi.omegatheme.com/uploads/App_Store_Pulse_2545397c36.png)
 
-When the team behind a service names a successor, that pick carries weight. In its wind-down notes, Mantle points users to App Store Pulse for ongoing visibility tracking.
+When the team behind a service names a successor, that pick carries weight. In its wind-down notes, Mantle pointed users to App Store Pulse for ongoing visibility tracking.
 
-- **Marketplace focus**: it follows visibility trends across many categories and mirrors the SASI layout, so the view feels familiar.
+- **Marketplace focus**: it follows visibility trends across many categories and mirrors the SASI layout—including category index shifts and top movers—so the view feels immediately familiar.
 - **Index tracking**: it records shifts across the marketplace, which helps a product manager tell an internal app change from a platform-wide index reset.
-- **Smooth move**: as the named migration path, it lets teams shift tracking with little custom code.
+- **Smooth move**: as the named migration path, it lets teams shift visibility tracking with minimal friction.
 - **Pricing**: a free plan covers one tracked app, and paid plans run from $29 per month for Starter up to $99 per month for Pro. See the [App Store Pulse pricing page](https://www.appstorepulse.com/pricing) for the full breakdown.
 - **Where it stops**: it concentrates on storefront performance, so it lacks deep financial cohort tools and internal usage tracking.
 
@@ -149,34 +155,34 @@ Each tool leans toward a different job. This table maps the five picks against t
 
 ## How to Move Off Mantle Without Losing Data
 
-A clean exit needs order. The shutdown deletes data, so the export comes first, the new tracking comes second, and billing comes last. Follow these five steps to keep the record whole.
+Now that Mantle's servers have been permanently decommissioned, transitioning your analytics stack requires a clean, structured workflow. Follow these five steps to re-establish your data pipeline and clean up legacy code:
 
-- **Step 1:** Export everything. Log into the Mantle dashboard and open the data settings. Download full CSV files of your revenue and subscription history, your SASI keyword rankings and position history, your affiliate and commission logs, and your helpdesk archives. The data behind the dashboards is yours, so pull all of it before the cutoff.
-- **Step 2:** Start fresh tracking. Pick your visibility replacement, such as Letsmetrix, SaaS Insights, or App Store Pulse. Create the workspace, add your app identifiers, and let the new tool start pulling rankings now. An overlap with Mantle leaves no gap in the record when access ends on August 14.
-- **Step 3:** Swap the tracking snippet. Remove any Mantle scripts or custom endpoints from your production code. Add the lightweight tags your new platform needs. Confirm the new tags capture the right query parameters in a test build before you push to live.
-- **Step 4:** Rebuild billing. If you use Mantle Billing, move to Shopify App Pricing well before September 30. Rewrite your subscription flows on the Shopify Billing API, and match usage fees, recurring plans, and trial rules to your current terms.
-- **Step 5:** Disconnect Mantle. Once the new tools show stable data and billing runs through Shopify, revoke your Mantle API credentials and tokens. This last step closes the loop and keeps your security tidy.
+- **Step 1: Check for Local Archives.** Since Mantle's servers are now permanently offline, direct dashboard exports are no longer possible. Audit your team's local cloud storage (Google Drive, Notion, Slack archives) for any previous CSV backups of revenue cohorts, affiliate logs, or SASI keyword rank reports downloaded before the cutoff.
+- **Step 2: Initialize Fresh Rank Tracking Immediately.** App Store keyword positions form a continuous time series. Every day you operate without a rank tracker widens the gap in your visibility records. Set up an account on a dedicated visibility successor like **App Store Pulse** (for SASI-style index and category tracking) or **Letsmetrix** (for free daily keyword rank monitoring), link your app URL, and allow the crawler to establish your new benchmark.
+- **Step 3: Remove Deprecated Mantle Snippets.** Clean up your app codebase by removing obsolete Mantle tracking scripts, custom endpoints, or webhook listeners to reduce DOM bloat and prevent console network timeout errors in production. Confirm your new analytics platform's lightweight tags capture the right query parameters in a staging build before pushing live.
+- **Step 4: Verify Native Billing Flows.** If your app previously relied on Mantle Billing, ensure 100% of your subscription flows now run cleanly on Shopify App Pricing (the native Shopify Billing API). Double-check that recurring plans, usage fees, and trial rules match your active merchant terms.
+- **Step 5: Revoke Legacy Credentials.** Once your new tools show stable data and billing runs smoothly through Shopify, revoke any remaining Mantle API credentials, environment variables, and access tokens in your repository to keep your security tidy.
 
 ## Frequently Asked Questions
 
-### When does Mantle stop working?
+### What was SASI in the Shopify ecosystem?
 
-Accounts without Mantle Billing lose access on August 14, 2026. Accounts that use Mantle Billing keep the full workspace until September 30, 2026, including analytics, email, and helpdesk.
+SASI stood for **Shopify App Store Index**, a proprietary intelligence tool created by Hey Mantle. It aggregated daily rank tracking across thousands of Shopify apps, calculated category visibility scores, and highlighted "Top Movers" (apps gaining or losing rapid market share) to help developers gauge algorithm updates.
 
-### Will the data come back later?
+### Can I still recover my old SASI ranking data from Mantle?
 
-No. Mantle states the wind-down includes the eventual deletion of stored data. An export before the deadline is the only way to keep your history.
+Unfortunately, no. Mantle's official wind-down terms specified that all stored databases, user dashboards, and historical analytics were permanently scrubbed following the August 14, 2026 (non-billing accounts) and September 30, 2026 (billing accounts) final shutdown dates.
 
-### What replaces SASI for App Store tracking?
+### What is the most direct successor to SASI for App Store visibility?
 
-Mantle names App Store Pulse as its successor for visibility. Letsmetrix and SaaS Insights also track App Store keywords and rankings, so you have more than one path.
+In its official wind-down documentation, the Mantle team specifically recommended **App Store Pulse** (`appstorepulse.com`) as their designated successor for marketplace indexing, category visibility, and storefront tracking. For developers wanting a 100% free solution covering both keyword ASO and core MRR analytics, **Letsmetrix** is the premier choice.
 
-### Which alternative should a small team start with?
+### How do I handle app billing now that Mantle Billing is gone?
 
-A small team that wants core metrics and rank tracking with no new bill can start with a free option like Letsmetrix, then add a billing or helpdesk tool as needs grow.
+All Shopify app developers must now utilize **Shopify App Pricing (native Billing API)**. Shopify's native billing system handles recurring subscriptions, usage-based charges, and multi-currency billing seamlessly without relying on third-party billing middle layers.
 
 ## Final Thoughts
 
 A forced migration breaks the rhythm of any roadmap. It also opens a chance to clear technical debt and tidy the marketing stack. The Mantle wind-down asks for fast action, yet the replacements on offer cover every job the old platform handled.
 
-Teams that care most about organic growth and keyword visibility can lean on Letsmetrix and App Store Pulse, which match or extend what SASI offered. Teams that care most about financial depth can reach for SaaS Insights, Baremetrics, or Polar Analytics for the revenue insight that lifts retention and scales subscriptions. Pick the tool that fits your scale, start the exports today, and hold your app's place in the Shopify market.
+Teams that care most about organic growth and keyword visibility can lean on Letsmetrix and App Store Pulse, which match or extend what SASI offered. Teams that care most about financial depth can reach for SaaS Insights, Baremetrics, or Polar Analytics for the revenue insight that lifts retention and scales subscriptions. Pick the tool that fits your scale, set up your new tracking baseline today, and hold your app's place in the Shopify market.
