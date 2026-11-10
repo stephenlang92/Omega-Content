@@ -21,34 +21,23 @@ Unlock a 120-day Shopify free trial through the 1MBB initiative. Empower your Bl
 
 ---
 
-Entrepreneurship has long been a proven pathway to closing wealth gaps, yet underrepresented founders still face disproportionate hurdles when securing upfront capital, technical mentorship, and sustainable digital runways. In response, Shopify and Operation HOPE launched the historic **One Million Black Businesses (1MBB) Initiative**—an audacious 10-year commitment to create and sustain one million Black-owned businesses by 2030.
+Entrepreneurship has long been a path to economic independence and wealth creation, yet many Black entrepreneurs face systemic barriers that limit their opportunities. To address these challenges, Shopify, in collaboration with Operation HOPE, launched the One Million Black Businesses (1MBB) Initiative. This groundbreaking program empowers Black entrepreneurs by providing them with essential tools, educational resources, and mentorship to succeed in the digital marketplace.
 
-As of 2026, the 1MBB coalition has already provided critical infrastructure to over 170,000 entrepreneurs across the United States, Canada, and the UK. Central to this initiative is the legendary **Shopify 120-Day Free Trial**—giving founders a full 4-month runway without subscription fees, paired with 40+ hours of dedicated coaching and grant navigation. In this definitive 2026 guide, discover how the 1MBB program works, who qualifies, step-by-step registration instructions, and the strategic milestones to make your store profitable before your trial ends.
+In this comprehensive blog post, we will explore the new information on the 1MBB Shopify campaign, the key benefits for participants, how to get involved, and the success stories of Black entrepreneurs who have leveraged this initiative to build thriving businesses.
 
 ## **What is Shopify 1MBB?**
 
-Launched in 2020, [**Shopify 1MBB**](https://operationhope.org/1-million-black-businesses/) **(One Million Black Businesses)** is an ambitious initiative to drive economic empowerment by fostering the growth of **one million Black-owned businesses by 2030**. 
+Launched in 2020, [**Shopify 1MBB**](https://operationhope.org/1-million-black-businesses/) **(One Million Black Businesses)** is an ambitious initiative to drive economic empowerment by fostering the growth of **one million Black-owned businesses by 2030**. 
 
 This groundbreaking program is the result of a strategic partnership between **Shopify**—a leading e-commerce platform, and **Operation HOPE**, a nonprofit organization dedicated to financial literacy and economic advancement for underserved communities.
 
-Historically, Black entrepreneurs have faced **systemic barriers** such as limited access to capital, business mentorship, and digital tools necessary for success in an increasingly online-driven economy. Shopify 1MBB aims to dismantle these obstacles by providing **tangible, high-impact resources** to aspiring and existing Black business owners—having already empowered more than 170,000 Black-owned businesses with digital storefronts, coaching, and financial mentorship as of 2026.
+Historically, Black entrepreneurs have faced **systemic barriers** such as limited access to capital, business mentorship, and digital tools necessary for success in an increasingly online-driven economy. Shopify 1MBB aims to dismantle these obstacles by providing **tangible, high-impact resources** to aspiring and existing Black business owners.
 
 ![](https://strapi.omegatheme.com/uploads/1_MBB_Shopify_d5f6d0b104.png)
 
 ## **Key Benefits Of Black-Owned Business From 1MBB Shopify**
 
-In collaboration with Operation HOPE, the Shopify 1MBB initiative aims to empower Black entrepreneurs by providing essential resources and support to establish and grow their businesses. Before diving into each benefit, see how the 1MBB partnership compares to Shopify's standard public trial offer:
-
-| Feature / Benefit | Standard Public Shopify Trial | Shopify 1MBB Program (Operation HOPE) |
-|:---|:---:|:---:|
-| **Free Trial Duration** | 3-day free trial (followed by $1/month for 3 months promo) | **120 days (4 full months) 100% free** |
-| **Platform Subscription Cost (First 120 Days)** | ~$3 – $42 total (depending on active promotion) | **$0 (Zero platform subscription fees)** |
-| **E-Commerce Training & Certification** | Self-guided Help Center documentation | **40-hour Shopify + 1MBB E-Commerce Certification** |
-| **1-on-1 Business Mentorship** | Standard technical live chat support | **Dedicated 1-on-1 coaching from Operation HOPE experts** |
-| **Capital & Grant Navigation** | Not included | **Guided access to small business grants & favorable loans** |
-| **Geographic Eligibility** | Global | **United States, Canada, and the United Kingdom (UK)** |
-
-Here are the key benefits of the program:
+In collaboration with Operation HOPE, the Shopify 1MBB initiative aims to empower Black entrepreneurs by providing essential resources and support to establish and grow their businesses. Here are the key benefits of the program:
 
 ### **1. Extended 120-Day Free Shopify Trial**
 
@@ -86,8 +75,6 @@ The Shopify 1MBB offer is available only to entrepreneurs in the U.S, Canada, an
 ## **Getting Started with Shopify 1MBB’s 120-Day Free Trial**
 
 Registering for the Shopify 1MBB 120-day free trial is simple. Just follow these instructions:
-
-> **Eligibility & Self-Identification Note:** To unlock the 120-day free trial, you must register directly through the official `shopify.com/1mbb` portal, reside in the **United States, Canada, or the United Kingdom**, and self-identify as a Black entrepreneur during the onboarding questionnaire.
 
 ### **Step 1: Visit the Shopify 1MBB Website and Start Your Free Trial**
 
@@ -134,18 +121,6 @@ Proceed to add a payment method, choosing either a credit card or PayPal for tra
 ## **How Black-Owned Businesses Can Maximize Shopify’s 120-Day Trial**
 
 For Black entrepreneurs, Shopify’s **120-day free trial** presents a unique opportunity to launch and grow an online business without the immediate pressure of subscription fees. This extended trial period allows business owners to set up their store, refine their operations, and test marketing strategies before committing financially.
-
-To ensure you don't waste this 4-month runway, follow our structured **120-Day Milestone Playbook** alongside the core optimization pillars below:
-
-> **The 120-Day Milestone Playbook:**
-> - **Month 1 (Days 1–30): Foundation & Store Architecture:**  
->   Focus on branding, setting up your custom domain, configuring shipping zones, and uploading your initial 5–10 core products with high-resolution imagery. Complete your initial Operation HOPE onboarding session.
-> - **Month 2 (Days 31–60): Soft Launch & Customer Feedback:**  
->   Open your store to family, friends, and your immediate network. Process your first 10 orders to stress-test your packaging, shipping fulfillment, and payment gateway.
-> - **Month 3 (Days 61–90): Organic Traffic & Community Building:**  
->   Leverage short-form video on TikTok and Instagram Reels showing your product creation story. Build an automated email welcome flow to capture store visitors.
-> - **Month 4 (Days 91–120): Conversion Optimization & Scaling:**  
->   Analyze your conversion funnel using Shopify Analytics. Implement trust badges and automated order tracking notifications. Calculate your profit margins to ensure your monthly sales easily cover the standard $39/month (or $29/month annual) Basic plan once Day 121 arrives.
 
 To fully leverage this opportunity, it’s essential to focus on branding, product optimization, marketing, and data-driven decision-making. Here’s how to make the most of Shopify’s 120-day trial.
 
@@ -195,7 +170,7 @@ Before the 120 days are up, take time to fine-tune your business strategy:
 
 The Shopify 1MBB (1 Million Black Businesses) program has had a profound impact on Black-owned businesses across the United States.
 
-According to Operation Hope, the initiative has supported over 170,000 Black-owned businesses, offering invaluable assistance. Additionally, it has facilitated more than 30,000 hours of professional services, equipping Black business owners with essential tools, resources, and expert guidance.
+According to Operation Hope, the initiative has supported over 169,000 Black-owned businesses, offering invaluable assistance. Additionally, it has facilitated more than 30,000 hours of professional services, equipping Black business owners with essential tools, resources, and expert guidance.
 
 The program’s influence is undeniable, significantly improving the entrepreneurial landscape for the Black business community.
 
@@ -266,10 +241,11 @@ Founded by Justina Blakeney in 2009, Jungalow began as a blog and has grown into
 
 ### **1. What happens after the 120-day free trial ends?**
 
-When your 120 days conclude, your store will not be automatically charged unless you actively choose a subscription plan. You have three flexible options:
-1. **Upgrade to a paid plan:** Continue scaling your store with Shopify's Basic Plan (**$39/month** on monthly billing, or **$29/month** if billed annually), plus standard credit card processing fees (starting at 2.9% + 30¢ per online transaction on Basic).
-2. **Pause and Build:** If your store is seasonal or you need more preparation time, Shopify offers a reduced **Pause and Build** maintenance plan ($9/month) allowing you to keep your storefront online and work on your admin dashboard while checkout is disabled.
-3. **Close your store:** You can close your store without any penalty or hidden charges. You retain full ownership of your customer list and store data.
+At the end of the **120 days**, you have two options:  
+? **Continue using Shopify** by selecting a paid plan (pricing starts at **$39/month**)  
+? **Pause or close your store** if you decide not to continue
+
+If you **do not choose** a plan, your store will be **suspended**, but you won’t be charged unless you opt in for a paid subscription.
 
 ### **2. What resources are available during the 120-day free trial?**
 
@@ -294,10 +270,6 @@ Shopify 1MBB is great for:
 - ****Subscription-based models**** (monthly memberships, box subscriptions)
 
 If you’re looking to **start or expand** your business online, Shopify provides the tools to help.
-
-### **5. Do I need to repay Shopify if my business does not make sales during the 120 days?**
-
-No. The 120-day free trial and all educational and coaching resources provided through Operation HOPE are completely free with no strings attached. You never have to repay Shopify or Operation HOPE if you decide to close your store before the 120-day trial expires.
 
 **WRAP UP**
 
