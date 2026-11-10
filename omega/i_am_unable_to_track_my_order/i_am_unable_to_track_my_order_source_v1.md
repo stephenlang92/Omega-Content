@@ -73,7 +73,7 @@ This case might be rare, such as **Local Delivery**, **In-store Pickup**, or ord
 
 Occasionally, you might encounter delays in tracking due to some technical issues from courier partners or app providers. Most commonly, major carriers like USPS, FedEx, and DHL experience a **24 to 48-hour first-scan lag** between when the shipping label is generated and when the physical package is scanned into their sorting network—especially during peak holiday seasons or when API gateways experience high traffic. Please contact our Developer Team via live chat in the right corner for further support or email us via contact@omegatheme.com.
 
-### Quick Troubleshooting Matrix: Resolving Order Tracking Errors
+## Quick Troubleshooting Matrix: Resolving Order Tracking Errors
 
 | Displayed Status | Root Cause | Action for Shoppers | Action for Merchants |
 |:---|:---|:---|:---|

@@ -21,13 +21,30 @@ Low Catalog Match Rate is killing your Meta ads without you realizing it. Learn 
 
 ---
 
-Catalog match rate is an important metric that directly affects how well your products are matched with customer data in Meta ads. Knowing how it works will enable you to maximize its potential to improve accuracy in product targeting and campaign results.
+Catalog match rate is an important metric that directly affects how well your products are matched with customer data in Meta ads. Knowing how it works will enable you to maximize its potential to improve accuracy in product targeting and campaign results, especially when scaling automated Advantage+ Catalog Ads.
+
+> **Key Takeaways:**
+> - **What it is:** Measures how accurately products viewed or added to cart on your store match items in your Meta catalog.
+> - **Benchmark:** Aim for **> 90%** for optimal Advantage+ Catalog Ads and dynamic retargeting; below 75% requires immediate troubleshooting.
+> - **Core fix:** Align `content_ids` format consistently across your Shopify theme, Pixel, Conversions API (CAPI), and product feed.
 
 ## What is Catalog Match Rate?
 
 Catalog match rate shows how often the items people interact with on your store, such as viewed or added-to-cart products, match products in your Meta catalog.
 
 In other words, it is a measure of how well your website’s activities match up with your catalog’s data. A good catalog match rate is **above 75%**, while an ideal rate is [**above 90%**](https://www.facebook.com/business/help/1183006658734497) to maximize the potential of dynamic ads.
+
+### Catalog Match Rate vs. Event Match Quality (EMQ): Understand the Difference
+
+Many advertisers confuse **Catalog Match Rate** with **Event Match Quality (EMQ)**, leading them to optimize the wrong parameters. While both are critical tracking metrics in Meta Events Manager, they measure entirely different connections:
+
+| Comparison Criteria | Catalog Match Rate (CMR) | Event Match Quality (EMQ) |
+| :--- | :--- | :--- |
+| **Measurement Purpose** | How well the **products** customers interact with on your website match the **products** stored in your Meta Catalog | How well **customer identity parameters** (Email, Phone, IP address, etc.) match Facebook/Instagram user accounts |
+| **Key Data Parameters** | `content_ids`, `content_type`, `contents` | `em` (email), `ph` (phone), `client_user_agent`, `fbp`, `fbc` |
+| **Direct Impact On** | Dynamic ad delivery (Advantage+ Catalog Ads, Dynamic Retargeting) | Conversion attribution, ROAS reporting, and Custom Audience building |
+| **Ideal Benchmark** | **> 90%** (Red warning if < 75%) | **> 8.0 / 10** for core conversion events (Purchase, Lead) |
+| **Core Area of Responsibility** | Product Feed Sync & Pixel product parameter configuration | Conversions API (CAPI) setup & Advanced Matching |
 
 ## How to Calculate Catalog Match Rate?
 
@@ -195,6 +212,20 @@ Maintaining a high Catalog Match Rate is not about fixing it once; it’s about 
 - **Keep integrations consistent**: Avoid mixing multiple tools with different ID formats. Use one reliable setup across your stack.
 
 ![Best-Practices-to-Maintain-a-High-Match-Rate.png](https://strapi.omegatheme.com/uploads/Best_Practices_to_Maintain_a_High_Match_Rate_c312438d5d.png)
+
+## Frequently Asked Questions (FAQs)
+
+**Q: What is a good Catalog Match Rate on Meta?**  
+**A:** According to Meta Business guidelines, an optimal Catalog Match Rate is **90% or higher**. A rate between 75% and 89% is acceptable but indicates slight tracking discrepancies or feed sync delays. Any score below 75% triggers a "Needs Attention" status and severely hinders dynamic ad personalization.
+
+**Q: Why did my Catalog Match Rate suddenly drop to 0%?**  
+**A:** A sudden drop to 0% usually points to a disconnection between your pixel and the catalog in Commerce Manager, or a recent app update that changed your store's ID format (e.g., switching from raw numeric IDs to Shopify global handles `shopify_US_...`). Check the **Connected Data Sources** tab to ensure your Pixel or CAPI dataset is still active.
+
+**Q: Should I use Shopify Product ID or Variant ID in my Meta Catalog?**  
+**A:** It depends on your inventory setup. If your product variants have substantially different images and prices, tracking at the Variant ID level is recommended for precise retargeting. However, you must ensure that your theme's Pixel/CAPI events dynamically transmit the active Variant ID rather than the static Parent Product ID.
+
+**Q: How long does it take for the Catalog Match Rate to update after I fix feed errors?**  
+**A:** The Catalog Match Rate calculation operates on a rolling 28-day window with heavy weight given to the last 7 days. While individual event matching begins immediately once the fix is pushed, the displayed percentage in Commerce Manager typically takes **24 to 48 hours** to show measurable improvement.
 
 ## Conclusion
 
