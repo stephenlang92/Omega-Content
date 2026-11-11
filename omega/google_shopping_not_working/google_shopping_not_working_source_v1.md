@@ -37,15 +37,15 @@ Even if your campaign is fully active and well optimized, disapproved products f
 
 ![Why are My Google Shopping Ads Not Showing?](https://strapi.omegatheme.com/uploads/Why_are_My_Google_Shopping_Ads_Not_Showing_c72774cc9d.png)
 
-### **Quick 3-Tier Diagnostic Matrix: Where Is Your Issue Located?**
+### **Quick Diagnostic Checklist: 3 Places to Find and Fix Your Issue**
 
-Before spending hours tweaking bids, determine which layer of the Google Shopping ecosystem is broken:
+Before spending hours guessing or tweaking bids, check these 3 simple areas to pinpoint exactly where your Google Shopping issue is coming from:
 
-| Diagnostic Layer | Where to Look | Typical Symptoms | Immediate Action |
+| Problem Area | Where to Check | What You'll See | How to Fix It Fast |
 | :--- | :--- | :--- | :--- |
-| **Tier 1: Account Level** | Google Merchant Center (GMC) Account Settings | Red banner: "Account Suspended" or "Website Unclaimed" | Verify & claim domain, update business address, and request review. |
-| **Tier 2: Product & Feed Level** | GMC Products > *Needs Attention* / *Diagnostics* | Specific items disapproved (Orange/Red icons for price, image, or GTIN errors) | Fix feed attributes via [Omega Feed](https://apps.shopify.com/google-shopping-feed-pro) and re-sync via Content API. |
-| **Tier 3: Google Ads Campaign Level** | Google Ads > Campaigns > Product Groups | Products are approved in GMC, but Impressions = 0 in Google Ads | Check daily budget limits, raise max CPC bids, or check PMax campaign overlap. |
+| **1. Account Level** *(Merchant Center)* | GMC > Account Settings | Red alert banner: *"Account Suspended"* or *"Website Unclaimed"* | Verify and claim your store domain, ensure your refund policy is clear, and submit a review request. |
+| **2. Product & Feed Level** *(Item Disapprovals)* | GMC > Products > *Needs Attention* | Specific products marked with red/yellow warning icons (missing GTIN, price mismatch, or policy violation) | Fix missing attributes in your Shopify product feed via [Omega Feed](https://apps.shopify.com/google-shopping-feed-pro) and trigger an instant re-sync. |
+| **3. Campaign Level** *(Google Ads)* | Google Ads > Campaigns > Product Groups | Products are 100% approved in GMC, but Impressions = 0 in Google Ads | Increase your daily ad budget, raise your target ROAS / max CPC bid, or check for overlapping Performance Max campaigns. |
 
 ## Common Causes of Google Shopping Not Working
 
