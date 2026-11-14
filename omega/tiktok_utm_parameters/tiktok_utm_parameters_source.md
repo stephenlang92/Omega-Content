@@ -39,6 +39,20 @@ Some of the basic UTM parameters and their functionality:
 4. **Term (utm\_term):** Most often associated with paid search campaigns to help track specific keywords within them.
 5. **Content (utm\_content):** Differentiates identical content in the same campaign, which is particularly beneficial in testing various ad designs.
 
+### **How to Set Up TikTok UTMs: URL Auto-Attach vs. Manual URL Builder**
+
+#### **Method 1: Enable TikTok's Built-in URL Auto-Attach (Fastest)**
+TikTok Ads Manager offers an automatic parameter feature that tags every destination URL across your entire account:
+1. Navigate to **TikTok Ads Manager > Tools > Account Settings**.
+2. Scroll to the **URL Auto-attach** section.
+3. Toggle the switch to **ON**. TikTok will automatically append `utm_source=tiktok`, `utm_medium=paid`, along with dynamic campaign ID and name to every ad URL.
+
+#### **Method 2: Manual URL Builder in Ad Creation (Most Granular)**
+If you need custom parameters for Shopify attribution:
+1. When creating or editing an ad in TikTok Ads Manager, scroll down to **Ad Details**.
+2. Locate the **Destination Page** section and click **Build URL Parameters**.
+3. Input your key-value pairs (or dynamic macros like `__CID_NAME__`) and click **Confirm**.
+
 ## **Introducing Omega UTM Attribution Report**
 
 Now that you understand TikTok UTM parameters and how they capture key campaign data, let’s explore how to make the most of this information with the TikTok UTM Attribution Report.
@@ -145,6 +159,20 @@ To help merchants stay ahead, the ‘Request Feature’ option allows them to su
 This approach emphasizes that merchants can actively shape the app’s future capabilities by requesting features they need.
 
 ![](https://strapi.omegatheme.com/uploads/Request_features_733996f586.png)
+
+## **Frequently Asked Questions (FAQs)**
+
+### **Does TikTok Ads Manager have a built-in UTM builder?**
+Yes. When setting up an ad under the Destination Page section in TikTok Ads Manager, you can click "Build URL parameters". This built-in tool allows you to select standard UTM keys and insert dynamic macros like `__CAMPAIGN_NAME__` and `__CID_NAME__` without having to construct strings manually.
+
+### **Can I use both dynamic macros and static UTM values together?**
+Absolutely. In fact, that is standard practice. You should set static values for source and medium (`utm_source=tiktok&utm_medium=paid`) while using dynamic macros for campaign and creative tags (`utm_campaign=__CAMPAIGN_NAME__&utm_content=__CID_NAME__`).
+
+### **Why are my TikTok dynamic macros showing as literal text in Google Analytics?**
+If your GA4 shows the literal text `__CAMPAIGN_NAME__` instead of the actual name, it means you triggered the ad through a test preview or copied the raw link from Ads Manager without generating a live click. Dynamic macros only resolve into actual values when served as live ads.
+
+### **How does Omega UTM Attribution Report compare to standard GA4?**
+While GA4 reports aggregate sessions and standard last-click traffic, Omega UTM Attribution Report inside the [TikShop: Feed & Omega Pixel](https://apps.shopify.com/tiktok-multi-pixels) app correlates TikTok UTM parameters directly with individual Shopify order IDs, customer journeys, and exact product revenues, giving Shopify store owners true Multi-touch ROAS clarity.
 
 **Wrap up**
 

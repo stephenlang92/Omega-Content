@@ -9,12 +9,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/feed-management-tools` | — | Giữ nguyên slug |
-| **Nguồn nội dung audit** | `outputs/omegatheme/feed_management_tools/feed_management_tools_source.md` | — | File markdown local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/feed_management_tools/feed_management_tools_source.md` | — | File markdown local |
 | **Primary Keyword** | `feed management tools` | — | Google US Desktop |
 | **Thứ hạng SERP hiện tại** | Striking Distance (Top 10–20) | Top 1 (Adcore), Top 2 (SEO.ai), Top 4 (Prisync) | Cần bứt phá vào Top 1–3 |
 | **Mục tiêu tối ưu** | Đẩy Striking Distance bứt phá vào Top 1–3 Google US | Prisync: 2.916 từ, SEO.ai: 1.852 từ | Khắc phục lỗi copy và làm dày nội dung |
@@ -23,7 +24,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -41,31 +42,33 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
-| **Title & H1** | `[UPDATE]` | Tiêu đề hiện tại: `10 Best Product Feed Management Tools for Multichannel Selling` thiếu mốc năm 2026 trong H1. | Cập nhật H1 thành: `10 Best Product Feed Management Tools for Multichannel Selling in 2026` (giữ nguyên slug). |
-| **Introduction / Sapo** | `[UPDATE]` | Sapo hiện tại khá ngắn gọn, chưa nêu bật vai trò của AI Shopping và Performance Max. | Cập nhật Sapo: Nhấn mạnh tầm quan trọng của feed dữ liệu chuẩn xác trong việc thúc đẩy doanh thu trên Google PMax, TikTok Shop và Meta Catalog năm 2026. |
+| **Title & H1** | `[UPDATE (+2 từ)]` | Tiêu đề hiện tại: `10 Best Product Feed Management Tools for Multichannel Selling` thiếu mốc năm 2026 trong H1. | Cập nhật H1 thành: `10 Best Product Feed Management Tools for Multichannel Selling in 2026` (giữ nguyên slug). |
+| **Introduction / Sapo** | `[UPDATE (+27 từ)]` | Sapo hiện tại khá ngắn gọn, chưa nêu bật vai trò của AI Shopping và Performance Max. | Cập nhật Sapo: Nhấn mạnh tầm quan trọng của feed dữ liệu chuẩn xác trong việc thúc đẩy doanh thu trên Google PMax, TikTok Shop và Meta Catalog năm 2026. |
 | **H2: What is Product Feed Management?** | `[KEEP]` | Định nghĩa và ví dụ trực quan về giày sneakers rất dễ hiểu. | Giữ nguyên toàn bộ nội dung và hình ảnh minh họa. |
 | **H2: Why Do You Need a Feed Management Tool?** | `[KEEP]` | 4 lợi ích cốt lõi (tiết kiệm thời gian, tăng hiển thị, giảm lỗi, mở rộng quy mô) chuẩn xác. | Giữ nguyên cấu trúc 4 bullet points. |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Người đọc cần hiểu mức độ rủi ro nếu quản lý feed thủ công. | Thêm **H3: The Hidden Costs of Poor Feed Management** (Tài khoản Google Merchant Center bị suspend, rớt hiển thị PMax, tồn kho lệch gây hủy đơn). |
-| **H2: Best Product Feed Management Tools in 2026** | `[ENRICH]` | Danh sách 10 công cụ dài nhưng thiếu bảng tra cứu tổng quan. | Chèn ngay đầu mục này **Quick Comparison Table: Top 10 Product Feed Management Tools at a Glance** (Bảng so sánh 10 công cụ). |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+106 từ)]` | Người đọc cần hiểu mức độ rủi ro nếu quản lý feed thủ công. | Thêm **H3: The Hidden Costs of Poor Feed Management** (Tài khoản Google Merchant Center bị suspend, rớt hiển thị PMax, tồn kho lệch gây hủy đơn). |
+| **H2: Best Product Feed Management Tools in 2026** | `[ENRICH (+283 từ)]` | Danh sách 10 công cụ dài nhưng thiếu bảng tra cứu tổng quan. | Chèn ngay đầu mục này **Quick Comparison Table: Top 10 Product Feed Management Tools at a Glance** (Bảng so sánh 10 công cụ). |
 | *-- H3: 1. Omega Feed* | `[KEEP]` | Giới thiệu công cụ Omega Feed (FeedNexa) với rating và bảng giá $8.99 - $25.99 rõ ràng. | Giữ nguyên nội dung, làm nổi bật lợi thế giá rẻ vượt trội cho merchant Shopify. |
 | *-- H3: 2 đến 7* | `[KEEP]` | Nội dung về DataFeedWatch, Channable, GoDataFeed, Feedonomics, Productsup, Shoppingfeed rất chuẩn xác. | Giữ nguyên nội dung, sửa lại mốc thời gian trong chú thích ảnh. |
-| *-- H3: 8. Rithum* | `[UPDATE]` | **Lỗi nghiêm trọng:** Toàn bộ nội dung Highlights, Who It's For, Pricing bị copy từ mục 7 Shoppingfeed. | **Viết lại 100% nội dung về Rithum:** Giới thiệu đúng bản chất nền tảng hợp nhất từ ChannelAdvisor và CommerceHub, quy mô Enterprise, giải pháp tích hợp EDI/ERP, giá Custom Enterprise Quote. |
+| *-- H3: 8. Rithum* | `[UPDATE (+42 từ)]` | **Lỗi nghiêm trọng:** Toàn bộ nội dung Highlights, Who It's For, Pricing bị copy từ mục 7 Shoppingfeed. | **Viết lại 100% nội dung về Rithum:** Giới thiệu đúng bản chất nền tảng hợp nhất từ ChannelAdvisor và CommerceHub, quy mô Enterprise, giải pháp tích hợp EDI/ERP, giá Custom Enterprise Quote. |
 | *-- H3: 9. ChannelPilot* | `[KEEP]` | Đánh giá công cụ thị trường Châu Âu chuẩn. | Giữ nguyên nội dung. |
-| *-- H3: 10. BeezUP* | `[UPDATE]` | **Lỗi đánh số:** Heading đang bị ghi là `### 20. BeezUP`. | Sửa lại heading thành `### 10. BeezUP`. Giữ nguyên nội dung phân tích bên trong. |
+| *-- H3: 10. BeezUP* | `[UPDATE (+0 từ)]` | **Lỗi đánh số:** Heading đang bị ghi là `### 20. BeezUP`. | Sửa lại heading thành `### 10. BeezUP`. Giữ nguyên nội dung phân tích bên trong. |
 | **H2: Top Features to Look For in a Product Feed Management Tool** | `[KEEP]` | 4 tính năng cốt lõi (Multichannel, Real-time sync, Data transformation, Performance tracking). | Giữ nguyên 4 bullet points. |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Người đọc cần tiêu chí quyết định để chọn tool phù hợp ngân sách. | Thêm **H3: How to Choose the Right Feed Tool for Your Business Model** (Khung chọn cho: Cửa hàng Shopify SMB vs Thương hiệu mở rộng Mid-market vs Tập đoàn Enterprise). |
-| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Chưa có khối FAQ chuẩn SEO. | Thêm H2 FAQ với 4 câu hỏi kỹ thuật chuẩn Google US PAA. |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+163 từ)]` | Người đọc cần tiêu chí quyết định để chọn tool phù hợp ngân sách. | Thêm **H3: How to Choose the Right Feed Tool for Your Business Model** (Khung chọn cho: Cửa hàng Shopify SMB vs Thương hiệu mở rộng Mid-market vs Tập đoàn Enterprise). |
+| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+283 từ)]` | Chưa có khối FAQ chuẩn SEO. | Thêm H2 FAQ với 4 câu hỏi kỹ thuật chuẩn Google US PAA. |
 | **Conclusion** | `[KEEP]` | Đoạn kết luận tổng kết giá trị của feed management. | Giữ nguyên đoạn kết luận. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
-### Snippet 1: Bảng so sánh nhanh tổng hợp 10 công cụ `[ENRICH]`
+### Snippet 1: Bảng so sánh nhanh tổng hợp 10 công cụ `[ENRICH (+285 từ)]`
 Chèn ngay đầu mục **## Best Product Feed Management Tools in 2026**:
 
 ### **Quick Comparison Table: Top 10 Feed Management Tools at a Glance**
@@ -85,7 +88,7 @@ Chèn ngay đầu mục **## Best Product Feed Management Tools in 2026**:
 
 ---
 
-### Snippet 2: Viết lại toàn bộ nội dung công cụ số 8 Rithum `[UPDATE]`
+### Snippet 2: Viết lại toàn bộ nội dung công cụ số 8 Rithum `[UPDATE (+152 từ)]`
 Thay thế hoàn toàn đoạn lỗi copy-paste tại dòng 209–228:
 
 ### **8. Rithum (Formerly ChannelAdvisor & CommerceHub)**
@@ -107,7 +110,7 @@ Enterprise retailers, multinational consumer brands, and Fortune 500 corporation
 
 ---
 
-### Snippet 3: Khắc phục lỗi heading số 10 BeezUP `[UPDATE]`
+### Snippet 3: Khắc phục lỗi heading số 10 BeezUP `[UPDATE (+0 từ)]`
 > **Đoạn cũ:**
 > `### 20. BeezUP`
 >
@@ -116,7 +119,7 @@ Enterprise retailers, multinational consumer brands, and Fortune 500 corporation
 
 ---
 
-### Snippet 4: Khung tiêu chí lựa chọn công cụ `[FILL-GAP]`
+### Snippet 4: Khung tiêu chí lựa chọn công cụ `[FILL-GAP (+175 từ)]`
 Chèn vào mục **## Top Features to Look For in a Product Feed Management Tool**:
 
 ### **How to Choose the Right Feed Tool for Your Business Model**
@@ -130,7 +133,7 @@ To avoid overpaying for enterprise features you don’t need or choosing a basic
 
 ---
 
-### Snippet 5: Khối FAQ chuẩn SEO `[FILL-GAP]`
+### Snippet 5: Khối FAQ chuẩn SEO `[FILL-GAP (+282 từ)]`
 
 ## **Frequently Asked Questions (FAQs)**
 

@@ -8,12 +8,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/hey-mantle-alternatives-for-sasi-and-shopify-app-analytics` | — | Trang live của Omegatheme |
-| **Nguồn nội dung audit** | `outputs/omegatheme/sasi_shopify/sasi_shopify_source.md` | — | Bản nạp bài viết local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/sasi_shopify/sasi_shopify_source.md` | — | Bản nạp bài viết local |
 | **Primary Keyword** | `sasi shopify` | — | Từ khóa tìm kiếm trọng tâm Google US |
 | **Thứ hạng SERP hiện tại** | Đang được Google crawl và chuẩn bị bứt phá (SERP hiện hữu đa phần là sub-domain chết của Mantle) | Top 1-4 SERP US | Cơ hội chiếm lĩnh vị trí số 1 trang tìm kiếm |
 | **Mục tiêu tối ưu** | Cập nhật thời điểm hậu đóng cửa & định nghĩa trực diện SASI | Top 1 mục tiêu | Cẩm nang định hướng số 1 cho Shopify App Developers |
@@ -22,7 +23,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -37,32 +38,32 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bảo tồn nguyên vẹn các H2 hiện có):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1** | `[KEEP]` | Tiêu đề: *"Top 5 Hey Mantle Alternatives for SASI & Shopify App Analytics"*. Khớp intent và chứa exact match SASI. | Giữ nguyên tiêu đề và slug URL để bảo toàn SEO. |
-| **Introduction / Sapo** | `[UPDATE]` & `[ENRICH]` | Câu mở đầu dùng thì tương lai: *"That era is closing... The shutdown is permanent"*. Chưa định nghĩa rõ SASI là gì. | **[ENRICH]:** Bổ sung định nghĩa: SASI = Shopify App Store Index.<br>**[UPDATE]:** Cập nhật thực tế: Kỷ nguyên Mantle đã chính thức kết thúc, hệ thống đã ngừng hoạt động hoàn toàn. |
-| **H2: Why the Mantle Shutdown Calls for a Quick Response** | `[UPDATE]` | Dùng ngôn từ khẩn cấp kêu gọi xuất dữ liệu trước khi đóng cửa. | Chuyển dịch trọng tâm: Nếu bạn mở trang web thấy dashboard tối đen, đây là lý do. Hướng dẫn thiết lập công cụ mới ngay lập tức để không bị đứt đoạn dữ liệu xếp hạng thời gian thực. |
-| **H2: The Two Deadlines That Shape Your Migration** | `[UPDATE]` | Bảng và nội dung vẫn để ngày 14/08 và 30/09 như hạn tương lai. | Cập nhật thành: Hai mốc đóng cửa đã hoàn tất. Phân tích hiện trạng cho nhóm tài khoản analytics và nhóm billing. |
-| **H2: What SASI Tracked, and Why Its Loss Creates a Blind Spot** | `[ENRICH]` | Giải thích 3 yếu tố (Daily rank, Visibility trends, Reviews) rất tốt. | Bổ sung thêm giải thích về tính năng "Top Movers" - tính năng được cộng đồng Shopify app yêu thích nhất trên SASI. |
-| **H2: The Top 5 Hey Mantle Alternatives for SASI and Shopify App Analytics** | `[UPDATE]` & `[ENRICH]` | 5 công cụ chuẩn xác. Cần cập nhật trạng thái hoạt động thực tế của App Store Pulse (kế thừa SASI) và Letsmetrix. | Cập nhật thông tin chi tiết về gói miễn phí của Letsmetrix và khả năng đọc dữ liệu Shopify Partner API trong giao diện mới nhất. |
+| **Introduction / Sapo** | `[UPDATE & ENRICH (+142 từ)]` | Câu mở đầu dùng thì tương lai: *"That era is closing... The shutdown is permanent"*. Chưa định nghĩa rõ SASI là gì. | **[ENRICH]:** Bổ sung định nghĩa: SASI = Shopify App Store Index.<br>**[UPDATE]:** Cập nhật thực tế: Kỷ nguyên Mantle đã chính thức kết thúc, hệ thống đã ngừng hoạt động hoàn toàn. |
+| **H2: Why the Mantle Shutdown Calls for a Quick Response** | `[UPDATE (+28 từ)]` | Dùng ngôn từ khẩn cấp kêu gọi xuất dữ liệu trước khi đóng cửa. | Chuyển dịch trọng tâm: Nếu bạn mở trang web thấy dashboard tối đen, đây là lý do. Hướng dẫn thiết lập công cụ mới ngay lập tức để không bị đứt đoạn dữ liệu xếp hạng thời gian thực. |
+| **H2: The Two Deadlines That Shape Your Migration** | `[UPDATE (+22 từ)]` | Bảng và nội dung vẫn để ngày 14/08 và 30/09 như hạn tương lai. | Cập nhật thành: Hai mốc đóng cửa đã hoàn tất. Phân tích hiện trạng cho nhóm tài khoản analytics và nhóm billing. |
+| **H2: What SASI Tracked, and Why Its Loss Creates a Blind Spot** | `[ENRICH (+22 từ)]` | Giải thích 3 yếu tố (Daily rank, Visibility trends, Reviews) rất tốt. | Bổ sung thêm giải thích về tính năng "Top Movers" - tính năng được cộng đồng Shopify app yêu thích nhất trên SASI. |
+| **H2: The Top 5 Hey Mantle Alternatives for SASI and Shopify App Analytics** | `[UPDATE & ENRICH (+20 từ)]` | 5 công cụ chuẩn xác. Cần cập nhật trạng thái hoạt động thực tế của App Store Pulse (kế thừa SASI) và Letsmetrix. | Cập nhật thông tin chi tiết về gói miễn phí của Letsmetrix và khả năng đọc dữ liệu Shopify Partner API trong giao diện mới nhất. |
 | **H2: Side-by-Side Comparison of the Five Tools** | `[KEEP]` | Bảng so sánh 5 công cụ theo tính năng, SASI tracking và giá thành rất rõ ràng. | Giữ nguyên bảng so sánh. |
-| **H2: How to Move Off Mantle Without Losing Data** | `[UPDATE]` | Bước 1 vẫn khuyên đăng nhập Mantle để export dữ liệu (hiện tại không đăng nhập được nữa). | **[UPDATE]:** Ghi chú rõ: Cổng đăng nhập Mantle đã đóng. Nếu đã có file backup, chuyển sang bước nạp dữ liệu vào công cụ mới; nếu chưa kịp backup, bắt đầu theo dõi dữ liệu mới ngay từ hôm nay. |
-| **H2: Frequently Asked Questions** | `[UPDATE]` & `[FILL-GAP]` | Cập nhật câu trả lời về việc dữ liệu có khôi phục được không và bổ sung câu hỏi về chỉ số SASI. | Cập nhật thực tế tháng 11/2026 cho 4 câu hỏi FAQ. |
+| **H2: How to Move Off Mantle Without Losing Data** | `[UPDATE (+34 từ)]` | Bước 1 vẫn khuyên đăng nhập Mantle để export dữ liệu (hiện tại không đăng nhập được nữa). | **[UPDATE]:** Ghi chú rõ: Cổng đăng nhập Mantle đã đóng. Nếu đã có file backup, chuyển sang bước nạp dữ liệu vào công cụ mới; nếu chưa kịp backup, bắt đầu theo dõi dữ liệu mới ngay từ hôm nay. |
+| **H2: Frequently Asked Questions** | `[UPDATE & FILL-GAP (+47 từ)]` | Cập nhật câu trả lời về việc dữ liệu có khôi phục được không và bổ sung câu hỏi về chỉ số SASI. | Cập nhật thực tế tháng 11/2026 cho 4 câu hỏi FAQ. |
 | **Final Thoughts** | `[KEEP]` | Đoạn đúc kết hay và thực tế về tương lai hệ sinh thái Shopify App. | Giữ nguyên tinh thần đoạn kết. |
 
-*(Nhãn hành động: `[KEEP]` - Giữ nguyên | `[UPDATE]` - Cập nhật dữ liệu cũ | `[ENRICH]` - Làm giàu thông tin | `[FILL-GAP]` - Bổ sung mục thiếu theo SERP Norm & FAQ)*
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp vào bài viết:
 
-### Snippet 1: Cập nhật Sapo & Định nghĩa SASI Shopify `[UPDATE]` & `[ENRICH]`
+### Snippet 1: Cập nhật Sapo & Định nghĩa SASI Shopify `[UPDATE & ENRICH (+53 từ)]`
 > **Đoạn cũ:**
 > *"HeyMantle gave Shopify app teams one place to handle billing, watch revenue, study churn, and follow App Store rankings. That era is closing. On June 16, 2026, the company announced a full wind-down of every product, dashboard, API, and tracking tool. The shutdown is permanent, and the stored data goes with it. This guide walks through the dates that matter, what the loss of SASI means for visibility, and the five best Hey Mantle alternatives for SASI and Shopify app analytics, so the move stays calm and the data stays safe."*
 >
@@ -73,7 +74,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > *If you've recently navigated to `sasi.heymantle.com` only to find a closed portal, or you're wondering how to track your app's keyword positions and MRR moving forward, you are not alone. This guide explains what made SASI indispensable and details the **top 5 Hey Mantle alternatives** for Shopify app analytics and rank tracking in the post-Mantle landscape."*
 
-### Snippet 2: Cập nhật mục "The Two Deadlines That Shape Your Migration" `[UPDATE]`
+### Snippet 2: Cập nhật mục "The Two Deadlines That Shape Your Migration" `[UPDATE (+173 từ)]`
 > **Đoạn mới đề xuất (Cập nhật 2026):**
 > *"### The Shutdown Milestones: What Happened to Mantle Accounts?
 > The wind-down executed across two strict deadlines that have now fully passed. Here is where the ecosystem currently stands:
@@ -85,7 +86,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > If you missed exporting your historical rankings before the cutoff dates, that historic time-series data cannot be retrieved. However, your app's ongoing organic performance cannot wait. The priority right now is establishing a new rank-tracking baseline immediately to eliminate discovery blind spots."*
 
-### Snippet 3: Cập nhật bước 1 và 2 trong mục "How to Move Off Mantle" `[UPDATE]`
+### Snippet 3: Cập nhật bước 1 và 2 trong mục "How to Move Off Mantle" `[UPDATE (+150 từ)]`
 > **Đoạn mới đề xuất (Cập nhật 2026):**
 > *"- **Step 1: Check for Local Archives.** Since Mantle's servers are now permanently offline, direct dashboard exports are no longer possible. Audit your team's local cloud storage (Google Drive, Notion, Slack archives) for any previous CSV backups of revenue cohorts, affiliate logs, or SASI keyword rank reports.*
 > 
@@ -93,7 +94,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > *- **Step 3: Remove Deprecated Mantle Snippets.** Clean up your app codebase by removing obsolete Mantle tracking scripts or webhook endpoints to reduce DOM bloat and prevent console network timeout errors."*
 
-### Snippet 4: Cập nhật khối giải đáp thắc mắc thường gặp (FAQs) `[UPDATE]`
+### Snippet 4: Cập nhật khối giải đáp thắc mắc thường gặp (FAQs) `[UPDATE (+202 từ)]`
 > **Q: What was SASI in the Shopify ecosystem?**  
 > **A:** SASI stood for **Shopify App Store Index**, a proprietary intelligence tool created by Hey Mantle. It aggregated daily rank tracking across thousands of Shopify apps, calculated category visibility scores, and highlighted "Top Movers" (apps gaining or losing rapid market share) to help developers gauge algorithm updates.
 > 

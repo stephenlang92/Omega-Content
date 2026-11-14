@@ -110,12 +110,13 @@ As an e-commerce expert, I recommend choosing the Shopify plan that aligns with 
 
 ### **Additional & Hidden Costs You Must Budget For**
 
-> **The True Cost of Running a Shopify Store Beyond Subscription Fees:**
-> 1. **Custom Domain Name ($14 – $25/year):** Your store comes with a free `yourname.myshopify.com` URL, but establishing customer trust requires a custom `.com` domain purchased through Shopify or third-party registrars like Namecheap.
-> 2. **Online Payment Processing Fees (2.4% to 2.9% + 30¢):** Every time a customer pays by credit card via Shopify Payments, a standard processing fee is deducted from your payout. For example, on a $100 sale with the Basic plan, you pay $3.20 in processing.
-> 3. **Third-Party Payment Gateway Penalties (0.6% to 2.0%):** If you choose not to use Shopify Payments and instead process via standalone PayPal, Stripe, or Authorize.net, Shopify charges an additional 2% fee on Basic (1% on Shopify, 0.6% on Advanced).
-> 4. **Premium Store Theme ($180 – $400 one-time):** While Shopify offers solid free themes (like Dawn), scaling brands often invest in premium Shopify Theme Store templates for advanced merchandising and faster page load speeds.
-> 5. **Essential Third-Party Apps ($30 – $150/month):** Most merchants require 3–5 dedicated apps for email marketing (Klaviyo), reviews (Judge.me), local delivery scheduling (DingDoong), and automated tracking sync (Synctrack to avoid PayPal disputes).
+Beyond monthly plans, budget for these 5 common operational expenses:
+
+- **Custom Domain ($14–$25/year):** A branded `.com` domain is essential for customer trust.
+- **Credit Card Processing (2.4%–2.9% + 30¢):** Standard transaction fees per online order on Shopify Payments.
+- **Third-Party Gateway Fee (0.6%–2%):** Additional fee if using external processors instead of Shopify Payments.
+- **Premium Themes ($180–$400 one-time):** Optional paid templates for advanced design and features.
+- **Essential Apps ($30–$150/month):** Key add-ons for reviews, email marketing, and automated tracking sync.
 
 ### **When Should You Upgrade Your Plan? (Breakeven Analysis)**
 

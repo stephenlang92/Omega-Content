@@ -9,12 +9,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/google-shopping-not-working` | — | Giữ nguyên slug |
-| **Nguồn nội dung audit** | `outputs/omegatheme/google_shopping_not_working/google_shopping_not_working_source.md` | — | File markdown local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/google_shopping_not_working/google_shopping_not_working_source.md` | — | File markdown local |
 | **Primary Keyword** | `google shopping not working` | — | Google US Desktop |
 | **Thứ hạng SERP hiện tại** | Striking Distance (Top 10–20) | Top 1 (CedCommerce), Top 3 (SEO.ai) | Cần bứt phá vào Top 1–3 |
 | **Mục tiêu tối ưu** | Đẩy Striking Distance bứt phá vào Top 1–3 Google US | CedCommerce: 1.956 từ, SEO.ai: 1.114 từ | Bổ sung phần thiếu và bảng chẩn đoán |
@@ -23,7 +24,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -43,25 +44,27 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1** | `[KEEP]` | Title: `Google Shopping Not Working? 8 Reasons & Fixes [2026 Guide]` đã chuẩn SEO và có năm 2026. | Giữ nguyên URL slug và tiêu đề H1. |
-| **Introduction / Sapo** | `[UPDATE]` | Bảng tóm tắt nội dung ở dòng 30 ghi *"in 2025"*. | Sửa mốc thời gian thành 2026. Mở rộng lời dẫn: phân loại luồng chẩn đoán từ tài khoản đến chiến dịch. |
+| **Introduction / Sapo** | `[UPDATE (+23 từ)]` | Bảng tóm tắt nội dung ở dòng 30 ghi *"in 2025"*. | Sửa mốc thời gian thành 2026. Mở rộng lời dẫn: phân loại luồng chẩn đoán từ tài khoản đến chiến dịch. |
 | **H2: Why are My Google Shopping Ads Not Showing?** | `[KEEP]` | Giải thích nguyên nhân cốt lõi do Merchant Center từ chối sản phẩm chuẩn xác. | Giữ nguyên giải thích gốc. |
-| *-- Bổ sung dưới H2 trên* | `[ENRICH]` | Người đọc cần cách khoanh vùng lỗi nhanh chóng. | Thêm **H3: Quick 3-Tier Diagnostic Matrix (Where Is the Issue?)** với bảng phân loại: Account Level vs Feed/Product Level vs Google Ads Level. |
+| *-- Bổ sung dưới H2 trên* | `[ENRICH (+153 từ)]` | Người đọc cần cách khoanh vùng lỗi nhanh chóng. | Thêm **H3: Quick 3-Tier Diagnostic Matrix (Where Is the Issue?)** với bảng phân loại: Account Level vs Feed/Product Level vs Google Ads Level. |
 | **H2: Common Causes of Google Shopping Not Working** | `[KEEP]` | 7 nguyên nhân hiện có (Disapproval, Outdated Feed, Country/Language, Bids, Config, Shipping/Tax, PMax cannibalization) rất thực tế. | Giữ nguyên 7 mục gốc, cập nhật chỉ dẫn giao diện Merchant Center Next. |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | **Lỗi thiếu mục thứ 8:** Tiêu đề hứa 8 mục nhưng bài mới có 7. | Thêm **### 8. Unverified Website Domain & Schema Markup Price Mismatch** để hoàn thiện đúng cam kết của tiêu đề bài viết. |
-| **H2: Best Practices to Avoid Google Shopping Not Working Issues in the Future** | `[UPDATE]` | Các dòng 110, 132 đang để năm cũ 2025. | Cập nhật năm 2025 thành 2026 trong toàn bộ văn bản. Giữ nguyên 6 H3 thực chiến. |
-| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Chưa có khối FAQ chuẩn SEO. | Thêm H2 FAQ với 4 câu hỏi thực chiến chuẩn Google US PAA. |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+177 từ)]` | **Lỗi thiếu mục thứ 8:** Tiêu đề hứa 8 mục nhưng bài mới có 7. | Thêm **### 8. Unverified Website Domain & Schema Markup Price Mismatch** để hoàn thiện đúng cam kết của tiêu đề bài viết. |
+| **H2: Best Practices to Avoid Google Shopping Not Working Issues in the Future** | `[UPDATE (+10 từ)]` | Các dòng 110, 132 đang để năm cũ 2025. | Cập nhật năm 2025 thành 2026 trong toàn bộ văn bản. Giữ nguyên 6 H3 thực chiến. |
+| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+277 từ)]` | Chưa có khối FAQ chuẩn SEO. | Thêm H2 FAQ với 4 câu hỏi thực chiến chuẩn Google US PAA. |
 | **Conclusion** | `[KEEP]` | Đoạn kết luận tóm lược giá trị và nhấn mạnh tầm quan trọng của feed sạch. | Giữ nguyên kết luận gốc. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
-### Snippet 1: Bảng chẩn đoán 3 tầng nhanh `[ENRICH]`
+### Snippet 1: Bảng chẩn đoán 3 tầng nhanh `[ENRICH (+155 từ)]`
 Chèn vào vị trí H3 mới bên dưới **## Why are My Google Shopping Ads Not Showing?**:
 
 ### **Quick 3-Tier Diagnostic Matrix: Where Is Your Issue Located?**
@@ -75,7 +78,7 @@ Before spending hours tweaking bids, determine which layer of the Google Shoppin
 
 ---
 
-### Snippet 2: Bổ sung lý do thứ 8 hoàn chỉnh `[FILL-GAP]`
+### Snippet 2: Bổ sung lý do thứ 8 hoàn chỉnh `[FILL-GAP (+187 từ)]`
 Chèn vào cuối danh sách các nguyên nhân bên dưới mục **## Common Causes of Google Shopping Not Working**:
 
 ### **8. Unverified Website Domain & Schema Markup Price Mismatches**
@@ -89,7 +92,7 @@ Even if your product feed uploads without syntax errors, your Shopping ads will 
 
 ---
 
-### Snippet 3: Cập nhật các câu chữ lỗi thời năm 2025 `[UPDATE]`
+### Snippet 3: Cập nhật các câu chữ lỗi thời năm 2025 `[UPDATE (+54 từ)]`
 
 #### Cập nhật bảng mục lục dòng 30:
 > **Đoạn cũ:**  
@@ -114,7 +117,7 @@ Even if your product feed uploads without syntax errors, your Shopping ads will 
 
 ---
 
-### Snippet 4: Khối FAQ chuẩn SEO PAA `[FILL-GAP]`
+### Snippet 4: Khối FAQ chuẩn SEO PAA `[FILL-GAP (+281 từ)]`
 
 ## **Frequently Asked Questions (FAQs)**
 

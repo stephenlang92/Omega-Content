@@ -135,18 +135,6 @@ Proceed to add a payment method, choosing either a credit card or PayPal for tra
 
 For Black entrepreneurs, Shopify’s **120-day free trial** presents a unique opportunity to launch and grow an online business without the immediate pressure of subscription fees. This extended trial period allows business owners to set up their store, refine their operations, and test marketing strategies before committing financially.
 
-To ensure you don't waste this 4-month runway, follow our structured **120-Day Milestone Playbook** alongside the core optimization pillars below:
-
-> **The 120-Day Milestone Playbook:**
-> - **Month 1 (Days 1–30): Foundation & Store Architecture:**  
->   Focus on branding, setting up your custom domain, configuring shipping zones, and uploading your initial 5–10 core products with high-resolution imagery. Complete your initial Operation HOPE onboarding session.
-> - **Month 2 (Days 31–60): Soft Launch & Customer Feedback:**  
->   Open your store to family, friends, and your immediate network. Process your first 10 orders to stress-test your packaging, shipping fulfillment, and payment gateway.
-> - **Month 3 (Days 61–90): Organic Traffic & Community Building:**  
->   Leverage short-form video on TikTok and Instagram Reels showing your product creation story. Build an automated email welcome flow to capture store visitors.
-> - **Month 4 (Days 91–120): Conversion Optimization & Scaling:**  
->   Analyze your conversion funnel using Shopify Analytics. Implement trust badges and automated order tracking notifications. Calculate your profit margins to ensure your monthly sales easily cover the standard $39/month (or $29/month annual) Basic plan once Day 121 arrives.
-
 To fully leverage this opportunity, it’s essential to focus on branding, product optimization, marketing, and data-driven decision-making. Here’s how to make the most of Shopify’s 120-day trial.
 
 ### **1. Establish a Strong Brand Identity**

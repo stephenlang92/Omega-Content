@@ -9,12 +9,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/tiktok-utm-parameters-and-utm-attribution-report` | — | Giữ nguyên slug |
-| **Nguồn nội dung audit** | `outputs/omegatheme/tiktok_utm_parameters/tiktok_utm_parameters_source.md` | — | File markdown local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/tiktok_utm_parameters/tiktok_utm_parameters_source.md` | — | File markdown local |
 | **Primary Keyword** | `tiktok utm parameters` | — | Google US Desktop |
 | **Thứ hạng SERP hiện tại** | Ngoài Top 10 | Top 1 (Coinis), Top 3 (TikTok Help) | Cần bứt phá vào Top 1–5 |
 | **Mục tiêu tối ưu** | Bứt phá Top 3–5 Google US | Top 1: 982 từ, Trung bình: 556 từ | Nâng cấp toàn diện nội dung |
@@ -23,7 +24,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -40,29 +41,31 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
-| **Title & H1** | `[UPDATE]` | Tiêu đề hiện tại: `TikTok UTM parameters: Track and Optimize Your TikTok Ads` thiếu điểm nhấn thời gian 2026. | Giữ nguyên URL slug, cập nhật Title/H1 thành: `TikTok UTM Parameters: How to Track & Optimize Your TikTok Ads (2026 Guide)`. |
-| **Introduction / Sapo** | `[UPDATE]` | Sapo hiện tại khá chung chung, chưa nêu trực diện "nỗi đau" traffic TikTok bị gộp vào Direct/Referral. | Viết lại Sapo: Trực diện định nghĩa TikTok UTM parameters và lợi ích sống còn trong việc ngăn chặn traffic rơi vào nhóm Direct/Unassigned trên GA4. |
+| **Title & H1** | `[UPDATE (+4 từ)]` | Tiêu đề hiện tại: `TikTok UTM parameters: Track and Optimize Your TikTok Ads` thiếu điểm nhấn thời gian 2026. | Giữ nguyên URL slug, cập nhật Title/H1 thành: `TikTok UTM Parameters: How to Track & Optimize Your TikTok Ads (2026 Guide)`. |
+| **Introduction / Sapo** | `[UPDATE (+38 từ)]` | Sapo hiện tại khá chung chung, chưa nêu trực diện "nỗi đau" traffic TikTok bị gộp vào Direct/Referral. | Viết lại Sapo: Trực diện định nghĩa TikTok UTM parameters và lợi ích sống còn trong việc ngăn chặn traffic rơi vào nhóm Direct/Unassigned trên GA4. |
 | **H2: What are Tiktok UTM parameters?** | `[KEEP]` | Khái niệm định nghĩa 5 tham số chuẩn (source, medium, campaign, term, content) chuẩn xác. | Giữ nguyên định nghĩa gốc, bổ sung bảng định dạng tham số để dễ tra cứu nhanh. |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Đối thủ Top 1 và Top 3 đều có bảng tham số động (Dynamic Macros). | Thêm **H3: TikTok Ads Dynamic URL Macros (Full Parameter List)** với bảng tổng hợp các macro: `__CAMPAIGN_NAME__`, `__AID_NAME__`, `__CID_NAME__`, `__PLACEMENT__`... |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Đối thủ Coinis phân loại 2 phương thức: Auto-attach vs Manual. | Thêm **H3: How to Set Up TikTok UTMs: URL Auto-Attach vs. Manual URL Builder**. Hướng dẫn cách bật Auto-attach trong TikTok Ads Manager Settings. |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+173 từ)]` | Đối thủ Top 1 và Top 3 đều có bảng tham số động (Dynamic Macros). | Thêm **H3: TikTok Ads Dynamic URL Macros (Full Parameter List)** với bảng tổng hợp các macro: `__CAMPAIGN_NAME__`, `__AID_NAME__`, `__CID_NAME__`, `__PLACEMENT__`... |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+106 từ)]` | Đối thủ Coinis phân loại 2 phương thức: Auto-attach vs Manual. | Thêm **H3: How to Set Up TikTok UTMs: URL Auto-Attach vs. Manual URL Builder**. Hướng dẫn cách bật Auto-attach trong TikTok Ads Manager Settings. |
 | **H2: Introducing Omega UTM Attribution Report** | `[KEEP]` | Giới thiệu tính năng báo cáo trong app TikShop: Feed & Omega Pixel phù hợp với bản sắc của Omegatheme. | Giữ nguyên cấu trúc các bước Initial Engagement, Interest, Consideration, Conversion và 3 thẻ H3 (`Optimized Budget Allocation`, `Accurate Sales Tracking`, `Improved Campaign Strategy`). |
 | **H2: Tracking the Customer Journey with Attribution Report** | `[KEEP]` | Giải thích trực quan cách đọc hành trình đa điểm chạm của khách hàng từ TikTok. | Giữ nguyên nội dung và hình ảnh minh họa quy trình. |
 | **H2: How to Set up Custom UTM Parameters in Omega App?** | `[KEEP]` | 3 bước hướng dẫn setup trong app và paste vào TikTok Ads Manager rõ ràng. | Giữ nguyên 3 bước hướng dẫn kèm ảnh chụp giao diện. |
-| **H2: UTM TikTok Ads Best Practices for Ecommerce Merchants** | `[UPDATE]` | Dòng 119 có chứa năm cũ: `holiday_sale2024`. | Thay thế `holiday_sale2024` thành `holiday_sale2026` / `q4_flashsale_2026`. Giữ nguyên 4 đề mục con hiện tại. |
-| *-- Bổ sung dưới H2 trên* | `[ENRICH]` | Người dùng gặp khó khăn khi kiểm tra xem UTM có hoạt động trên GA4 hay không. | Thêm **H3: How to Verify Your TikTok UTM Tracking in Google Analytics 4 (GA4)**. Hướng dẫn đường dẫn xem báo cáo: *Reports > Acquisition > Traffic acquisition* và lọc theo *Session source/medium = tiktok / cpc*. |
-| *-- Bổ sung dưới H2 trên* | `[ENRICH]` | Người dùng Shopify hay bị lỗi rụng UTM làm sai lệch số liệu. | Thêm **H3: Troubleshooting: Why TikTok Sales Show as "Direct" in Shopify Analytics** (nguyên nhân do redirect, in-app browser của TikTok và giải pháp). |
+| **H2: UTM TikTok Ads Best Practices for Ecommerce Merchants** | `[UPDATE (+0 từ)]` | Dòng 119 có chứa năm cũ: `holiday_sale2024`. | Thay thế `holiday_sale2024` thành `holiday_sale2026` / `q4_flashsale_2026`. Giữ nguyên 4 đề mục con hiện tại. |
+| *-- Bổ sung dưới H2 trên* | `[ENRICH (+77 từ)]` | Người dùng gặp khó khăn khi kiểm tra xem UTM có hoạt động trên GA4 hay không. | Thêm **H3: How to Verify Your TikTok UTM Tracking in Google Analytics 4 (GA4)**. Hướng dẫn đường dẫn xem báo cáo: *Reports > Acquisition > Traffic acquisition* và lọc theo *Session source/medium = tiktok / cpc*. |
+| *-- Bổ sung dưới H2 trên* | `[ENRICH (+124 từ)]` | Người dùng Shopify hay bị lỗi rụng UTM làm sai lệch số liệu. | Thêm **H3: Troubleshooting: Why TikTok Sales Show as "Direct" in Shopify Analytics** (nguyên nhân do redirect, in-app browser của TikTok và giải pháp). |
 | **H2: Future-Proofing with Omega TikTok Pixel App Request Features** | `[KEEP]` | Phần kết nối cộng đồng người dùng đóng góp tính năng cho app. | Giữ nguyên nội dung. |
-| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài viết chưa có FAQ để bắt rich snippets PAA trên Google US. | Thêm mới H2 FAQ với 4 câu hỏi thực chiến chuẩn SERP. |
+| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+165 từ)]` | Bài viết chưa có FAQ để bắt rich snippets PAA trên Google US. | Thêm mới H2 FAQ với 4 câu hỏi thực chiến chuẩn SERP. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
-### Snippet 1: Sapo mở đầu cập nhật trực diện `[UPDATE]`
+### Snippet 1: Sapo mở đầu cập nhật trực diện `[UPDATE (+38 từ)]`
 > **Đoạn cũ:**
 > *"What are TikTok UTM parameters? If you’re starting to explore how to track customer interactions and optimize your ad performance, in this article, we’ll break down how to use TikTok UTM parameters effectively, so you can gain valuable insights, improve your campaigns, and make data-driven decisions that help your business grow."*
 >
@@ -73,7 +76,7 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-### Snippet 2: Bảng tra cứu Dynamic Macros bổ sung `[FILL-GAP]`
+### Snippet 2: Bảng tra cứu Dynamic Macros bổ sung `[FILL-GAP (+180 từ)]`
 Chèn vào vị trí H3 mới bên dưới **H2: What are Tiktok UTM parameters?**:
 
 ### **TikTok Ads Dynamic URL Macros (Full Parameter List)**
@@ -94,7 +97,7 @@ Instead of manually typing campaign names and ad IDs for every single creative, 
 
 ---
 
-### Snippet 3: Khối hướng dẫn URL Auto-Attach vs Manual Setup `[FILL-GAP]`
+### Snippet 3: Khối hướng dẫn URL Auto-Attach vs Manual Setup `[FILL-GAP (+138 từ)]`
 
 ### **How to Set Up TikTok UTMs: URL Auto-Attach vs. Manual Builder**
 
@@ -112,7 +115,7 @@ If you need custom parameters for Shopify attribution:
 
 ---
 
-### Snippet 4: Hướng dẫn kiểm tra trên GA4 & xử lý lỗi Shopify `[ENRICH]`
+### Snippet 4: Hướng dẫn kiểm tra trên GA4 & xử lý lỗi Shopify `[ENRICH (+225 từ)]`
 Chèn vào mục **UTM TikTok Ads Best Practices for Ecommerce Merchants**:
 
 ### **How to Verify Your TikTok UTM Tracking in Google Analytics 4 (GA4)**
@@ -129,7 +132,7 @@ Shopify merchants frequently complain that TikTok conversions end up classified 
 
 ---
 
-### Snippet 5: Khối FAQ giải đáp thắc mắc người dùng `[FILL-GAP]`
+### Snippet 5: Khối FAQ giải đáp thắc mắc người dùng `[FILL-GAP (+217 từ)]`
 
 ## **Frequently Asked Questions (FAQs)**
 

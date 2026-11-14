@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/sync-shopify-tracking-numbers-with-paypal` | — | Trang live |
-| **Nguồn nội dung audit** | `outputs/omegatheme/shopify_tracking_number/shopify_tracking_number_source.md` | — | Bản local Markdown (chỉ có 40 dòng) |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/shopify_tracking_number/shopify_tracking_number_source.md` | — | Bản local Markdown (chỉ có 40 dòng) |
 | **Primary Keyword** | `shopify tracking number` | — | Từ khóa ý định tìm kiếm cao |
 | **Thứ hạng SERP hiện tại** | Ngoài Top 8 (bị HelloRep, FireBear Studio, Track123 chiếm lĩnh) | Top 1–5 Google US | Cần cải tổ mạnh mẽ do bài viết quá mỏng |
 | **Mục tiêu tối ưu** | Khôi phục và đưa bài viết vào Top 1–3 Google US | Top 1–3 Google US | Mở rộng dung lượng và bao phủ toàn diện intent |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -37,31 +38,33 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bảo tồn nguyên vẹn cấu trúc gốc):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1: Sync Shopify tracking numbers with Paypal** | `[KEEP]` | Tiêu đề hiện tại chứa từ khóa thương hiệu độc quyền và URL slug gốc. | Giữ nguyên tiêu đề và URL slug gốc để bảo toàn liên kết live. |
-| **Introduction / Sapo** | `[UPDATE]` | Đoạn mở đầu lặp lại 2 lần câu giới thiệu và câu văn còn sơ sài. | Viết lại Sapo: làm rõ vai trò kép của mã tracking Shopify: vừa cung cấp trải nghiệm minh bạch cho người mua (giảm WISMO), vừa là lá chắn bảo vệ dòng tiền trên PayPal (gỡ hold 21 ngày). |
-| **H2 Mới đề xuất: How to Add and Manage Tracking Numbers in Shopify** | `[FILL-GAP]` | Khoảng trống cốt lõi của từ khóa `shopify tracking number`: bài viết cũ chỉ dẫn link sang tài liệu ngoài thay vì hướng dẫn trực tiếp. | Thêm mục H2 hướng dẫn 3 cách quản lý tracking: 1) Thêm khi hoàn tất đơn hàng (Fulfill items), 2) Cập nhật mã cho đơn đã fulfill, 3) Cấu hình email thông báo tự động (Shipping Confirmation). |
-| **Sub-topic Mới: Bulk Importing Tracking Numbers via CSV** | `[ENRICH]` | Cần thiết cho người bán quy mô trung bình và lớn. | Bổ sung 01 Bảng mẫu file CSV chuẩn của Shopify để import mã tracking hàng loạt (Order Name, Tracking Number, Tracking Company, Tracking URL). |
-| **H2 Gốc: Why do you need to update tracking numbers on both Shopify and Paypal?** | `[ENRICH]` | **Bảo tồn nguyên vẹn thẻ H2 gốc.** Phần thân bài cũ chỉ có 1 đoạn văn ngắn 50 từ, chưa làm nổi bật được giá trị to lớn của PayPal Seller Protection. | Mở rộng phân tích sâu thành 4 trụ cột: 1) Đủ điều kiện hưởng PayPal Seller Protection, 2) Giải phóng tiền bị hold từ 21 ngày xuống 24h, 3) Hạ thấp tỷ lệ quỹ dự phòng cuốn chiếu (Rolling Reserve), 4) Thắng kiện 99% các tranh chấp "Item Not Received" (INR). |
-| **H2 Mới đề xuất: How to Automatically Sync Shopify Tracking Numbers to PayPal** | `[ENRICH]` | Bài cũ chỉ nói chung chung: *"dropshippers can use add tracking Paypal auto app"*. Cần trình bày giải pháp cụ thể. | Trình bày giải pháp tự động hóa bằng app **Synctrack – PayPal Tracking Sync by Omegatheme**: tự động đồng bộ theo thời gian thực, tiết kiệm 100% thời gian nhập tay, an toàn tuyệt đối với API chính thức. |
-| **H2 Mới đề xuất: Troubleshooting Common Shopify Tracking Number Issues** | `[FILL-GAP]` | Người dùng tìm kiếm thường gặp sự cố kỹ thuật. | Bổ sung mục H3 phân tích 3 lỗi phổ biến: 1) Đơn vị vận chuyển không được hỗ trợ (Carrier Not Recognized), 2) Khách hàng không nhận được email thông báo, 3) Trạng thái theo dõi bị chậm cập nhật. |
-| **H2 Mới đề xuất: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài viết chưa có khối FAQ. | Bổ sung khối H2 FAQ gồm 4 câu hỏi thường gặp bám sát People Also Ask trên Google US. |
-| **Conclusion / Warning** | `[UPDATE]` | Lời khuyên tránh dùng tracking ảo (fake tracking) rất chính xác nhưng cần được viết lại trang trọng, chuyên nghiệp hơn. | Cập nhật đoạn kết luận: tóm tắt quy trình khép kín giữa Shopify, đơn vị vận chuyển và PayPal; nhấn mạnh tầm quan trọng của tính trung thực và minh bạch dữ liệu. |
+| **Introduction / Sapo** | `[UPDATE (+38 từ)]` | Đoạn mở đầu lặp lại 2 lần câu giới thiệu và câu văn còn sơ sài. | Viết lại Sapo: làm rõ vai trò kép của mã tracking Shopify: vừa cung cấp trải nghiệm minh bạch cho người mua (giảm WISMO), vừa là lá chắn bảo vệ dòng tiền trên PayPal (gỡ hold 21 ngày). |
+| **H2 Mới đề xuất: How to Add and Manage Tracking Numbers in Shopify** | `[FILL-GAP (+285 từ)]` | Khoảng trống cốt lõi của từ khóa `shopify tracking number`: bài viết cũ chỉ dẫn link sang tài liệu ngoài thay vì hướng dẫn trực tiếp. | Thêm mục H2 hướng dẫn 3 cách quản lý tracking: 1) Thêm khi hoàn tất đơn hàng (Fulfill items), 2) Cập nhật mã cho đơn đã fulfill, 3) Cấu hình email thông báo tự động (Shipping Confirmation). |
+| **Sub-topic Mới: Bulk Importing Tracking Numbers via CSV** | `[ENRICH (+87 từ)]` | Cần thiết cho người bán quy mô trung bình và lớn. | Bổ sung 01 Bảng mẫu file CSV chuẩn của Shopify để import mã tracking hàng loạt (Order Name, Tracking Number, Tracking Company, Tracking URL). |
+| **H2 Gốc: Why do you need to update tracking numbers on both Shopify and Paypal?** | `[ENRICH (+332 từ)]` | **Bảo tồn nguyên vẹn thẻ H2 gốc.** Phần thân bài cũ chỉ có 1 đoạn văn ngắn 50 từ, chưa làm nổi bật được giá trị to lớn của PayPal Seller Protection. | Mở rộng phân tích sâu thành 4 trụ cột: 1) Đủ điều kiện hưởng PayPal Seller Protection, 2) Giải phóng tiền bị hold từ 21 ngày xuống 24h, 3) Hạ thấp tỷ lệ quỹ dự phòng cuốn chiếu (Rolling Reserve), 4) Thắng kiện 99% các tranh chấp "Item Not Received" (INR). |
+| **H2 Mới đề xuất: How to Automatically Sync Shopify Tracking Numbers to PayPal** | `[ENRICH (+215 từ)]` | Bài cũ chỉ nói chung chung: *"dropshippers can use add tracking Paypal auto app"*. Cần trình bày giải pháp cụ thể. | Trình bày giải pháp tự động hóa bằng app **Synctrack – PayPal Tracking Sync by Omegatheme**: tự động đồng bộ theo thời gian thực, tiết kiệm 100% thời gian nhập tay, an toàn tuyệt đối với API chính thức. |
+| **H2 Mới đề xuất: Troubleshooting Common Shopify Tracking Number Issues** | `[FILL-GAP (+256 từ)]` | Người dùng tìm kiếm thường gặp sự cố kỹ thuật. | Bổ sung mục H3 phân tích 3 lỗi phổ biến: 1) Đơn vị vận chuyển không được hỗ trợ (Carrier Not Recognized), 2) Khách hàng không nhận được email thông báo, 3) Trạng thái theo dõi bị chậm cập nhật. |
+| **H2 Mới đề xuất: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+227 từ)]` | Bài viết chưa có khối FAQ. | Bổ sung khối H2 FAQ gồm 4 câu hỏi thường gặp bám sát People Also Ask trên Google US. |
+| **Conclusion / Warning** | `[UPDATE (+82 từ)]` | Lời khuyên tránh dùng tracking ảo (fake tracking) rất chính xác nhưng cần được viết lại trang trọng, chuyên nghiệp hơn. | Cập nhật đoạn kết luận: tóm tắt quy trình khép kín giữa Shopify, đơn vị vận chuyển và PayPal; nhấn mạnh tầm quan trọng của tính trung thực và minh bạch dữ liệu. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 *(Ghi chú: Toàn bộ bảng hành động tuân thủ nghiêm ngặt 4 nhãn: `[KEEP]`, `[UPDATE]`, `[ENRICH]`, `[FILL-GAP]`; không sử dụng bất kỳ nhãn nào khác).*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp:
 
-### Snippet 1: Viết lại phần Mở đầu (Sapo) nâng cấp bối cảnh 2026 `[UPDATE]`
+### Snippet 1: Viết lại phần Mở đầu (Sapo) nâng cấp bối cảnh 2026 `[UPDATE (+38 từ)]`
 > **Đoạn cũ:**
 > *"Sync Shopify tracking numbers with Paypal is an important job for every dropshipping seller who is on the Shopify Ecommerce platform, for all orders, you need to fulfill and add tracking info to both Shopify and Paypal.
 > 
@@ -74,7 +77,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > In this updated 2026 guide, we'll cover everything you need to know about managing tracking numbers inside Shopify Admin, importing them in bulk via CSV, and automating synchronization with PayPal to unlock your funds faster."*
 
-### Snippet 2: Hướng dẫn quản trị mã vận đơn trên Shopify Admin `[FILL-GAP]`
+### Snippet 2: Hướng dẫn quản trị mã vận đơn trên Shopify Admin `[FILL-GAP (+231 từ)]`
 > Chèn mục H2 mới này vào trước phần giải thích PayPal:
 >
 > ```markdown
@@ -98,7 +101,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 4. Check **"Send notification email to customer"** so the buyer receives the updated details, then click **Save**.
 > ```
 
-### Snippet 3: Bảng mẫu file CSV Bulk Import Tracking Numbers `[ENRICH]`
+### Snippet 3: Bảng mẫu file CSV Bulk Import Tracking Numbers `[ENRICH (+60 từ)]`
 > Chèn vào mục H3 **Bulk Importing Tracking Numbers via CSV**:
 >
 > | `Order Name` | `Tracking Number` | `Tracking Company` | `Tracking URL` |
@@ -108,7 +111,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > | `#1003` | `YT24001928374921` | `YunExpress` | `https://www.yuntrack.com/parcelTracking?pNumber=YT24001928374921` |
 > | `#1004` | `771234567890` | `FedEx` | `https://www.fedex.com/fedextrack/?trknbr=771234567890` |
 
-### Snippet 4: Mở rộng H2 gốc: Tại sao bắt buộc phải đồng bộ sang PayPal `[ENRICH]`
+### Snippet 4: Mở rộng H2 gốc: Tại sao bắt buộc phải đồng bộ sang PayPal `[ENRICH (+299 từ)]`
 > Cập nhật và làm sâu sắc nội dung thẻ H2 gốc:
 >
 > ```markdown
@@ -129,7 +132,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 >    Manually copy-pasting tracking numbers from Shopify to PayPal takes 2–3 minutes per order. If you process 50 orders a day, that represents over 2.5 hours of tedious daily manual labor. Using **Synctrack – PayPal Tracking Sync by Omegatheme** bridges this gap automatically: the millisecond an order is fulfilled in Shopify, Synctrack pushes the tracking code, carrier name, and fulfillment status directly to PayPal via encrypted API.
 > ```
 
-### Snippet 5: Khối FAQ giải đáp thắc mắc chuyên sâu `[FILL-GAP]`
+### Snippet 5: Khối FAQ giải đáp thắc mắc chuyên sâu `[FILL-GAP (+246 từ)]`
 > Bổ sung khối H2 FAQ vào cuối bài viết trước phần Conclusion:
 >
 > ```markdown

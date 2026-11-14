@@ -245,20 +245,6 @@ In addition to exporting a file, the app was designed around automation and cont
 
 ![image.png](https://strapi.omegatheme.com/uploads/image_2ae0ded92f.png)
 
-## Frequently Asked Questions (FAQs)
-
-**Q1: How often should I schedule my Meta product feed updates?**  
-**A:** For standard e-commerce stores, a daily scheduled feed (typically set during off-peak hours like 2:00 AM) is sufficient. However, if your store experiences rapid inventory turnover, frequent price adjustments, or runs high-spend Advantage+ campaigns, we strongly recommend hourly synchronization or real-time API syncing to prevent advertising out-of-stock items.
-
-**Q2: What is the ideal image size for Meta Catalog Ads?**  
-**A:** Meta recommends square images with a minimum resolution of 500 x 500 pixels, though **1024 x 1024 pixels** (1:1 aspect ratio) is the gold standard for high-DPI smartphone screens on Instagram and Facebook feeds. Ensure the product occupies at least 75% of the frame on a clean, solid background for dynamic retargeting.
-
-**Q3: What is the difference between a Meta Product Catalog and a Product Feed?**  
-**A:** A **Product Catalog** is the database container inside Meta Commerce Manager that holds all product assets, collections, and event links. A **Product Feed** (data feed) is the mechanism—a structured file or URL endpoint—used to supply and refresh product data within that catalog container.
-
-**Q4: Why are my catalog products not matching with website purchase events?**  
-**A:** This occurs when there is a mismatch between the `id` submitted in your product feed and the `content_ids` parameter sent by your Meta Pixel or Conversions API (CAPI). To achieve a 100% Catalog Match Rate, ensure both your feed and tracking tags use the exact same SKU or variant ID format.
-
 **Conclusion**  
 A well-structured Meta product feed is not just a technical necessity; it’s also the backbone of your Facebook and Instagram advertising strategy. Whether it’s powering dynamic ads or ensuring your catalog is accurate and up-to-date, your product feed is at the forefront of everything you do on Meta platforms.
 

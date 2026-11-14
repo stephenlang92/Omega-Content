@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/shopify-pos-pro` | — | Trang live |
-| **Nguồn nội dung audit** | `outputs/omegatheme/shopify_pos_pro/shopify_pos_pro_source.md` | — | Bản local Markdown |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/shopify_pos_pro/shopify_pos_pro_source.md` | — | Bản local Markdown |
 | **Primary Keyword** | `shopify pos pro` | — | Từ khóa ý định thương mại cao |
 | **Thứ hạng SERP hiện tại** | Striking Distance ngoài Top 5 trên SERP US | Top 1–5 (Ask Phill, LitExtension, ConnectPOS) | Tiềm năng bứt phá Top 3 rất lớn |
 | **Mục tiêu tối ưu** | Bứt phá vào Top 1–3 Google US | Top 1–3 Google US | Cập nhật giá 2026 & bảng so sánh Lite vs Pro |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -36,39 +37,41 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bảo tồn nguyên vẹn cấu trúc gốc):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1: What is Shopify POS Pro? Features, Pricing, & How to Get Started** | `[KEEP]` | Tiêu đề rất chuẩn SEO, bao hàm toàn diện từ khóa chính và ý định tìm kiếm. | Giữ nguyên tiêu đề và URL slug gốc. |
-| **Introduction / Sapo** | `[UPDATE]` | Mở đầu nêu đúng trọng tâm nhưng cần bổ sung bối cảnh bán lẻ hợp nhất (unified commerce) năm 2026. | Viết lại Sapo: làm rõ vai trò của POS Pro trong việc xóa nhòa ranh giới giữa online và offline, nêu bật điểm hòa vốn cho chủ cửa hàng. |
-| **H2: What is POS Pro on Shopify?** | `[ENRICH]` | Giải thích khái niệm tốt. Cần bổ sung ngay 01 Bảng so sánh toàn diện POS Lite vs. POS Pro để giải đáp search intent cốt lõi của người đọc. | Chèn 01 Bảng so sánh 10 tiêu chí giữa POS Lite (Free) và POS Pro ($89/mo). |
+| **Introduction / Sapo** | `[UPDATE (+30 từ)]` | Mở đầu nêu đúng trọng tâm nhưng cần bổ sung bối cảnh bán lẻ hợp nhất (unified commerce) năm 2026. | Viết lại Sapo: làm rõ vai trò của POS Pro trong việc xóa nhòa ranh giới giữa online và offline, nêu bật điểm hòa vốn cho chủ cửa hàng. |
+| **H2: What is POS Pro on Shopify?** | `[ENRICH (+256 từ)]` | Giải thích khái niệm tốt. Cần bổ sung ngay 01 Bảng so sánh toàn diện POS Lite vs. POS Pro để giải đáp search intent cốt lõi của người đọc. | Chèn 01 Bảng so sánh 10 tiêu chí giữa POS Lite (Free) và POS Pro ($89/mo). |
 | **H2: Shopify POS Pro Features** | `[KEEP]` | Bao quát 6 tính năng lớn: Tồn kho thời gian thực, Bán đa kênh, Phân quyền nhân viên, Báo cáo nâng cao, BOPIS, Tương thích phần cứng. | Giữ nguyên H2 và toàn bộ 6 H3 con hiện có. |
-| **H3: 1. Real Time Tracking and Synchronizing** | `[ENRICH]` | Cần bổ sung tính năng kiểm kê nhanh (Quick Count) và tạo đơn đặt hàng (Purchase Orders) mới được cập nhật trên POS Pro. | Làm giàu nội dung với tính năng Quick Count và Inventory Transfers đa địa điểm. |
+| **H3: 1. Real Time Tracking and Synchronizing** | `[ENRICH (+43 từ)]` | Cần bổ sung tính năng kiểm kê nhanh (Quick Count) và tạo đơn đặt hàng (Purchase Orders) mới được cập nhật trên POS Pro. | Làm giàu nội dung với tính năng Quick Count và Inventory Transfers đa địa điểm. |
 | **H3: 2. Omnichannel Selling** | `[KEEP]` | Phân tích rất rõ việc đổi trả hàng mua online ngay tại cửa hàng. | Giữ nguyên nội dung. |
 | **H3: 3. Staff Control and Role Management** | `[KEEP]` | Minh họa rõ ràng sự khác biệt giữa quyền hạn thu ngân và quản lý. | Giữ nguyên nội dung. |
-| **H3: 4. Advanced Reporting** | `[ENRICH]` | Cần bổ sung thêm tính năng quản lý ca thu ngân hàng ngày (Daily Register Shifts). | Bổ sung chi tiết về đối soát tiền mặt và ca làm việc của nhân viên. |
+| **H3: 4. Advanced Reporting** | `[ENRICH (+37 từ)]` | Cần bổ sung thêm tính năng quản lý ca thu ngân hàng ngày (Daily Register Shifts). | Bổ sung chi tiết về đối soát tiền mặt và ca làm việc của nhân viên. |
 | **H3: 5. Buy Online, Pick up In-store (BOPIS)** | `[KEEP]` | Phân tích lợi ích giảm phí ship và tăng doanh thu bán kèm rất chuẩn xác. | Giữ nguyên nội dung. |
-| **H3: 6. Mobile Hardware Compatibility** | `[ENRICH]` | Cần bổ sung 01 Bảng giá thiết bị phần cứng chính thức từ Shopify Hardware Store (Tap & Chip $49, Terminal $349, Máy in bill, Khay đựng tiền). | Chèn bảng dự toán chi phí phần cứng bán lẻ. |
-| **H2: Shopify POS Pro Pricing** | `[UPDATE]` | Biểu phí các gói Shopify và tỷ lệ phí quẹt thẻ bị sai lệch và lỗi thời nghiêm trọng. | Cập nhật 100% biểu phí 2026 cho cả 2 mục con (Sell in Person & Sell Everywhere). |
-| **H3: Sell in Person (Retail Plan)** | `[UPDATE]` | Cập nhật gói Retail độc lập: $89/tháng/địa điểm, phí quẹt thẻ Shopify Payments từ 2.6% + 10¢. | Cập nhật thông số chi phí chuẩn xác. |
-| **H3: Sell Everywhere (Add-on Plans)** | `[UPDATE]` | Sửa lại giá gốc: Basic ($39/mo), Shopify ($105/mo), Advanced ($399/mo). | Thay thế toàn bộ số liệu giá cũ; bổ sung phân tích biểu phí quẹt thẻ in-person tương ứng từng gói. |
-| **Sub-topic Mới: The Shopify Plus Advantage** | `[FILL-GAP]` | Bỏ sót chính sách miễn phí 20 POS Pro locations cho khách hàng doanh nghiệp Shopify Plus. | Bổ sung Callout Box phân tích đặc quyền miễn phí POS Pro trị giá $1.780/tháng của Shopify Plus. |
+| **H3: 6. Mobile Hardware Compatibility** | `[ENRICH (+151 từ)]` | Cần bổ sung 01 Bảng giá thiết bị phần cứng chính thức từ Shopify Hardware Store (Tap & Chip $49, Terminal $349, Máy in bill, Khay đựng tiền). | Chèn bảng dự toán chi phí phần cứng bán lẻ. |
+| **H2: Shopify POS Pro Pricing** | `[UPDATE (+0 từ)]` | Biểu phí các gói Shopify và tỷ lệ phí quẹt thẻ bị sai lệch và lỗi thời nghiêm trọng. | Cập nhật 100% biểu phí 2026 cho cả 2 mục con (Sell in Person & Sell Everywhere). |
+| **H3: Sell in Person (Retail Plan)** | `[UPDATE (+26 từ)]` | Cập nhật gói Retail độc lập: $89/tháng/địa điểm, phí quẹt thẻ Shopify Payments từ 2.6% + 10¢. | Cập nhật thông số chi phí chuẩn xác. |
+| **H3: Sell Everywhere (Add-on Plans)** | `[UPDATE (+176 từ)]` | Sửa lại giá gốc: Basic ($39/mo), Shopify ($105/mo), Advanced ($399/mo). | Thay thế toàn bộ số liệu giá cũ; bổ sung phân tích biểu phí quẹt thẻ in-person tương ứng từng gói. |
+| **Sub-topic Mới: The Shopify Plus Advantage** | `[FILL-GAP (+38 từ)]` | Bỏ sót chính sách miễn phí 20 POS Pro locations cho khách hàng doanh nghiệp Shopify Plus. | Bổ sung Callout Box phân tích đặc quyền miễn phí POS Pro trị giá $1.780/tháng của Shopify Plus. |
 | **H2: How to Get Started with Shopify POS Pro** | `[KEEP]` | Quy trình 6 bước rất rõ ràng, tuần tự và thực tế. | Giữ nguyên toàn bộ 6 bước hướng dẫn. |
-| **H2: FAQs About Shopify POS Pro** | `[FILL-GAP]` | Khối FAQ hiện tại chỉ có 3 câu hỏi ngắn gọn. Cần bổ sung thêm 3 câu hỏi thường gặp bám sát People Also Ask trên Google US. | Giữ nguyên 3 câu cũ, bổ sung 3 câu hỏi mới về chi phí ẩn, chế độ bán offline khi mất mạng và chính sách hủy gói. |
+| **H2: FAQs About Shopify POS Pro** | `[FILL-GAP (+144 từ)]` | Khối FAQ hiện tại chỉ có 3 câu hỏi ngắn gọn. Cần bổ sung thêm 3 câu hỏi thường gặp bám sát People Also Ask trên Google US. | Giữ nguyên 3 câu cũ, bổ sung 3 câu hỏi mới về chi phí ẩn, chế độ bán offline khi mất mạng và chính sách hủy gói. |
 | **Section: Wrap up / Conclusion** | `[KEEP]` | Đoạn kết luận và nút ưu đãi dùng thử $1 rất phù hợp. | Giữ nguyên nội dung. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 *(Ghi chú: Toàn bộ bảng hành động tuân thủ nghiêm ngặt 4 nhãn: `[KEEP]`, `[UPDATE]`, `[ENRICH]`, `[FILL-GAP]`; không sử dụng bất kỳ nhãn nào khác).*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp:
 
-### Snippet 1: Bảng so sánh toàn diện Shopify POS Lite vs. POS Pro `[ENRICH]`
+### Snippet 1: Bảng so sánh toàn diện Shopify POS Lite vs. POS Pro `[ENRICH (+353 từ)]`
 > Chèn vào ngay dưới phần mở đầu của H2 **What is POS Pro on Shopify?**:
 >
 > | Tiêu chí so sánh | Shopify POS Lite | Shopify POS Pro |
@@ -83,7 +86,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > | **In hóa đơn tùy chỉnh** | Hóa đơn chuẩn của hệ thống | Thiết kế mẫu hóa đơn in nhiệt chuyên nghiệp mang đậm nhận diện thương hiệu |
 > | **Môi trường phù hợp nhất** | Cửa hàng pop-up, hội chợ cuối tuần, người mới bắt đầu | **Cửa hàng bán lẻ cố định, chuỗi nhiều chi nhánh, thương hiệu DTC phát triển** |
 
-### Snippet 2: Cập nhật chuẩn xác biểu phí Shopify POS Pro 2026 `[UPDATE]`
+### Snippet 2: Cập nhật chuẩn xác biểu phí Shopify POS Pro 2026 `[UPDATE (+186 từ)]`
 > Thay thế nội dung cũ tại mục **Sell Everywhere**:
 >
 > *"For brands that sell both online and in brick-and-mortar stores, Shopify POS Pro is billed as an $89 USD/month add-on per retail location, combined with your underlying Shopify plan:
@@ -97,7 +100,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > - **Shopify Plus (Enterprise Retail):** Starts at $2,000 USD/month.  
 >   **Important Advantage:** Shopify Plus automatically includes POS Pro subscriptions for your first **20 retail locations at zero additional monthly charge** (saving up to $1,780/month in retail software costs)."*
 
-### Snippet 3: Bảng giá thiết bị phần cứng chính thức từ Shopify `[ENRICH]`
+### Snippet 3: Bảng giá thiết bị phần cứng chính thức từ Shopify `[ENRICH (+203 từ)]`
 > Chèn vào cuối mục **Mobile Hardware Compatibility**:
 >
 > | Thiết bị phần cứng (Hardware) | Mức giá tham khảo (USD) | Phương thức kết nối | Mô tả công dụng |
@@ -108,7 +111,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > | **Máy in hóa đơn nhiệt (Star Micronics)** | $249 – $369 | Bluetooth / LAN / Wi-Fi | In bill thanh toán nhiệt tốc độ cao kèm dao cắt tự động. |
 > | **Khay đựng tiền mặt (Cash Drawer - APG / Star)** | $129 – $149 | Cáp kết nối máy in bill | Tự động bật mở khi có giao dịch thanh toán bằng tiền mặt. |
 
-### Snippet 4: Bổ sung câu hỏi thường gặp bám sát Google US People Also Ask `[FILL-GAP]`
+### Snippet 4: Bổ sung câu hỏi thường gặp bám sát Google US People Also Ask `[FILL-GAP (+196 từ)]`
 > Bổ sung thêm 3 câu hỏi sau vào khối FAQ hiện có:
 >
 > > **Q4: Can I use Shopify POS Pro offline if my retail store loses internet connectivity?**  

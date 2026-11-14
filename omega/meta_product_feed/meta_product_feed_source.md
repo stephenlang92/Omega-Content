@@ -21,12 +21,15 @@ Learn how to create and optimize your Facebook product feed to improve catalog a
 
 ---
 
-In Meta Commerce Manager, products are managed inside a catalog, which acts as the central database for all product information used across Facebook and Instagram. A product feed (data file) is simply one way to supply product data to that catalog.  
-If your feed is outdated, incomplete, or missing required attributes, your products may not even be approved or eligible to run ads. Even when the data is technically valid, poorly optimized fields such as titles, metadata, or product labels can still hurt performance and make your ads struggle to compete.
+In 2026, Meta’s machine learning advertising ecosystem relies more heavily than ever on high-quality structured data. With the widespread adoption of **Advantage+ Shopping Campaigns (ASC)** and **Advantage+ Catalog Ads (ACA)**, manual ad targeting has taken a backseat to automated product matching. At the epicenter of this AI engine is your **Meta Product Feed**—the real-time data pipeline feeding your Meta Commerce Manager Catalog.
 
-|  |
-| --- |
-| **What You’ll Learn in This Article:** ● What a Meta (Facebook) product feed is **●** How a Meta product feed works ● Essential requirements and attributes ● How to create and add a Meta product feed to your catalog ● Proven optimization tips to improve ROAS and performance |
+If your product feed contains stale pricing, missing stock statuses, or generic titles, your ads will suffer from low Catalog Match Rates, disapproved SKUs, and inflated customer acquisition costs. Conversely, a rich, well-optimized product feed empowers Meta's algorithm to serve hyper-relevant product recommendations to high-intent shoppers across Facebook, Instagram, and Audience Network.
+
+In this complete 2026 guide, you will master everything from foundational data specifications and catalog setup to advanced custom label segmentation and troubleshooting common feed disapprovals.
+
+| **What You’ll Learn in This Article:** |
+| :--- |
+| ● What a Meta (Facebook) product feed is<br>● How a Meta product feed works<br>● Essential requirements and attributes<br>● How to create and add a Meta product feed to your catalog<br>● Proven optimization tips, Custom Labels strategy, and error troubleshooting to improve ROAS |
 
 ## What is Meta (Facebook) Product Feed?
 
@@ -36,10 +39,10 @@ The product feed serves as a connection between your website product database an
 
 The basic Facebook product feed in CSV format consists of this data structure:
 
-|  |
-| --- |
-| **id, title, description, availability, condition, price, link, image\_link, brand** |
-| SKU001,"Blue Running Shoes","Lightweight running shoes for men",in stock,new,59.99 USD,https://yourstore.com/blue-shoes,https://yourstore.com/blue-shoes.jpg,Nike |
+| `id` | `title` | `description` | `availability` | `condition` | `price` | `link` | `image_link` | `brand` |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| `SKU001` | `"Blue Running Shoes"` | `"Lightweight running shoes for men"` | `in stock` | `new` | `59.99 USD` | `https://yourstore.com/blue-shoes` | `https://yourstore.com/blue-shoes.jpg` | `Nike` |
+| `SKU-1002` | `"Wireless Noise-Cancelling Headphones - Matte Black"` | `"Over-ear premium headphones with 30-hour battery life and spatial audio."` | `in stock` | `new` | `199.00 USD` | `https://yourstore.com/products/black-headphones` | `https://yourstore.com/images/headphones.jpg` | `Sony` |
 
 *Note: Ensure that your CSV fields are separated by commas and that any text containing commas (like descriptions) is wrapped in double quotes.*
 
@@ -55,7 +58,7 @@ Facebook product feeds are essential for online sellers who want to run dynamic 
 
 Advertising hundreds of products manually is almost impossible for growing businesses. A product feed is like a "live bridge" that lets you add thousands of products to your Meta Catalog at once.
 
-This way, you don’t have to manually create ad campaigns for your products. For catalog-based ad formats such as Dynamic Product Ads (DPA) or Advantage+ catalog ads, Meta automatically pulls images, titles, and pricing directly from your product catalog feed.
+This way, you don’t have to manually create ad campaigns for your products. For catalog-based ad formats such as Dynamic Product Ads (DPA) or **Advantage+ Catalog Ads (ACA)** within Advantage+ Shopping Campaigns (ASC), Meta automatically pulls images, titles, and pricing directly from your product catalog feed.
 
 ### Unlocking Social Commerce Features
 
@@ -89,7 +92,7 @@ Facebook product feed establishes a relationship between your store's product da
 
 ### 1. Supported File Formats
 
-Meta is flexible but strict about structure. Your feed must be hosted at a URL (for auto-sync) or uploaded as a file in one of the following formats:
+Meta is flexible but strict about structure. Your feed must be hosted at a URL (for auto-sync) or uploaded as a file in one of the following formats (up to 100 MB for single manual file uploads, or up to 8 GB / millions of SKUs via scheduled compressed URL feeds):
 
 - **CSV or TSV**: Best for manual uploads and Google Sheets.
 - **XML (RSS or ATOM)**: Best for developers and automated website exports.
@@ -104,7 +107,7 @@ Every product in your feed must have these attributes. If these are missing, the
 - **description:** A clear summary of product features.
 - **availability:** Must use one of these exact values: in stock, out of stock, preorder, or available for order.
 - **condition:** Must be new, refurbished, or used.
-- **price:** The numerical value followed by the ISO currency code (e.g., 99.00 USD or 250000 VND).
+- **price:** The numerical value followed by a space and the 3-letter ISO 4217 currency code (e.g., `99.00 USD`, `29.99 USD`, or `250000 VND`).
 - **link:** The direct URL to the product page on your website.
 - **image\_link:** The URL of your main product image (recommend 1024 x 1024 pixels).
 - **brand:** The name of the brand, manufacturer, or shop.
@@ -117,6 +120,8 @@ While not mandatory, adding these fields helps Meta’s algorithm show your ads 
 - **fb\_product\_category:** Meta’s own taxonomy for specific ad placements, helping Meta understand the internal product category and deliver ads or placements more appropriately.
 - **color, size, gender:** Essential for clothing and footwear sellers.
 - **sale\_price:** Allows Meta to show “Strikethrough” pricing in ads.
+- **sale\_price\_effective\_date:** Specifies the exact start and end timestamps (ISO 8601 format) for promotional pricing so sale badges automatically activate and expire on schedule.
+- **additional\_image\_link:** Provides up to 20 supplemental lifestyle or multi-angle product images for dynamic carousel and collection ads.
 
 ![Meta Product Feed Requirements](https://strapi.omegatheme.com/uploads/meta_product_feed_requirements_3b45146dd9.png)
 
@@ -186,6 +191,14 @@ Meta Catalog supports up to five custom label fields (custom\_label\_0 to custom
 
 Once labeled, you can create Product Sets in Commerce Manager to segment your catalog for ads. This allows you to structure your campaigns more strategically - for example, allocating higher budgets to product sets with higher margins, rather than spending equally across your entire catalog.
 
+| Custom Label | Product Segmentation Strategy | Campaign Application Purpose | Sample Feed Values |
+|:---|:---|:---|:---|
+| `custom_label_0` | **Profit Margin** | Allocate higher ad budgets and aggressive ROAS targets to products yielding the highest net margin. | `high_margin_50`, `medium_margin_30`, `low_margin_15` |
+| `custom_label_1` | **Velocity / Sales Rank** | Push proven bestsellers in prospecting campaigns; group slow movers into clearance flash sales. | `top_bestseller`, `steady_performer`, `slow_moving` |
+| `custom_label_2` | **Seasonality / Promotions** | Build dedicated product sets for seasonal peaks (Black Friday, Summer Sale, Holiday Gift Guides). | `black_friday_eligible`, `summer_collection`, `clearance_50` |
+| `custom_label_3` | **Inventory Level** | Automatically exclude low-stock SKUs (<5 units) from high-spend campaigns to prevent wasted clicks. | `in_stock_deep`, `low_stock_under_5`, `preorder_only` |
+| `custom_label_4` | **Price Tiers** | Segment catalog ads by customer budget thresholds and Average Order Value (AOV) tiers. | `under_25_usd`, `range_25_50_usd`, `luxury_over_100_usd` |
+
 ### Provide Granular Metadata (Size, Color, Gender)
 
 Detailed information such as size, color, material, and gender is crucial, especially for apparel and footwear products. The more specific your metadata is, the better Meta’s AI can match your product to the relevant audience.
@@ -203,6 +216,26 @@ Lifestyle images can work well for discovery ads, but white backgrounds are gene
 Your feed should be synced at least once a day, although if you have a high-volume store, you may want to aim to do this hourly to avoid discrepancies between ad and landing page information.
 
 Keeping your feed up to date can also help avoid ad spend on out-of-stock products, which can save you money in the long run.
+
+### How to Troubleshoot Common Meta Catalog Errors & Disapprovals
+
+Even minor formatting discrepancies can trigger item disapprovals in Commerce Manager. Here is how to fix the four most frequent catalog errors:
+
+1. **Error: "Missing or Invalid Availability"**
+   - **Cause:** Submitting values outside Meta's strict enum list (e.g., using `active`, `available`, `yes`, or `1` instead of approved terms).
+   - **Fix:** Ensure your feed maps availability strictly to: `in stock`, `out of stock`, `preorder`, or `available for order`.
+
+2. **Error: "Price Formatting Issue / Invalid Currency"**
+   - **Cause:** Using raw symbols like `$29.99`, using commas as decimal points (`29,99`), or omitting the ISO currency code.
+   - **Fix:** Format price as a positive numerical value with a decimal point, followed by a space and the 3-letter currency code: `29.99 USD` (never include currency symbols like `$`, `€`, or `£`).
+
+3. **Error: "Image Cannot Be Downloaded / 404 Not Found"**
+   - **Cause:** The image URL redirects, is behind a staging password, or exceeds Meta's crawler timeout limit (must respond within 10 seconds).
+   - **Fix:** Verify image URLs in an incognito window without authentication. Use direct CDN links ending in `.jpg`, `.jpeg`, or `.png`, and serve exclusively over HTTPS.
+
+4. **Error: "Value of 'id' Is Not Unique"**
+   - **Cause:** Multiple variants share the same parent SKU or product identifier.
+   - **Fix:** Ensure each individual product variant has a distinct, permanent ID (e.g., `SKU123-BLK-M` and `SKU123-BLK-L`). Never reuse IDs for deleted products.
 
 ## Automate Your Facebook Product Feed with Omega Feeds
 

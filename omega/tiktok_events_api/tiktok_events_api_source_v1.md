@@ -1,5 +1,5 @@
 ---
-title: "TikTok Events API – a complete install guide for Shopify stores [2026]"
+title: "TikTok Events API – A Complete Install Guide for Shopify Stores [2026]"
 slug: "set-up-tiktok-pixels-to-track-events-with-events-api-server-side-tracking-for-tiktok-ads"
 source_url: "https://www.omegatheme.com/blogs/set-up-tiktok-pixels-to-track-events-with-events-api-server-side-tracking-for-tiktok-ads"
 published_date: "2022-03-16T09:49:00.000Z"
@@ -9,7 +9,7 @@ thumbnail: "https://strapi.omegatheme.com/uploads/Tik_Tok_event_api_cb00a862d5.j
 meta_description: "This article explains why not carefully choosing your TikTok pixel installation & event setup option could be a costly decision."
 ---
 
-# TikTok Events API – a complete install guide for Shopify stores [2026]
+# TikTok Events API – A Complete Install Guide for Shopify Stores [2026]
 
 > **Source:** [https://www.omegatheme.com/blogs/set-up-tiktok-pixels-to-track-events-with-events-api-server-side-tracking-for-tiktok-ads](https://www.omegatheme.com/blogs/set-up-tiktok-pixels-to-track-events-with-events-api-server-side-tracking-for-tiktok-ads)  
 > **Category:** TikTok Advertising | **Author:** Tristan Do | **Published:** 2022-03-16T09:49:00.000Z

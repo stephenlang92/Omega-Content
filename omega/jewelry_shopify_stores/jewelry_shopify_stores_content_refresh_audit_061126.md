@@ -8,12 +8,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/best-jewelry-stores-on-shopify` | — | Trang live của Omegatheme |
-| **Nguồn nội dung audit** | `outputs/omegatheme/jewelry_shopify_stores/jewelry_shopify_stores_source.md` | — | Bản nạp bài viết local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/jewelry_shopify_stores/jewelry_shopify_stores_source.md` | — | Bản nạp bài viết local |
 | **Primary Keyword** | `jewelry shopify stores` | — | Từ khóa chính Google US |
 | **Thứ hạng SERP hiện tại** | Tiệm cận Top 10 (Striking Distance) | Top 1-5 (Swanky Agency, Aureate Labs, Ice Cube Digital) | Có tiềm năng bứt phá mạnh mẽ nếu bổ sung chiều sâu UX |
 | **Mục tiêu tối ưu** | Nâng cấp case study & hướng dẫn kỹ thuật 2026 | Top 1–3 mục tiêu | Cung cấp giá trị thực chiến vượt trội |
@@ -22,7 +23,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -39,30 +40,30 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bảo tồn nguyên vẹn cấu trúc hiện có):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
-| **Title & H1** | `[UPDATE]` | Tiêu đề gốc: *"Best 15 Jewelry Stores on Shopify: Inspiring Stories, How to Sell"*. | Cập nhật năm 2026 để tăng CTR: *"Best 15 Jewelry Stores on Shopify in 2026: Inspiring Examples & How to Sell"*. Giữ nguyên URL slug. |
-| **Introduction / Sapo** | `[ENRICH]` | Khá ngắn gọn, chưa nêu bật quy mô thị trường eCommerce trang sức 2026. | Bổ sung insight: Thị trường trang sức online DTC dự kiến vượt $60 tỷ; nêu 3 yếu tố quyết định thành bại (Visuals, Sizing, Trust). |
-| **H2: Why Choose Shopify for Your Jewelry Store?** | `[ENRICH]` | Các đề mục H3 đã chuẩn nhưng còn thiếu các tính năng mới của Shopify OS 2.0 (AR 3D models, Buy Now Pay Later, TikTok/Instagram Native Commerce). | Bổ sung các tính năng nâng cao: AR Virtual Try-on, bộ lọc sản phẩm linh hoạt (Filter by Metal/Carat/Price), và tích hợp cổng thanh toán trả góp (Shop Pay Installments). |
-| **H2: Success Stories: Shopify Jewelry Store Examples** | `[UPDATE]` & `[ENRICH]` | Cả 15 store đều dùng số liệu doanh thu 2023 và nội dung phân tích còn nông. | **[UPDATE]:** Thay toàn bộ dòng *"Estimated 2023 Revenue"* sang ước tính 2026.<br>**[ENRICH]:** Bổ sung mục *"UX & Conversion Highlight"* cho các store tiêu biểu (Mejuri, Catbird, QALO...). |
-| **H2: How to Sell Jewelry on Shopify?** | `[UPDATE]` & `[ENRICH]` | Mục chọn theme gợi ý theme "Minimal" đã lỗi thời. Các bước tạo sản phẩm chưa nhấn mạnh bảng size và bảo hiểm vận chuyển. | **[UPDATE]:** Thay "Minimal" bằng các theme OS 2.0 thịnh hành (Prestige, Showcase, Dawn).<br>**[ENRICH]:** Thêm lưu ý về Ring Size Chart và hệ thống Real-time Tracking tại bước vận chuyển. |
-| **H2: Summary Table: Top Jewelry Stores Comparison** | `[ENRICH]` | Chưa có bảng tổng hợp đối sánh 15 store. | Bổ sung bảng so sánh 15 thương hiệu theo Niche, Điểm nhấn UX và Phân khúc giá. |
-| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Chưa có khối FAQ đáp ứng truy vấn tìm kiếm Google US. | Bổ sung khối FAQ gồm 4 câu hỏi thường gặp nhất về kinh doanh trang sức trên Shopify. |
+| **Title & H1** | `[UPDATE (+3 từ)]` | Tiêu đề gốc: *"Best 15 Jewelry Stores on Shopify: Inspiring Stories, How to Sell"*. | Cập nhật năm 2026 để tăng CTR: *"Best 15 Jewelry Stores on Shopify in 2026: Inspiring Examples & How to Sell"*. Giữ nguyên URL slug. |
+| **Introduction / Sapo** | `[ENRICH (+34 từ)]` | Khá ngắn gọn, chưa nêu bật quy mô thị trường eCommerce trang sức 2026. | Bổ sung insight: Thị trường trang sức online DTC dự kiến vượt $60 tỷ; nêu 3 yếu tố quyết định thành bại (Visuals, Sizing, Trust). |
+| **H2: Why Choose Shopify for Your Jewelry Store?** | `[ENRICH (+58 từ)]` | Các đề mục H3 đã chuẩn nhưng còn thiếu các tính năng mới của Shopify OS 2.0 (AR 3D models, Buy Now Pay Later, TikTok/Instagram Native Commerce). | Bổ sung các tính năng nâng cao: AR Virtual Try-on, bộ lọc sản phẩm linh hoạt (Filter by Metal/Carat/Price), và tích hợp cổng thanh toán trả góp (Shop Pay Installments). |
+| **H2: Success Stories: Shopify Jewelry Store Examples** | `[UPDATE & ENRICH (+216 từ)]` | Cả 15 store đều dùng số liệu doanh thu 2023 và nội dung phân tích còn nông. | **[UPDATE]:** Thay toàn bộ dòng *"Estimated 2023 Revenue"* sang ước tính 2026.<br>**[ENRICH]:** Bổ sung mục *"UX & Conversion Highlight"* cho các store tiêu biểu (Mejuri, Catbird, QALO...). |
+| **H2: How to Sell Jewelry on Shopify?** | `[UPDATE & ENRICH (+162 từ)]` | Mục chọn theme gợi ý theme "Minimal" đã lỗi thời. Các bước tạo sản phẩm chưa nhấn mạnh bảng size và bảo hiểm vận chuyển. | **[UPDATE]:** Thay "Minimal" bằng các theme OS 2.0 thịnh hành (Prestige, Showcase, Dawn).<br>**[ENRICH]:** Thêm lưu ý về Ring Size Chart và hệ thống Real-time Tracking tại bước vận chuyển. |
+| **H2: Summary Table: Top Jewelry Stores Comparison** | `[ENRICH (+353 từ)]` | Chưa có bảng tổng hợp đối sánh 15 store. | Bổ sung bảng so sánh 15 thương hiệu theo Niche, Điểm nhấn UX và Phân khúc giá. |
+| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+216 từ)]` | Chưa có khối FAQ đáp ứng truy vấn tìm kiếm Google US. | Bổ sung khối FAQ gồm 4 câu hỏi thường gặp nhất về kinh doanh trang sức trên Shopify. |
 | **Conclusion** | `[KEEP]` | Đoạn kết ngắn gọn truyền cảm hứng. | Giữ nguyên tinh thần đoạn kết, bổ sung lời kêu gọi trải nghiệm giải pháp bổ trợ. |
 
-*(Nhãn hành động: `[KEEP]` - Giữ nguyên | `[UPDATE]` - Cập nhật dữ liệu cũ | `[ENRICH]` - Làm giàu thông tin | `[FILL-GAP]` - Bổ sung mục thiếu theo SERP Norm & FAQ)*
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp vào bài viết:
 
-### Snippet 1: Cập nhật thông tin lỗi thời tại Bước 2 "Choose and Customize a Theme" `[UPDATE]`
+### Snippet 1: Cập nhật thông tin lỗi thời tại Bước 2 "Choose and Customize a Theme" `[UPDATE (+100 từ)]`
 > **Đoạn cũ:**
 > *"Go to the Theme Store of Shopify and check for themes that are made for the jewelry stores or the premium ones. Examples of such themes are “Prestige” and “Minimal”. Once you found your favorite theme then click to “Add Theme” to your store."*
 >
@@ -75,7 +76,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > *Once you select your theme, leverage the Shopify drag-and-drop theme editor to configure high-res hero banners, collection grids, and certification trust seals."*
 
-### Snippet 2: Cập nhật & Làm giàu case study Mejuri `[UPDATE]` & `[ENRICH]`
+### Snippet 2: Cập nhật & Làm giàu case study Mejuri `[UPDATE & ENRICH (+127 từ)]`
 > **Đoạn mới đề xuất (Cập nhật 2026):**
 > *"### 1. Mejuri
 > Redefining fine jewelry with its 'everyday luxury' ethos, [Mejuri](https://mejuri.com/) has revolutionized the direct-to-consumer jewelry space by making 14k solid gold and ethically sourced diamonds accessible for daily wear.
@@ -88,7 +89,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 >   - *Dynamic Stacking Previews:* Their product pages allow shoppers to see how multiple ear piercings and ring stacks look together on real diverse skin tones.
 >   - *Transparent Sustainability:* Clear breakdown of recycled gold percentages and carbon offsetting at checkout, cementing generational customer loyalty."*
 
-### Snippet 3: Bảng so sánh tổng hợp 15 cửa hàng trang sức Shopify `[ENRICH]`
+### Snippet 3: Bảng so sánh tổng hợp 15 cửa hàng trang sức Shopify `[ENRICH (+402 từ)]`
 *(Chèn trước mục How to Sell Jewelry on Shopify)*
 
 | Thương hiệu | Định vị thương hiệu / Niche | Điểm nhấn UX / Chiến lược đột phá | Phân khúc giá trung bình |
@@ -109,7 +110,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 | **Glamira** | Infinite Bespoke Customizer | Trình cấu hình tùy biến kim loại/đá quý vô tận | $200 – $3.000+ |
 | **Edenly** | European Classic Fine Gold & Diamonds | Cam kết minh bạch giá và chứng nhận đạo đức | $150 – $2.500 |
 
-### Snippet 4: Khối giải đáp thắc mắc thường gặp (FAQs) `[FILL-GAP]`
+### Snippet 4: Khối giải đáp thắc mắc thường gặp (FAQs) `[FILL-GAP (+216 từ)]`
 *(Chèn vào cuối bài viết)*
 
 > **Q: Is selling jewelry on Shopify still profitable in 2026?**  

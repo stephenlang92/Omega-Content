@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/shopify-store-name-ideas` | Top 1 SERP Google US (GemPages) | Trang live hiện hành |
-| **Nguồn nội dung audit** | `outputs/omegatheme/shopify_store_name_ideas/shopify_store_name_ideas_source.md` | — | Nguồn nạp Markdown cục bộ |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/shopify_store_name_ideas/shopify_store_name_ideas_source.md` | — | Nguồn nạp Markdown cục bộ |
 | **Primary Keyword** | `shopify store name ideas` | — | Volume tìm kiếm rất cao |
 | **Thứ hạng SERP hiện tại** | Striking Distance (Top 8–15 US) | Top 1–5 đối thủ (GemPages, Shopify) | Cần bứt phá vào Top 1–3 |
 | **Mục tiêu tối ưu** | Khắc phục lỗi nội dung & Bứt phá Top 3 | Top 1 mục tiêu | Nâng cấp toàn diện |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -34,29 +35,31 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1** | `[KEEP]` | Tiêu đề hấp dẫn, gắn mác 2026 | Giữ nguyên: *"100+ Shopify Store Name Ideas That Actually Stand Out in 2026"*. |
-| **Introduction / Sapo** | `[UPDATE]` | Giới thiệu tốt nhưng cần làm nổi bật góc nhìn xây dựng thương hiệu | Viết lại Sapo: Trực diện chỉ ra tầm quan trọng của tên shop trong kỷ nguyên số 2026 và lộ trình chọn tên (Từ tâm lý học đến kiểm tra pháp lý). |
-| **H2: The Psychology Behind Memorable Store Names** | `[KEEP]` / `[ENRICH]` | Phân tích khoa học não bộ rất xuất sắc | Giữ nguyên nội dung phân tích; bổ sung bảng ngắn: **3 Kỹ thuật Đặt tên Phổ biến (Alliteration, Portmanteau, Evocative Words)**. |
+| **Introduction / Sapo** | `[UPDATE (-18 từ)]` | Giới thiệu tốt nhưng cần làm nổi bật góc nhìn xây dựng thương hiệu | Viết lại Sapo: Trực diện chỉ ra tầm quan trọng của tên shop trong kỷ nguyên số 2026 và lộ trình chọn tên (Từ tâm lý học đến kiểm tra pháp lý). |
+| **H2: The Psychology Behind Memorable Store Names** | `[KEEP]` / `[ENRICH (+114 từ)]` | Phân tích khoa học não bộ rất xuất sắc | Giữ nguyên nội dung phân tích; bổ sung bảng ngắn: **3 Kỹ thuật Đặt tên Phổ biến (Alliteration, Portmanteau, Evocative Words)**. |
 | **H2: Fashion & Apparel Store Names** | `[KEEP]` | Danh sách 45 tên (Luxury, Streetwear, Sustainable) rất tốt | Giữ nguyên toàn bộ danh sách. |
-| **H2: Beauty & Cosmetics Store Names** | `[FILL-GAP]` | Mục `### Makeup Store Names` bị bỏ trống hoàn toàn | Lập tức bổ sung danh sách 15 tên mẫu cực kỳ bắt tai cho mảng Makeup/Trang điểm. |
-| **H3 (Đề xuất thêm dưới Fashion hoặc riêng): Jewelry & Accessories Name Ideas** | `[FILL-GAP]` | Ngách trang sức có lượng tìm kiếm rất cao nhưng bài đang thiếu | Bổ sung 15 tên gợi ý cho shop trang sức và phụ kiện. |
+| **H2: Beauty & Cosmetics Store Names** | `[FILL-GAP (+44 từ)]` | Mục `### Makeup Store Names` bị bỏ trống hoàn toàn | Lập tức bổ sung danh sách 15 tên mẫu cực kỳ bắt tai cho mảng Makeup/Trang điểm. |
+| **H3 (Đề xuất thêm dưới Fashion hoặc riêng): Jewelry & Accessories Name Ideas** | `[FILL-GAP (+46 từ)]` | Ngách trang sức có lượng tìm kiếm rất cao nhưng bài đang thiếu | Bổ sung 15 tên gợi ý cho shop trang sức và phụ kiện. |
 | **H2: Tech & Gaming Store Names** | `[KEEP]` | 30 tên cho Electronics và Gaming rất sáng tạo | Giữ nguyên toàn bộ danh sách. |
 | **H2: Sustainable & Eco-Friendly Store Names** | `[KEEP]` | 15 tên cho Zero Waste Store | Giữ nguyên danh sách. |
-| **H2: Business Name Generator by Avada Commerce Addresses Your Naming Challenges** | `[ENRICH]` | Giới thiệu công cụ tốt nhưng thiếu bước hành động tiếp theo | Bổ sung tiểu mục: **"The 4-Step Verification Before You Register Your Name"** (Kiểm tra Domain .com, Social Handles, The Radio Test, và USPTO Trademark). |
-| **H2 (Mục mới bổ sung): Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài hiện tại không có FAQ | Bổ sung 4 câu hỏi thường gặp nhất bám sát PAA của Google. |
+| **H2: Business Name Generator by Avada Commerce Addresses Your Naming Challenges** | `[ENRICH (+178 từ)]` | Giới thiệu công cụ tốt nhưng thiếu bước hành động tiếp theo | Bổ sung tiểu mục: **"The 4-Step Verification Before You Register Your Name"** (Kiểm tra Domain .com, Social Handles, The Radio Test, và USPTO Trademark). |
+| **H2 (Mục mới bổ sung): Frequently Asked Questions (FAQs)** | `[FILL-GAP (+205 từ)]` | Bài hiện tại không có FAQ | Bổ sung 4 câu hỏi thường gặp nhất bám sát PAA của Google. |
 | **H2: Conclusion** | `[KEEP]` | Kết bài ngắn gọn, truyền động lực | Giữ nguyên và bổ sung lời kêu gọi hành động. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp:
 
-### Snippet 1: Cập nhật Sapo Mở đầu `[UPDATE]`
+### Snippet 1: Cập nhật Sapo Mở đầu `[UPDATE (+77 từ)]`
 > **Đoạn cũ:**
 > *"Have you noticed how some online stores catch your eye right away while others just blend into the digital world? The magic often comes down to their names. Finding the perfect Shopify store name can make your business soar or sink..."*
 >
@@ -67,7 +70,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 2: Lấp đầy khoảng trống mục Makeup Store Names `[FILL-GAP]`
+### Snippet 2: Lấp đầy khoảng trống mục Makeup Store Names `[FILL-GAP (+49 từ)]`
 *(Chèn vào ngay dưới tiêu đề `### Makeup Store Names` tại dòng 190)*
 
 > **Curated Makeup Store Name Ideas:**
@@ -89,7 +92,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 3: Khối bổ sung Ngách Trang sức (Jewelry & Accessories) `[FILL-GAP]`
+### Snippet 3: Khối bổ sung Ngách Trang sức (Jewelry & Accessories) `[FILL-GAP (+52 từ)]`
 *(Chèn vào dưới thẻ H2: "Fashion & Apparel Store Names")*
 
 > ### **Jewelry & Accessories Store Names**
@@ -111,7 +114,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 4: Khối Quy trình Kiểm tra 4 Bước Trước Khi Đăng Ký Tên `[ENRICH]`
+### Snippet 4: Khối Quy trình Kiểm tra 4 Bước Trước Khi Đăng Ký Tên `[ENRICH (+187 từ)]`
 *(Chèn vào cuối mục "Business Name Generator by Avada Commerce")*
 
 > ### **The 4-Step Availability Checklist Before Finalizing Your Name**
@@ -123,7 +126,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 5: Khối FAQ chuẩn PAA `[FILL-GAP]`
+### Snippet 5: Khối FAQ chuẩn PAA `[FILL-GAP (+140 từ)]`
 *(Chèn thẻ H2: "Frequently Asked Questions About Naming Your Shopify Store")*
 
 > **Q1: How many words should a Shopify store name be?**  

@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/paypal-tracking-information-a-savior-from-disputes` | Top 1 SERP Google US (Chargeflow) | Trang live hiện hành |
-| **Nguồn nội dung audit** | `outputs/omegatheme/is_paypal_tracking_accurate/is_paypal_tracking_accurate_source.md` | — | Nguồn nạp Markdown cục bộ |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/is_paypal_tracking_accurate/is_paypal_tracking_accurate_source.md` | — | Nguồn nạp Markdown cục bộ |
 | **Primary Keyword** | `is paypal tracking accurate` | — | Intent tìm kiếm cao, độ hoài nghi lớn |
 | **Thứ hạng SERP hiện tại** | Ngoài Top 10 (chưa tối ưu đúng search query) | Top 1–5 đối thủ (Chargeflow, Quora, Reddit) | Cần bứt phá vào Top 1–3 |
 | **Mục tiêu tối ưu** | Bứt phá Top 3 & Đẩy chuyển đổi Synctrack | Top 1 mục tiêu | Nâng cấp toàn diện |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -35,26 +36,28 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1** | `[KEEP]` | Giữ nguyên URL slug và H1 hiện tại để không gãy liên kết | Giữ: *"Paypal tracking information: a savior from disputes"*, có thể thêm subtext/badge 2026. |
-| **Introduction / Sapo** | `[UPDATE]` | Chỉ có 2 câu ngắn, chưa bao quát search intent người dùng | Viết lại Sapo: Trực diện trả lời tính chuẩn xác của PayPal tracking, giải thích cơ chế API và khẳng định vai trò sống còn của tracking đối với dòng tiền người bán. |
-| **H2: What is Paypal tracking info used for?** | `[UPDATE]` / `[ENRICH]` | Chỉ giải thích sơ sài định nghĩa | - Nâng cấp nội dung: Phân tích 3 vai trò cốt lõi (Gỡ payment hold 21 ngày, điều kiện hưởng Seller Protection, cung cấp tính minh bạch cho người mua).<br>- Bổ sung thẻ H3 mới: **Is PayPal Tracking Accurate? How It Pulls Data from Carriers** để trả lời chính xác search intent. |
-| **H3 (Đề xuất thêm dưới H2 mục 1): Is PayPal Tracking Accurate? How It Works in 2026** | `[ENRICH]` | Cốt lõi của từ khóa mà bài cũ bỏ sót | Giải thích cơ chế tích hợp Carrier API của PayPal, giải thích vì sao có độ trễ đồng bộ (latency 2–8 tiếng) và nguyên nhân gây sai lệch dữ liệu. |
-| **H2: When does a dispute happen?** | `[UPDATE]` / `[ENRICH]` | Chỉ nhắc đến INR và SNAD rất sơ sài | - Cập nhật chi tiết 2 loại tranh chấp: INR (Item Not Received) và SNAD.<br>- Bổ sung bảng đối chiếu: **What PayPal Requires to Win an INR Dispute** (Proof of Shipment vs. Proof of Delivery). |
-| **H3 (Đề xuất nâng cấp từ đoạn in đậm): What will Paypal do with a dispute?** | `[UPDATE]` | Nâng cấp đoạn in đậm thành H3 chuẩn | Giải thích quy trình điều tra của PayPal: Thuật toán quét đối soát địa chỉ nhận, ngày gửi và chữ ký người nhận. |
-| **H3 (Đề xuất nâng cấp từ đoạn in đậm): How to add the tracking number to Paypal?** | `[UPDATE]` / `[ENRICH]` | Hướng dẫn thủ công đã lỗi thời giao diện | - Cập nhật các bước gửi tracking theo giao diện PayPal Business 2026.<br>- Bổ sung bảng so sánh: **Manual Tracking Upload vs. Automated Sync via Synctrack** (Thời gian xử lý, Tỷ lệ sai sót, Tốc độ mở khóa quỹ tiền). |
-| **H2 (Mục mới bổ sung): Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài hiện tại chưa có mục FAQ | Bổ sung 4 câu hỏi thường gặp nhất bám sát PAA của Google US. |
+| **Introduction / Sapo** | `[UPDATE (+96 từ)]` | Chỉ có 2 câu ngắn, chưa bao quát search intent người dùng | Viết lại Sapo: Trực diện trả lời tính chuẩn xác của PayPal tracking, giải thích cơ chế API và khẳng định vai trò sống còn của tracking đối với dòng tiền người bán. |
+| **H2: What is Paypal tracking info used for?** | `[UPDATE & ENRICH (+104 từ)]` | Chỉ giải thích sơ sài định nghĩa | - Nâng cấp nội dung: Phân tích 3 vai trò cốt lõi (Gỡ payment hold 21 ngày, điều kiện hưởng Seller Protection, cung cấp tính minh bạch cho người mua).<br>- Bổ sung thẻ H3 mới: **Is PayPal Tracking Accurate? How It Pulls Data from Carriers** để trả lời chính xác search intent. |
+| **H3 (Đề xuất thêm dưới H2 mục 1): Is PayPal Tracking Accurate? How It Works in 2026** | `[ENRICH (+275 từ)]` | Cốt lõi của từ khóa mà bài cũ bỏ sót | Giải thích cơ chế tích hợp Carrier API của PayPal, giải thích vì sao có độ trễ đồng bộ (latency 2–8 tiếng) và nguyên nhân gây sai lệch dữ liệu. |
+| **H2: When does a dispute happen?** | `[UPDATE & ENRICH (+127 từ)]` | Chỉ nhắc đến INR và SNAD rất sơ sài | - Cập nhật chi tiết 2 loại tranh chấp: INR (Item Not Received) và SNAD.<br>- Bổ sung bảng đối chiếu: **What PayPal Requires to Win an INR Dispute** (Proof of Shipment vs. Proof of Delivery). |
+| **H3 (Đề xuất nâng cấp từ đoạn in đậm): What will Paypal do with a dispute?** | `[UPDATE (+0 từ)]` | Nâng cấp đoạn in đậm thành H3 chuẩn | Giải thích quy trình điều tra của PayPal: Thuật toán quét đối soát địa chỉ nhận, ngày gửi và chữ ký người nhận. |
+| **H3 (Đề xuất nâng cấp từ đoạn in đậm): How to add the tracking number to Paypal?** | `[UPDATE & ENRICH (+171 từ)]` | Hướng dẫn thủ công đã lỗi thời giao diện | - Cập nhật các bước gửi tracking theo giao diện PayPal Business 2026.<br>- Bổ sung bảng so sánh: **Manual Tracking Upload vs. Automated Sync via Synctrack** (Thời gian xử lý, Tỷ lệ sai sót, Tốc độ mở khóa quỹ tiền). |
+| **H2 (Mục mới bổ sung): Frequently Asked Questions (FAQs)** | `[FILL-GAP (+218 từ)]` | Bài hiện tại chưa có mục FAQ | Bổ sung 4 câu hỏi thường gặp nhất bám sát PAA của Google US. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp:
 
-### Snippet 1: Cập nhật Sapo và Trả lời Trực diện "Is PayPal Tracking Accurate?" `[UPDATE]`
+### Snippet 1: Cập nhật Sapo và Trả lời Trực diện "Is PayPal Tracking Accurate?" `[UPDATE (+96 từ)]`
 > **Đoạn cũ:**
 > *"Paypal Tracking Information is a Paypal Seller Protection, it will help sellers win in most cases of disputes. Paypal requires sellers to update the tracking info on the system and to let the customers check their shipments online."*
 >
@@ -65,7 +68,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 2: Giải thích cơ chế kỹ thuật và nguyên nhân sai lệch `[ENRICH]`
+### Snippet 2: Giải thích cơ chế kỹ thuật và nguyên nhân sai lệch `[ENRICH (+225 từ)]`
 *(Chèn thẻ H3: "Is PayPal Tracking Accurate? How PayPal Pulls Data & Why Delays Happen")*
 
 > **How PayPal Tracking Works Behind the Scenes:**
@@ -79,7 +82,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 3: Bảng so sánh Manual Tracking vs. Synctrack Auto Sync `[ENRICH]`
+### Snippet 3: Bảng so sánh Manual Tracking vs. Synctrack Auto Sync `[ENRICH (+191 từ)]`
 *(Chèn vào mục hướng dẫn gửi tracking)*
 
 | Tiêu chí đối soát | Nhập thủ công (Manual Upload) | Tự động qua Synctrack (Automated Sync) |
@@ -93,7 +96,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 4: Khối FAQ chuẩn PAA `[FILL-GAP]`
+### Snippet 4: Khối FAQ chuẩn PAA `[FILL-GAP (+218 từ)]`
 *(Chèn thẻ H2: "Frequently Asked Questions About PayPal Tracking")*
 
 > **Q1: Does PayPal verify tracking numbers with the shipping carrier?**  

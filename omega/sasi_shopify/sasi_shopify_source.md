@@ -175,6 +175,10 @@ Mantle names App Store Pulse as its successor for visibility. Letsmetrix and Saa
 
 A small team that wants core metrics and rank tracking with no new bill can start with a free option like Letsmetrix, then add a billing or helpdesk tool as needs grow.
 
+### How do I handle app billing now that Mantle Billing is gone?
+
+All Shopify app developers must now utilize **Shopify App Pricing (native Billing API)**. Shopify's native billing system handles recurring subscriptions, usage-based charges, and multi-currency billing seamlessly without relying on third-party billing middle layers.
+
 ## Final Thoughts
 
 A forced migration breaks the rhythm of any roadmap. It also opens a chance to clear technical debt and tidy the marketing stack. The Mantle wind-down asks for fast action, yet the replacements on offer cover every job the old platform handled.

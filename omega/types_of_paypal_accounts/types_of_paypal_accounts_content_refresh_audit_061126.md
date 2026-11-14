@@ -8,12 +8,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/3-types-of-paypal-accounts-how-they-are-different` | — | Đang live |
-| **Nguồn nội dung audit** | `types_of_paypal_accounts_source.md` (GitHub raw) | — | File markdown local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/types_of_paypal_accounts/types_of_paypal_accounts_source.md` | — | File markdown local |
 | **Primary Keyword** | `types of paypal accounts` | — | Đang nhắm mục tiêu |
 | **Thứ hạng SERP hiện tại** | Rank 3 (Google US) | Top 1-2 (PayPal Help Center) | Cần bảo vệ Top 3 và cạnh tranh Top 1-2 |
 | **Mục tiêu tối ưu** | Cứu traffic tụt dốc & Bứt phá Top 1–3 | Top 1–3 Google US | Định hướng chiến lược |
@@ -22,7 +23,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -39,34 +40,36 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bám sát cấu trúc hiện có):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1** | `[KEEP]` | "3 types of Paypal accounts, how they are different" | Giữ nguyên URL slug và H1 cốt lõi để bảo tồn SEO juice của Rank 3 hiện tại. |
-| **Introduction / Sapo** | `[UPDATE]` | Giới thiệu chung chung, chưa trả lời trực diện thực tế 2026 | Bổ sung câu trả lời trực diện: PayPal hiện nay vận hành 2 loại tài khoản cốt lõi và làm rõ sự tồn tại của loại thứ 3. |
-| **H2: 3 Types of PayPal Accounts** | `[UPDATE]` | Trình bày theo quan niệm cũ xem Pro là loại độc lập thứ 3 | Cập nhật cấu trúc: Làm rõ 2 loại hoạt động chính thức và tình trạng chuyển đổi (legacy) của loại thứ 3. |
-| **H3: 1. Personal account** | `[ENRICH]` | Mô tả còn ngắn, thiếu giới hạn tính năng | Bổ sung danh sách ưu/nhược điểm rõ ràng, nhấn mạnh phù hợp cho người mua sắm và chuyển tiền gia đình. |
-| **H3: 2. Business account** | `[ENRICH]` | Chưa nêu rõ các tính năng quan trọng cho Shopify | Bổ sung tính năng cấp quyền cho tối đa 200 nhân viên, xuất hóa đơn thương mại, tích hợp cổng thanh toán eCommerce. |
-| **H3: 3. Paypal Payment Pro** | `[UPDATE]` | Thông tin cũ xem Pro là gói mua riêng còn hoạt động | Đính chính: Pro đã được nâng cấp thành PayPal Commerce Platform / Complete Payments; phân tích ai nên dùng giải pháp này. |
-| **H2: Comparison chart between 3 PayPal account types** | `[ENRICH]` | Bảng so sánh cũ mỏng, ít tiêu chí | Nâng cấp thành bảng đối chiếu toàn diện 6 tiêu chí: Đối tượng, Phí, Giới hạn giao dịch, Tích hợp eCommerce, Đa người dùng. |
-| **H2: Tips for using Paypal accounts** | `[UPDATE]` | Mẹo cũ chung chung, thiếu chiều sâu thực tế | Bổ sung hướng dẫn chống giữ tiền (21-day payment hold), chống dispute bằng cách luôn cập nhật mã vận đơn (tracking number). |
-| **H2: Frequently Asked Questions (FAQ)** | `[FILL-GAP]` | Bài cũ chưa có mục FAQ | Bổ sung 4 câu hỏi thường gặp bám sát Google PAA: Có được sở hữu cả 2 tài khoản không? Đổi từ Personal sang Business có mất phí không? Bán hàng Shopify có bắt buộc dùng Business không? |
+| **Introduction / Sapo** | `[UPDATE (+44 từ)]` | Giới thiệu chung chung, chưa trả lời trực diện thực tế 2026 | Bổ sung câu trả lời trực diện: PayPal hiện nay vận hành 2 loại tài khoản cốt lõi và làm rõ sự tồn tại của loại thứ 3. |
+| **H2: 3 Types of PayPal Accounts** | `[UPDATE (+12 từ)]` | Trình bày theo quan niệm cũ xem Pro là loại độc lập thứ 3 | Cập nhật cấu trúc: Làm rõ 2 loại hoạt động chính thức và tình trạng chuyển đổi (legacy) của loại thứ 3. |
+| **H3: 1. Personal account** | `[ENRICH (+62 từ)]` | Mô tả còn ngắn, thiếu giới hạn tính năng | Bổ sung danh sách ưu/nhược điểm rõ ràng, nhấn mạnh phù hợp cho người mua sắm và chuyển tiền gia đình. |
+| **H3: 2. Business account** | `[ENRICH (+32 từ)]` | Chưa nêu rõ các tính năng quan trọng cho Shopify | Bổ sung tính năng cấp quyền cho tối đa 200 nhân viên, xuất hóa đơn thương mại, tích hợp cổng thanh toán eCommerce. |
+| **H3: 3. Paypal Payment Pro** | `[UPDATE (+49 từ)]` | Thông tin cũ xem Pro là gói mua riêng còn hoạt động | Đính chính: Pro đã được nâng cấp thành PayPal Commerce Platform / Complete Payments; phân tích ai nên dùng giải pháp này. |
+| **H2: Comparison chart between 3 PayPal account types** | `[ENRICH (+155 từ)]` | Bảng so sánh cũ mỏng, ít tiêu chí | Nâng cấp thành bảng đối chiếu toàn diện 6 tiêu chí: Đối tượng, Phí, Giới hạn giao dịch, Tích hợp eCommerce, Đa người dùng. |
+| **H2: Tips for using Paypal accounts** | `[UPDATE (+103 từ)]` | Mẹo cũ chung chung, thiếu chiều sâu thực tế | Bổ sung hướng dẫn chống giữ tiền (21-day payment hold), chống dispute bằng cách luôn cập nhật mã vận đơn (tracking number). |
+| **H2: Frequently Asked Questions (FAQ)** | `[FILL-GAP (+165 từ)]` | Bài cũ chưa có mục FAQ | Bổ sung 4 câu hỏi thường gặp bám sát Google PAA: Có được sở hữu cả 2 tài khoản không? Đổi từ Personal sang Business có mất phí không? Bán hàng Shopify có bắt buộc dùng Business không? |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
-### Snippet 1: Sửa đoạn Sapo làm rõ thực tế tài khoản PayPal 2026 `[UPDATE]`
+### Snippet 1: Sửa đoạn Sapo làm rõ thực tế tài khoản PayPal 2026 `[UPDATE (+66 từ)]`
 > **Đoạn cũ:**
 > *"When setting up a PayPal account, you’ll encounter three different types: Personal, Business, and PayPal Payments Pro. Understanding the distinctions between these account types is crucial..."*
 >
 > **Đoạn mới đề xuất (Cập nhật 2026):**
 > *"When creating a PayPal account, you might wonder whether you need a Personal or a Business account—and what happened to the 'third type' you've heard about. In 2026, PayPal officially offers **two primary account categories**: Personal and Business. However, many guides still reference a third tier—historically known as PayPal Premier (which was merged into Personal/Business) or PayPal Payments Pro (now modernized into PayPal Complete Payments). In this comprehensive guide, we'll break down the key differences between these options so you can choose the exact account that matches your personal or e-commerce needs."*
 
-### Snippet 2: Bảng so sánh nâng cấp `[ENRICH]`
+### Snippet 2: Bảng so sánh nâng cấp `[ENRICH (+155 từ)]`
 | Feature / Criteria | PayPal Personal Account | PayPal Business Account | PayPal Complete Payments / Pro |
 |:---|:---|:---|:---|
 | **Primary Use Case** | Personal shopping, sending money to friends & family | Selling online, freelancers, Shopify & eCommerce merchants | High-volume enterprises needing fully customized on-site checkout |
@@ -76,7 +79,7 @@ Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viế
 | **Business Name on Statement** | Displays personal name | Displays registered business name | Displays custom brand descriptor |
 | **Shopify Integration** | Not supported / Prohibited | Fully supported natively | Supported via Advanced APIs |
 
-### Snippet 3: Khối bổ sung giải đáp thắc mắc PAA `[FILL-GAP]`
+### Snippet 3: Khối bổ sung giải đáp thắc mắc PAA `[FILL-GAP (+162 từ)]`
 > **Q: Can I have both a Personal and a Business PayPal account?**  
 > **A:** Yes. PayPal officially allows you to hold one Personal account and one Business account simultaneously, provided each account is linked to a separate email address and bank account.
 >

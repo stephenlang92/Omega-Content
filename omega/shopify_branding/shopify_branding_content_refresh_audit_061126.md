@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/how-to-build-a-powerful-shopify-brand-identity` | — | Trang live |
-| **Nguồn nội dung audit** | `outputs/omegatheme/shopify_branding/shopify_branding_source.md` | — | Bản local Markdown |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/shopify_branding/shopify_branding_source.md` | — | Bản local Markdown |
 | **Primary Keyword** | `shopify branding` | — | Từ khóa chính |
 | **Thứ hạng SERP hiện tại** | Top 7 (Google US Desktop) | Top 1–5 đối thủ (Shopify Dev, Coalition Tech, Shopify Enterprise) | Tiệm cận Top 3 (Striking Distance) |
 | **Mục tiêu tối ưu** | Đẩy Striking Distance bứt phá vào Top 3 | Top 1–3 Google US | Tối ưu on-page & cập nhật dữ liệu 2026 |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -34,46 +35,48 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bảo tồn nguyên vẹn cấu trúc gốc):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1: How to Build a Powerful Shopify Brand Identity: A Step-by-Step Guide** | `[KEEP]` | Tiêu đề hiện tại rất chuẩn SEO, bao hàm đúng Primary Keyword và search intent hướng dẫn. | Giữ nguyên tiêu đề và H1 hiện tại để bảo toàn giá trị SEO rank 7. |
-| **Introduction / Sapo** | `[UPDATE]` | Mở đầu nêu số liệu 0.1s khá ấn tượng nhưng chưa gắn kết với bối cảnh eCommerce 2026 (chi phí quảng cáo tăng cao, tầm quan trọng của brand retention). | Giữ nguyên số liệu 0.1s; bổ sung bối cảnh 2026 và định hướng giải pháp xây dựng thương hiệu toàn diện trên Shopify. |
-| **H2: What Makes a Strong Shopify Brand** | `[ENRICH]` | Các đoạn văn phân tích tốt về hỗ trợ khách hàng và giá trị thương hiệu, nhưng còn thiếu tính trực quan để người đọc hệ thống hóa. | Bổ sung thêm 01 Bảng Ma trận 4 Trụ cột Thương hiệu Shopify (Visual, Messaging, On-site Experience, Post-purchase Trust). |
+| **Introduction / Sapo** | `[UPDATE (+33 từ)]` | Mở đầu nêu số liệu 0.1s khá ấn tượng nhưng chưa gắn kết với bối cảnh eCommerce 2026 (chi phí quảng cáo tăng cao, tầm quan trọng của brand retention). | Giữ nguyên số liệu 0.1s; bổ sung bối cảnh 2026 và định hướng giải pháp xây dựng thương hiệu toàn diện trên Shopify. |
+| **H2: What Makes a Strong Shopify Brand** | `[ENRICH (+163 từ)]` | Các đoạn văn phân tích tốt về hỗ trợ khách hàng và giá trị thương hiệu, nhưng còn thiếu tính trực quan để người đọc hệ thống hóa. | Bổ sung thêm 01 Bảng Ma trận 4 Trụ cột Thương hiệu Shopify (Visual, Messaging, On-site Experience, Post-purchase Trust). |
 | **H3: Key elements of successful Shopify stores** | `[KEEP]` | Phân tích đầy đủ về tốc độ tải trang, tối ưu di động và chất lượng sản phẩm. | Giữ nguyên nội dung hiện tại. |
-| **H3: Why branding matters for online stores** | `[UPDATE]` | Các trích dẫn số liệu (46% khách trả giá cao hơn, tăng 33% doanh thu) rất hay nhưng cần bổ sung thêm bối cảnh giảm thiểu CAC trong năm 2026. | Cập nhật thêm luận điểm về tối ưu Customer Acquisition Cost (CAC) nhờ thương hiệu mạnh. |
+| **H3: Why branding matters for online stores** | `[UPDATE (+19 từ)]` | Các trích dẫn số liệu (46% khách trả giá cao hơn, tăng 33% doanh thu) rất hay nhưng cần bổ sung thêm bối cảnh giảm thiểu CAC trong năm 2026. | Cập nhật thêm luận điểm về tối ưu Customer Acquisition Cost (CAC) nhờ thương hiệu mạnh. |
 | **H2: Choose Your Brand Name and Style** | `[KEEP]` | Cấu trúc logic rất tốt, bao gồm Store Name, Colors, Fonts, Logo. | Giữ nguyên H2 và các phân mục H3 bên dưới. |
 | **H3: Pick a memorable store name** | `[KEEP]` | Đã có link nội bộ tự nhiên dẫn về công cụ Brand Name Generator của Omegatheme. | Giữ nguyên liên kết và nội dung hướng dẫn. |
-| **H3: Define your brand colors** | `[ENRICH]` | Giải thích quy tắc 60-30-10 rất chuẩn. Cần thêm ví dụ bảng màu thực tế (Hex codes) tương ứng với từng phong cách (Luxury, Eco, Tech) để merchant áp dụng ngay. | Chèn thêm bảng gợi ý Palette màu mẫu theo ngành hàng. |
+| **H3: Define your brand colors** | `[ENRICH (+92 từ)]` | Giải thích quy tắc 60-30-10 rất chuẩn. Cần thêm ví dụ bảng màu thực tế (Hex codes) tương ứng với từng phong cách (Luxury, Eco, Tech) để merchant áp dụng ngay. | Chèn thêm bảng gợi ý Palette màu mẫu theo ngành hàng. |
 | **H3: Select brand fonts** | `[KEEP]` | Hướng dẫn font serif và sans-serif, kích thước 16px tối thiểu cho body text rất chính xác. | Giữ nguyên nội dung. |
-| **H3: Create your logo** | `[ENRICH]` | Đã nêu việc tạo wordmark và icon. Cần bổ sung checklist các kích thước chuẩn cho Shopify (Header logo, Checkout logo, Favicon 32x32px). | Bổ sung checklist thông số kích thước file logo chuẩn cho Shopify. |
+| **H3: Create your logo** | `[ENRICH (+82 từ)]` | Đã nêu việc tạo wordmark và icon. Cần bổ sung checklist các kích thước chuẩn cho Shopify (Header logo, Checkout logo, Favicon 32x32px). | Bổ sung checklist thông số kích thước file logo chuẩn cho Shopify. |
 | **H2: Design Your Shopify Store Layout** | `[KEEP]` | Phân tích cấu trúc Homepage và Product Page chi tiết. | Giữ nguyên H2 hiện tại. |
 | **H3: Homepage structure** | `[KEEP]` | Logic sắp xếp trên màn hình đầu tiên (above the fold) và điều hướng rất chuẩn. | Giữ nguyên nội dung. |
 | **H3: Product page branding** | `[KEEP]` | Hướng dẫn đầy đủ thông số kỹ thuật, bảng size, review. | Giữ nguyên nội dung. |
-| **H3 Mới đề xuất (dưới H2 Layout): How to Configure Brand Assets in Shopify Admin** | `[FILL-GAP]` | Khoảng trống lớn so với các đối thủ kỹ thuật (#3 Youtube, #6 Shopify Dev): bài viết thiếu hẳn các bước cấu hình thực tế trong hệ thống Shopify. | Thêm mục H3 hướng dẫn 4 bước: vào `Settings > Brand` tải logo, chọn màu sắc, nhập slogan và ảnh bìa để tự động đồng bộ sang theme và email. |
+| **H3 Mới đề xuất (dưới H2 Layout): How to Configure Brand Assets in Shopify Admin** | `[FILL-GAP (+183 từ)]` | Khoảng trống lớn so với các đối thủ kỹ thuật (#3 Youtube, #6 Shopify Dev): bài viết thiếu hẳn các bước cấu hình thực tế trong hệ thống Shopify. | Thêm mục H3 hướng dẫn 4 bước: vào `Settings > Brand` tải logo, chọn màu sắc, nhập slogan và ảnh bìa để tự động đồng bộ sang theme và email. |
 | **H2: Create Your Brand Voice** | `[KEEP]` | Cấu trúc đầy đủ: Brand story, Product descriptions, Email templates. | Giữ nguyên H2 và các mục H3. |
 | **H3: Write your brand story** | `[KEEP]` | Hướng dẫn tập trung vào sứ mệnh và giá trị cốt lõi rất chuẩn. | Giữ nguyên nội dung. |
 | **H3: Develop product descriptions** | `[KEEP]` | Cách viết khơi gợi giác quan và lợi ích khách hàng rất hữu ích. | Giữ nguyên nội dung. |
 | **H3: Craft email templates** | `[KEEP]` | Phù hợp với tính năng tùy chỉnh email của Shopify. | Giữ nguyên nội dung. |
-| **H2: Three Successful Shopify Brand Examples In 2025** | `[UPDATE]` | Tiêu đề chứa năm "2025" lỗi thời và số liệu tài chính năm 2024 cần được làm mới. | Đổi tiêu đề H2 thành: *"Three Successful Shopify Brand Examples (2026 Updated)"*, cập nhật các số liệu tăng trưởng và công nghệ mới. |
-| **H3: 1. EcoVibe Style** | `[UPDATE]` | Cập nhật số liệu tăng trưởng mới nhất của thương hiệu bền vững. | Cập nhật thông số thị trường năm 2026. |
-| **H3: 2. Flux Athletic** | `[UPDATE]` | Cập nhật ứng dụng công nghệ AI và 3D modeling trong năm 2026. | Cập nhật số liệu và công nghệ mới. |
+| **H2: Three Successful Shopify Brand Examples In 2025** | `[UPDATE (+40 từ)]` | Tiêu đề chứa năm "2025" lỗi thời và số liệu tài chính năm 2024 cần được làm mới. | Đổi tiêu đề H2 thành: *"Three Successful Shopify Brand Examples (2026 Updated)"*, cập nhật các số liệu tăng trưởng và công nghệ mới. |
+| **H3: 1. EcoVibe Style** | `[UPDATE (+9 từ)]` | Cập nhật số liệu tăng trưởng mới nhất của thương hiệu bền vững. | Cập nhật thông số thị trường năm 2026. |
+| **H3: 2. Flux Athletic** | `[UPDATE (+5 từ)]` | Cập nhật ứng dụng công nghệ AI và 3D modeling trong năm 2026. | Cập nhật số liệu và công nghệ mới. |
 | **H3: 3. Bliss Tulle** | `[KEEP]` | Case study về đồ may thủ công và cộng đồng mạng xã hội vẫn rất sắc sảo. | Giữ nguyên nội dung. |
 | **H2: Conclusion** | `[KEEP]` | Đoạn kết ngắn gọn, súc tích. | Giữ nguyên nội dung. |
-| **H2: FAQs** | `[FILL-GAP]` | Bài hiện có 4 câu hỏi. Cần bổ sung thêm 2 câu hỏi bám sát People Also Ask trên Google US về chi phí làm thương hiệu và cách cập nhật logo trên checkout. | Giữ nguyên 4 câu cũ, chèn thêm 2 câu hỏi FAQ mới. |
+| **H2: FAQs** | `[FILL-GAP (+128 từ)]` | Bài hiện có 4 câu hỏi. Cần bổ sung thêm 2 câu hỏi bám sát People Also Ask trên Google US về chi phí làm thương hiệu và cách cập nhật logo trên checkout. | Giữ nguyên 4 câu cũ, chèn thêm 2 câu hỏi FAQ mới. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 *(Ghi chú nhãn hành động tuân thủ nghiêm ngặt 4 nhãn: `[KEEP]`, `[UPDATE]`, `[ENRICH]`, `[FILL-GAP]`; không sử dụng bất kỳ nhãn nào khác).*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để biên tập viên có thể copy/paste trực tiếp:
 
-### Snippet 1: Cập nhật bối cảnh 2026 tại phần Mở đầu (Sapo) `[UPDATE]`
+### Snippet 1: Cập nhật bối cảnh 2026 tại phần Mở đầu (Sapo) `[UPDATE (+33 từ)]`
 > **Đoạn cũ:**
 > *"Standing out in the crowded e-commerce space isn’t easy. The right branding strategy will help your Shopify store build trust and recognition that turns browsers into loyal buyers.*
 > 
@@ -84,7 +87,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để biên tập viên có th�
 > 
 > *Whether you are launching your first boutique or scaling an established DTC powerhouse, this comprehensive 2026 guide walks you step-by-step through building a memorable brand identity on Shopify, from visual design and brand voice to tactical admin configuration."*
 
-### Snippet 2: Bảng Ma trận 4 Trụ cột Thương hiệu tại mục "What Makes a Strong Shopify Brand" `[ENRICH]`
+### Snippet 2: Bảng Ma trận 4 Trụ cột Thương hiệu tại mục "What Makes a Strong Shopify Brand" `[ENRICH (+162 từ)]`
 > Chèn bảng sau vào cuối phần mở đầu của H2:
 >
 > | Trụ cột cốt lõi | Yếu tố cấu thành | Mục tiêu chuyển đổi | Điểm chạm trên Shopify |
@@ -94,7 +97,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để biên tập viên có th�
 > | **3. Store Experience** | Tốc độ tải (<3s), Điều hướng trực quan, Mobile UI | Giảm thiểu tỷ lệ bỏ trang & tăng AOV | Homepage, Collection Filters, One-page Checkout |
 > | **4. Trust & Post-Purchase** | Đánh giá xác thực, Chính sách minh bạch, Cập nhật vận đơn | Tăng tỷ lệ khách hàng quay lại (Retention) | Reviews Widget, Order Tracking, Customer Support |
 
-### Snippet 3: Hướng dẫn cấu hình kỹ thuật Brand Assets trong Shopify Admin `[FILL-GAP]`
+### Snippet 3: Hướng dẫn cấu hình kỹ thuật Brand Assets trong Shopify Admin `[FILL-GAP (+209 từ)]`
 > Chèn mục H3 mới này vào ngay dưới phần **Design Your Shopify Store Layout**:
 >
 > ```markdown
@@ -113,7 +116,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để biên tập viên có th�
 > Once saved, any modern Online Store 2.0 theme will automatically reference these global assets, saving you hours of manual formatting across different pages.
 > ```
 
-### Snippet 4: Cập nhật tiêu đề và nội dung ví dụ thực tế `[UPDATE]`
+### Snippet 4: Cập nhật tiêu đề và nội dung ví dụ thực tế `[UPDATE (+69 từ)]`
 > **Đoạn cũ:**
 > *"## Three Successful Shopify Brand Examples In 2025"*
 > 
@@ -125,7 +128,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để biên tập viên có th�
 > - *Flux Athletic: Combining athletic wear with AI-guided personalization and interactive virtual sizing.*
 > - *Bliss Tulle: Mastering the bridal and celebration niche through handcrafted customization and organic social proof."*
 
-### Snippet 5: Bổ sung câu hỏi thường gặp bám sát Google US People Also Ask `[FILL-GAP]`
+### Snippet 5: Bổ sung câu hỏi thường gặp bám sát Google US People Also Ask `[FILL-GAP (+147 từ)]`
 > Bổ sung thêm 2 câu hỏi sau vào khối FAQ hiện có:
 >
 > > **Q5. How much does it cost to build a professional brand on Shopify?**  

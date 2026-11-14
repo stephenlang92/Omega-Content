@@ -9,12 +9,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/3-benefits-hiding-price-for-b2b-b2c-business-you-should-know` | — | Giữ nguyên slug |
-| **Nguồn nội dung audit** | `outputs/omegatheme/hidden_product_images_pricing/hidden_product_images_pricing_source.md` | — | File markdown local (xuất bản 2021) |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/hidden_product_images_pricing/hidden_product_images_pricing_source.md` | — | File markdown local (xuất bản 2021) |
 | **Primary Keyword** | `hidden product images & pricing` | — | Google US Desktop |
 | **Thứ hạng SERP hiện tại** | Ngoài Top 50 / Tụt dốc nghiêm trọng | Top 1 (Lensapp), Top 3 (BusinessBloomer) | Cần tái sinh nội dung để vào trang 1 |
 | **Mục tiêu tối ưu** | Cứu vãn Declining Content & bứt phá Top 3–5 | Top đối thủ: ~1.500 từ | Thiếu hụt nghiêm trọng về độ sâu |
@@ -23,7 +24,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -40,26 +41,28 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
-| **Title & H1** | `[UPDATE]` | Tiêu đề hiện tại: `3 Benefits of Hiding Price for B2B & B2C Business You Should Know` không chứa từ khóa `images` và thiếu mốc năm 2026. | Giữ nguyên URL slug, cập nhật Title/H1 thành: `Hidden Product Images & Pricing: Top Benefits & How to Implement for B2B & B2C in 2026`. |
-| **Introduction / Sapo** | `[UPDATE]` | Sapo cũ (2021) cụt lủn, chỉ hỏi đi hỏi lại câu hỏi có nên ẩn giá hay không. | Viết lại Sapo: Đặt vấn đề chiến lược quản trị catalog trực tuyến, tại sao các doanh nghiệp B2B và cao cấp cần kiểm soát khả năng hiển thị của cả Giá và Hình ảnh sản phẩm. |
+| **Title & H1** | `[UPDATE (+4 từ)]` | Tiêu đề hiện tại: `3 Benefits of Hiding Price for B2B & B2C Business You Should Know` không chứa từ khóa `images` và thiếu mốc năm 2026. | Giữ nguyên URL slug, cập nhật Title/H1 thành: `Hidden Product Images & Pricing: Top Benefits & How to Implement for B2B & B2C in 2026`. |
+| **Introduction / Sapo** | `[UPDATE (+66 từ)]` | Sapo cũ (2021) cụt lủn, chỉ hỏi đi hỏi lại câu hỏi có nên ẩn giá hay không. | Viết lại Sapo: Đặt vấn đề chiến lược quản trị catalog trực tuyến, tại sao các doanh nghiệp B2B và cao cấp cần kiểm soát khả năng hiển thị của cả Giá và Hình ảnh sản phẩm. |
 | **H2: What is Hide Price?** | `[KEEP]` | Định nghĩa khái niệm ẩn giá và chuyển hướng sang báo giá (Request a Quote) cơ bản. | Giữ nguyên định nghĩa gốc, bổ sung thêm ví dụ thực tế ngành hàng. |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Người dùng tìm kiếm cả khía cạnh ẩn ảnh sản phẩm. | Thêm **H3: Beyond Pricing: Why Merchants Also Hide Product Images** (xử lý biến thể hết hàng, ảnh phác thảo chưa hoàn thiện, catalog nội bộ bán sỉ). |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Nhu cầu tuân thủ MAP pricing rất phổ biến ở thị trường US. | Thêm **H3: What is MAP Pricing and Why Does It Force Retailers to Hide Prices?** |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+126 từ)]` | Người dùng tìm kiếm cả khía cạnh ẩn ảnh sản phẩm. | Thêm **H3: Beyond Pricing: Why Merchants Also Hide Product Images** (xử lý biến thể hết hàng, ảnh phác thảo chưa hoàn thiện, catalog nội bộ bán sỉ). |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+89 từ)]` | Nhu cầu tuân thủ MAP pricing rất phổ biến ở thị trường US. | Thêm **H3: What is MAP Pricing and Why Does It Force Retailers to Hide Prices?** |
 | **H2: Is it important to use Hide Price for your business?** | `[KEEP]` | Phân tích tâm lý người mua và 3 lợi ích cốt lõi (tò mò, tránh đối thủ cào giá, thu thập lead). | Giữ nguyên cấu trúc 3 lợi ích, biên tập lại câu văn cho chuyên nghiệp hơn. |
-| *-- Bổ sung dưới H2 trên* | `[ENRICH]` | Cần chỉ rõ rủi ro nếu áp dụng sai đối tượng. | Thêm **H3: When Should You NOT Hide Prices? (B2C Retail Pitfalls)** với bảng so sánh: Khi nào nên Ẩn vs. Khi nào nên Hiển thị công khai. |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Thiếu phần hướng dẫn các bước thực hiện. | Thêm **H3: How to Implement Hidden Product Images and Pricing on Shopify** (So sánh phương pháp Manual CSS/Liquid Code vs. No-Code với App QuoteSnap). |
-| *-- Cập nhật dòng 74-83* | `[UPDATE]` | Tên app cũ và thông tin tính năng năm 2021. | Cập nhật tên app chuẩn: **QuoteSnap - Request a Quote by Omegatheme**, liệt kê các tính năng hiện đại (Customer Rules, Login to view price, Hide Add to cart). |
-| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Chưa có khối FAQ chuẩn SEO. | Thêm H2 FAQ với 4 câu hỏi thực chiến về SEO và quản trị catalog. |
+| *-- Bổ sung dưới H2 trên* | `[ENRICH (+168 từ)]` | Cần chỉ rõ rủi ro nếu áp dụng sai đối tượng. | Thêm **H3: When Should You NOT Hide Prices? (B2C Retail Pitfalls)** với bảng so sánh: Khi nào nên Ẩn vs. Khi nào nên Hiển thị công khai. |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+336 từ)]` | Thiếu phần hướng dẫn các bước thực hiện. | Thêm **H3: How to Implement Hidden Product Images and Pricing on Shopify** (So sánh phương pháp Manual CSS/Liquid Code vs. No-Code với App QuoteSnap). |
+| *-- Cập nhật dòng 74-83* | `[UPDATE (+0 từ)]` | Tên app cũ và thông tin tính năng năm 2021. | Cập nhật tên app chuẩn: **QuoteSnap - Request a Quote by Omegatheme**, liệt kê các tính năng hiện đại (Customer Rules, Login to view price, Hide Add to cart). |
+| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+201 từ)]` | Chưa có khối FAQ chuẩn SEO. | Thêm H2 FAQ với 4 câu hỏi thực chiến về SEO và quản trị catalog. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
-### Snippet 1: Viết lại Sapo mở đầu toàn diện `[UPDATE]`
+### Snippet 1: Viết lại Sapo mở đầu toàn diện `[UPDATE (+66 từ)]`
 > **Đoạn cũ:**
 > *"Are you considering using Hide Price for your business? Is it good for your business or does it have side effects? Let’s take a brief about Hide Price and understand the true benefits Hide Price can do to your business."*
 >
@@ -72,7 +75,7 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-### Snippet 2: Khối kiến thức về Ẩn ảnh sản phẩm và MAP Compliance `[FILL-GAP]`
+### Snippet 2: Khối kiến thức về Ẩn ảnh sản phẩm và MAP Compliance `[FILL-GAP (+238 từ)]`
 Chèn vào vị trí H3 mới bên dưới **## What is Hide Price?**:
 
 ### **Beyond Pricing: Why Merchants Also Hide Product Images**
@@ -88,7 +91,7 @@ While hiding price tags protects profit margins, selectively hiding product imag
 
 ---
 
-### Snippet 3: Bảng so sánh chiến lược: Khi nào nên Ẩn vs Hiển thị `[ENRICH]`
+### Snippet 3: Bảng so sánh chiến lược: Khi nào nên Ẩn vs Hiển thị `[ENRICH (+178 từ)]`
 Chèn vào mục **## Is it important to use Hide Price for your business?**:
 
 ### **When Should You NOT Hide Prices? (Strategic Decision Matrix)**
@@ -104,7 +107,7 @@ Hiding prices is a powerful B2B lever, but using it inappropriately on impulse r
 
 ---
 
-### Snippet 4: Hướng dẫn kỹ thuật triển khai trên Shopify `[FILL-GAP]`
+### Snippet 4: Hướng dẫn kỹ thuật triển khai trên Shopify `[FILL-GAP (+202 từ)]`
 
 ### **How to Implement Hidden Product Images and Pricing on Shopify**
 
@@ -128,7 +131,7 @@ For growing businesses and wholesale stores, [**QuoteSnap - Request a Quote**](h
 
 ---
 
-### Snippet 5: Khối FAQ chuẩn SEO `[FILL-GAP]`
+### Snippet 5: Khối FAQ chuẩn SEO `[FILL-GAP (+257 từ)]`
 
 ## **Frequently Asked Questions (FAQs)**
 

@@ -214,8 +214,6 @@ Looking for even more inspiration? Check out the full list of [perfume business 
 
 ### Makeup Store Names
 
-**![](https://strapi.omegatheme.com/uploads/shopify_store_name_ideas_2_c57d22efa4.jpg)**
-
 1. VelvetGlam Cosmetics
 2. LushPalette
 3. BoldStrokes Beauty
@@ -290,29 +288,7 @@ Looking for even more inspiration? Check out the full list of [perfume business 
 14. Nature’s Cycle
 15. RePurpose
 
-## Business Name Generator by Avada Commerce Addresses Your Naming Challenges
-
-![](https://strapi.omegatheme.com/uploads/shopify_store_name_ideas_3_d2c7315dba.png)
-
-### Too Many Choices?
-
-I know the feeling. That’s where this tool shines. The AI-powered name generator by [Avada Commerce](https://avada.io/tools/business-name-generator/) simplifies the process by curating tailored business name ideas based on your input. Examples include:
-
-- Creative business name ideas like “*Amber Glow Co*.” or “*Serene Scents*.”
-- Industry-specific names for nail salons, clothing lines, or food ventures.
-
-### Worried About Bad Branding?
-
-Don’t be. With this unique business name creator, each suggestion is crafted to ensure it aligns with modern branding trends, making it:
-
-- Memorable: Names like “*Luxe Threads*” stick in people’s minds.
-- Relevant: Options such as “*Eco Bloom Essentials*” reflect core business values.
-
-### Limited Time to Brainstorm?
-
-That’s okay. The free business name generator by Avada Commerce gives you instant results. You’ll have a list of options before you even finish your coffee.
-
-### The 4-Step Availability Checklist Before Finalizing Your Name
+## The 4-Step Availability Checklist Before Finalizing Your Name
 
 Once you find a name you love, run it through this essential 4-step verification filter before spending money on branding:
 

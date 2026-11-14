@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/how-to-optimize-google-shopping-feed-with-unit-price-measurement` | — | Trang live |
-| **Nguồn nội dung audit** | `outputs/omegatheme/unit_pricing_measure/unit_pricing_measure_source.md` | — | Bản local Markdown (xuất bản từ tháng 11/2021) |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/unit_pricing_measure/unit_pricing_measure_source.md` | — | Bản local Markdown (xuất bản từ tháng 11/2021) |
 | **Primary Keyword** | `unit_pricing_measure` | — | Thuộc tính kỹ thuật Google Merchant Center |
 | **Thứ hạng SERP hiện tại** | Ngoài Top 8 (đối thủ Google Support, FeedArmy, GoDataFeed đang chiếm lĩnh) | Top 1–5 Google US | Cần refresh toàn diện để lấy lại thứ hạng |
 | **Mục tiêu tối ưu** | Cứu vãn bài viết suy giảm & lọt vào Top 3 Google US | Top 1–3 Google US | Tối ưu hóa chiều sâu kỹ thuật |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -35,31 +36,33 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bảo tồn nguyên vẹn cấu trúc gốc):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1: How To Optimize Your Google Shopping Feed With Unit Price Measurement** | `[KEEP]` | Tiêu đề tốt, chứa đầy đủ từ khóa và search intent tối ưu feed. | Giữ nguyên H1 và URL slug gốc. |
-| **Introduction / Sapo** | `[UPDATE]` | Thông tin giới hạn *"chỉ áp dụng cho store tại Đức và Pháp"* đã lỗi thời, gây hoang mang cho merchant các thị trường khác. | Viết lại Sapo: làm rõ vai trò của `[unit_pricing_measure]` trong việc cải thiện CTR quảng cáo, cập nhật quy định bắt buộc toàn EU/UK và tính khả dụng toàn cầu. |
-| **H2: What is Unit price measurement?** | `[ENRICH]` | Khái niệm giải thích đúng bản chất nhưng ví dụ lụa satin 20m còn khá sơ sài, thiếu bảng minh họa phép tính. | Bổ sung 01 Bảng ví dụ thực tế đa ngành hàng (Mỹ phẩm, Nước giải khát, Sàn gỗ, Cà phê hạt) minh họa rõ ràng công thức tính. |
-| **H3: Format** | `[UPDATE]` | Bảng đơn vị hỗ trợ (Supported units) bị lỗi format gom cụm một dòng; thiếu chỉ dẫn về dấu phân cách thập phân chuẩn của Google. | Sửa lại Bảng đơn vị đo lường thành bảng 3 cột rõ ràng (Nhóm đơn vị, Đơn vị hợp lệ theo chuẩn GMC, Ví dụ chuẩn). Bổ sung lưu ý dấu chấm thập phân `.`. |
-| **H3: Is it required or optional?** | `[UPDATE]` | Danh sách các quốc gia bắt buộc cần bổ sung cập nhật chỉ thị EU Price Indication Directive và quy định UK Competition and Markets Authority (CMA). | Cập nhật căn cứ pháp lý tại EU & UK; liệt kê rõ ràng các danh mục ngành hàng được hưởng lợi nhiều nhất về CTR khi hiển thị đơn giá. |
-| **H3 Mới đề xuất (dưới H2 What is...): How to Fix Common Disapprovals (Invalid Real Number & Formatting Errors)** | `[FILL-GAP]` | Khoảng trống lớn so với các đối thủ kỹ thuật (#2 FeedArmy, #4 GoDataFeed): người dùng tìm kiếm từ khóa này phần lớn do gặp lỗi từ chối trong Google Merchant Center. | Bổ sung mục H3 phân tích 3 lỗi phổ biến nhất: 1) Lỗi "Invalid real number" (nhầm dấu `,` và `.`), 2) Lỗi đơn vị không được hỗ trợ, 3) Lỗi thiếu `unit_pricing_base_measure` khi đã khai báo measure. |
-| **H2: How to set up the unit price with Google Shopping Feed by Omega?** | `[ENRICH]` | Các bước hướng dẫn rất chi tiết nhưng giao diện hướng dẫn cần được chú thích rõ ràng theo bản cập nhật mới nhất của ứng dụng Omega. | Bổ sung bảng checklist kiểm tra dữ liệu trước khi bấm nút "Feed Now" để đảm bảo 100% sản phẩm được duyệt trên GMC. |
-| **Section: Additional guidelines** | `[ENRICH]` | Cảnh báo về hệ đo lường UK Metric vs US Imperial rất giá trị. Cần trình bày thành một Callout Box nổi bật giúp người bán xuyên biên giới (Cross-border) không bị nhầm lẫn. | Định dạng lại thành Callout box chuyên sâu về khác biệt giữa US Fluid Ounce vs UK Fluid Ounce và Gallon. |
-| **H2 Mới đề xuất: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài viết chưa có khối FAQ. | Bổ sung 4 câu hỏi thường gặp bám sát các thắc mắc trên diễn đàn Google Ads Community và Reddit. |
+| **Introduction / Sapo** | `[UPDATE (+86 từ)]` | Thông tin giới hạn *"chỉ áp dụng cho store tại Đức và Pháp"* đã lỗi thời, gây hoang mang cho merchant các thị trường khác. | Viết lại Sapo: làm rõ vai trò của `[unit_pricing_measure]` trong việc cải thiện CTR quảng cáo, cập nhật quy định bắt buộc toàn EU/UK và tính khả dụng toàn cầu. |
+| **H2: What is Unit price measurement?** | `[ENRICH (+93 từ)]` | Khái niệm giải thích đúng bản chất nhưng ví dụ lụa satin 20m còn khá sơ sài, thiếu bảng minh họa phép tính. | Bổ sung 01 Bảng ví dụ thực tế đa ngành hàng (Mỹ phẩm, Nước giải khát, Sàn gỗ, Cà phê hạt) minh họa rõ ràng công thức tính. |
+| **H3: Format** | `[UPDATE (+98 từ)]` | Bảng đơn vị hỗ trợ (Supported units) bị lỗi format gom cụm một dòng; thiếu chỉ dẫn về dấu phân cách thập phân chuẩn của Google. | Sửa lại Bảng đơn vị đo lường thành bảng 3 cột rõ ràng (Nhóm đơn vị, Đơn vị hợp lệ theo chuẩn GMC, Ví dụ chuẩn). Bổ sung lưu ý dấu chấm thập phân `.`. |
+| **H3: Is it required or optional?** | `[UPDATE (+46 từ)]` | Danh sách các quốc gia bắt buộc cần bổ sung cập nhật chỉ thị EU Price Indication Directive và quy định UK Competition and Markets Authority (CMA). | Cập nhật căn cứ pháp lý tại EU & UK; liệt kê rõ ràng các danh mục ngành hàng được hưởng lợi nhiều nhất về CTR khi hiển thị đơn giá. |
+| **H3 Mới đề xuất (dưới H2 What is...): How to Fix Common Disapprovals (Invalid Real Number & Formatting Errors)** | `[FILL-GAP (+188 từ)]` | Khoảng trống lớn so với các đối thủ kỹ thuật (#2 FeedArmy, #4 GoDataFeed): người dùng tìm kiếm từ khóa này phần lớn do gặp lỗi từ chối trong Google Merchant Center. | Bổ sung mục H3 phân tích 3 lỗi phổ biến nhất: 1) Lỗi "Invalid real number" (nhầm dấu `,` và `.`), 2) Lỗi đơn vị không được hỗ trợ, 3) Lỗi thiếu `unit_pricing_base_measure` khi đã khai báo measure. |
+| **H2: How to set up the unit price with Google Shopping Feed by Omega?** | `[ENRICH (+117 từ)]` | Các bước hướng dẫn rất chi tiết nhưng giao diện hướng dẫn cần được chú thích rõ ràng theo bản cập nhật mới nhất của ứng dụng Omega. | Bổ sung bảng checklist kiểm tra dữ liệu trước khi bấm nút "Feed Now" để đảm bảo 100% sản phẩm được duyệt trên GMC. |
+| **Section: Additional guidelines** | `[ENRICH (+19 từ)]` | Cảnh báo về hệ đo lường UK Metric vs US Imperial rất giá trị. Cần trình bày thành một Callout Box nổi bật giúp người bán xuyên biên giới (Cross-border) không bị nhầm lẫn. | Định dạng lại thành Callout box chuyên sâu về khác biệt giữa US Fluid Ounce vs UK Fluid Ounce và Gallon. |
+| **H2 Mới đề xuất: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+232 từ)]` | Bài viết chưa có khối FAQ. | Bổ sung 4 câu hỏi thường gặp bám sát các thắc mắc trên diễn đàn Google Ads Community và Reddit. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 *(Ghi chú: Toàn bộ bảng hành động chỉ sử dụng đúng 4 nhãn chuẩn mực: `[KEEP]`, `[UPDATE]`, `[ENRICH]`, `[FILL-GAP]`; tuyệt đối không dùng nhãn nào khác).*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp:
 
-### Snippet 1: Viết lại Sapo loại bỏ thông tin lỗi thời `[UPDATE]`
+### Snippet 1: Viết lại Sapo loại bỏ thông tin lỗi thời `[UPDATE (+52 từ)]`
 > **Đoạn cũ:**
 > *"The product price and currency are required attributes for all products. Most of our customers said that they were impressed by the products that have clear information about unit price on the shopping tab. From Shopify’s statement, the unit prices are available only to stores located in Germany or France. Does that mean only stores from Germany and France can feed the unit price field to their Google Merchant account? Not actually. But, how? Let’s dive into this!"*
 >
@@ -70,7 +73,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > In this updated 2026 guide, we'll explain how `[unit_pricing_measure]` works, the exact formatting rules required by Google, how to resolve common disapproval errors, and how to configure it effortlessly across your Shopify catalog."*
 
-### Snippet 2: Bảng phân loại đơn vị đo lường chuẩn mực (Thay thế bảng vỡ layout) `[UPDATE]`
+### Snippet 2: Bảng phân loại đơn vị đo lường chuẩn mực (Thay thế bảng vỡ layout) `[UPDATE (+197 từ)]`
 > Thay thế bảng tại mục **Format** bằng bảng Markdown chuẩn xác sau:
 >
 > | Phân nhóm đo lường | Đơn vị hợp lệ (Accepted Units) | Ví dụ định dạng chuẩn | Lưu ý quan trọng |
@@ -82,7 +85,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > | **Area (Diện tích)** | `sqft`, `sqm` | `25sqm`, `150sqft` | Phổ biến cho sàn gỗ, thảm, gạch men, giấy dán tường. |
 > | **Per Unit (Số lượng)** | `ct` | `100ct`, `24ct` | Sử dụng cho viên uống, gói trà túi lọc, khẩu trang, viên tẩy rửa. |
 
-### Snippet 3: Bảng ví dụ tính toán công thức Unit Price `[ENRICH]`
+### Snippet 3: Bảng ví dụ tính toán công thức Unit Price `[ENRICH (+107 từ)]`
 > Chèn vào dưới đoạn giải thích khái niệm tại H2:
 >
 > | Tên sản phẩm | Giá bán (`price`) | Khối lượng gói (`unit_pricing_measure`) | Đơn vị gốc (`unit_pricing_base_measure`) | Hiển thị thực tế trên Google Shopping (`unit_price`) |
@@ -92,7 +95,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > | Oak Laminate Flooring (Box) | $45.00 | `25sqft` | `1sqft` | **$1.80 / 1sqft** |
 > | Whole Bean Coffee (2 lb Bag) | $18.00 | `2lb` | `1lb` | **$9.00 / 1lb** |
 
-### Snippet 4: Hướng dẫn xử lý 3 lỗi từ chối feed phổ biến nhất `[FILL-GAP]`
+### Snippet 4: Hướng dẫn xử lý 3 lỗi từ chối feed phổ biến nhất `[FILL-GAP (+215 từ)]`
 > Chèn mục H3 mới này vào cuối mục **What is Unit price measurement?**:
 >
 > ```markdown
@@ -113,7 +116,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 >    - **The Fix:** Restrict your units strictly to Google's standard enum list: use `floz` (not `fl. oz.`), `ct` (for pieces/capsules), `l` (for liters), and `sqm` (for square meters).
 > ```
 
-### Snippet 5: Khối FAQ giải đáp thắc mắc chuyên sâu `[FILL-GAP]`
+### Snippet 5: Khối FAQ giải đáp thắc mắc chuyên sâu `[FILL-GAP (+252 từ)]`
 > Bổ sung khối H2 FAQ vào cuối bài viết:
 >
 > > **Q1: Can I submit unit pricing measure for products sold in bundles or multi-packs?**  

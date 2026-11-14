@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/meta-product-feed-guide` | — | Trang live |
-| **Nguồn nội dung audit** | `outputs/omegatheme/meta_product_feed/meta_product_feed_source.md` | — | Bản local Markdown |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/meta_product_feed/meta_product_feed_source.md` | — | Bản local Markdown |
 | **Primary Keyword** | `meta product feed` | — | Từ khóa thương mại / kỹ thuật cao |
 | **Thứ hạng SERP hiện tại** | Striking Distance (ngoài Top 5 trên SERP US) | Top 1–5 (Meta Help, Marpipe, AdNabu) | Tiềm năng bứt phá mạnh mẽ |
 | **Mục tiêu tối ưu** | Đưa bài viết bứt phá vào Top 1–3 Google US | Top 1–3 Google US | Bổ sung phần gỡ lỗi & FAQ chuyên sâu |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -35,42 +36,44 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bảo tồn nguyên vẹn cấu trúc gốc):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1: The Complete Meta Product Feed Guide for E-commerce Sellers** | `[KEEP]` | Tiêu đề toàn diện, bao hàm đúng Primary Keyword và đối tượng mục tiêu. | Giữ nguyên tiêu đề và URL slug gốc. |
-| **Introduction / Sapo** | `[UPDATE]` | Bảng tóm tắt nội dung ở đầu bài còn đơn điệu; chưa nêu bật bối cảnh Meta AI và Advantage+ Shopping trong năm 2026. | Viết lại Sapo: nêu rõ vai trò của Feed như "xương sống dữ liệu" cho thuật toán máy học Meta Advantage+ năm 2026. Định dạng lại bảng nội dung rõ ràng. |
-| **H2: What is Meta (Facebook) Product Feed?** | `[UPDATE]` | Bảng dữ liệu CSV mẫu ở dòng 39–43 bị lỗi gom dòng, khó nhìn. | Sửa lại Bảng mẫu CSV chuẩn Markdown, phân định rõ ràng các cột dữ liệu. |
+| **Introduction / Sapo** | `[UPDATE (+49 từ)]` | Bảng tóm tắt nội dung ở đầu bài còn đơn điệu; chưa nêu bật bối cảnh Meta AI và Advantage+ Shopping trong năm 2026. | Viết lại Sapo: nêu rõ vai trò của Feed như "xương sống dữ liệu" cho thuật toán máy học Meta Advantage+ năm 2026. Định dạng lại bảng nội dung rõ ràng. |
+| **H2: What is Meta (Facebook) Product Feed?** | `[UPDATE (+55 từ)]` | Bảng dữ liệu CSV mẫu ở dòng 39–43 bị lỗi gom dòng, khó nhìn. | Sửa lại Bảng mẫu CSV chuẩn Markdown, phân định rõ ràng các cột dữ liệu. |
 | **H2: Why Online Sellers Need Facebook Product Feeds** | `[KEEP]` | Cấu trúc H2 và các phân mục H3 rất logic. | Giữ nguyên H2 hiện tại. |
-| **H3: Seamless Automation and Scalability** | `[UPDATE]` | Đang dùng thuật ngữ DPA truyền thống. | Bổ sung và cập nhật trọng tâm sang Advantage+ Catalog Ads (ACA). |
+| **H3: Seamless Automation and Scalability** | `[UPDATE (+6 từ)]` | Đang dùng thuật ngữ DPA truyền thống. | Bổ sung và cập nhật trọng tâm sang Advantage+ Catalog Ads (ACA). |
 | **H3: Unlocking Social Commerce Features** | `[KEEP]` | Phân tích tốt về Instagram Shop và tính năng Product Tagging. | Giữ nguyên nội dung. |
-| **H3: Advanced Targeting with Custom Labels** | `[ENRICH]` | Giải thích khái niệm tốt nhưng chưa có ví dụ thực chiến về cách cấu hình cụ thể từng nhãn từ 0 đến 4. | Bổ sung 01 Bảng Ma trận chiến lược phân bổ 5 Custom Labels (Biên lợi nhuận, Sản phẩm bán chạy, Mùa vụ, Tồn kho, Phân khúc giá). |
+| **H3: Advanced Targeting with Custom Labels** | `[ENRICH (+143 từ)]` | Giải thích khái niệm tốt nhưng chưa có ví dụ thực chiến về cách cấu hình cụ thể từng nhãn từ 0 đến 4. | Bổ sung 01 Bảng Ma trận chiến lược phân bổ 5 Custom Labels (Biên lợi nhuận, Sản phẩm bán chạy, Mùa vụ, Tồn kho, Phân khúc giá). |
 | **H2: How Meta Product Feed Works** | `[KEEP]` | Quy trình 4 bước diễn giải rất chuẩn xác và mạch lạc. | Giữ nguyên nội dung và sơ đồ quy trình. |
 | **H2: Meta Product Feed Requirements** | `[KEEP]` | Phân loại rõ ràng giữa định dạng, trường bắt buộc, trường tùy chọn và thông số ảnh. | Giữ nguyên cấu trúc H2 và 4 H3 con. |
-| **H3: 1. Supported File Formats** | `[ENRICH]` | Cần bổ sung thêm thông số giới hạn kích thước file của Meta (100MB cho file upload thủ công, tối đa hàng triệu SKUs qua scheduled URL). | Bổ sung thông số giới hạn kỹ thuật chính thức từ Meta. |
-| **H3: 2. Mandatory Data Fields (Required)** | `[UPDATE]` | Danh sách 9 trường bắt buộc rất chuẩn. Cần làm rõ quy chuẩn định dạng tiền tệ ISO 4217 (ví dụ: `29.99 USD`). | Giữ nguyên danh sách, cập nhật ví dụ định dạng chuẩn mực. |
-| **H3: 3. Recommended Attributes for Better Ad Performance** | `[ENRICH]` | Rất quan trọng. Cần nhấn mạnh thêm vai trò của `sale_price_effective_date` để hiển thị giá ưu đãi đúng hạn và `additional_image_link`. | Bổ sung thêm 2 thuộc tính `sale_price_effective_date` và `additional_image_link`. |
+| **H3: 1. Supported File Formats** | `[ENRICH (+23 từ)]` | Cần bổ sung thêm thông số giới hạn kích thước file của Meta (100MB cho file upload thủ công, tối đa hàng triệu SKUs qua scheduled URL). | Bổ sung thông số giới hạn kỹ thuật chính thức từ Meta. |
+| **H3: 2. Mandatory Data Fields (Required)** | `[UPDATE (+7 từ)]` | Danh sách 9 trường bắt buộc rất chuẩn. Cần làm rõ quy chuẩn định dạng tiền tệ ISO 4217 (ví dụ: `29.99 USD`). | Giữ nguyên danh sách, cập nhật ví dụ định dạng chuẩn mực. |
+| **H3: 3. Recommended Attributes for Better Ad Performance** | `[ENRICH (+42 từ)]` | Rất quan trọng. Cần nhấn mạnh thêm vai trò của `sale_price_effective_date` để hiển thị giá ưu đãi đúng hạn và `additional_image_link`. | Bổ sung thêm 2 thuộc tính `sale_price_effective_date` và `additional_image_link`. |
 | **H3: 4. Technical Requirements for Images** | `[KEEP]` | Hướng dẫn 1024x1024px, nền trắng vs ảnh lifestyle rất chuẩn. | Giữ nguyên nội dung. |
 | **H2: How to Create a Meta Product Feed** | `[KEEP]` | Bao quát 3 phương pháp: Bảng tính thủ công, Công cụ tự động và Phần mềm quản trị feed. | Giữ nguyên nội dung H2 và các H3 con. |
 | **H2: How to Add Items to Your Facebook Product Catalog** | `[KEEP]` | Đầy đủ 4 hình thức tải dữ liệu vào Commerce Manager. | Giữ nguyên H2 và các H3 con. |
 | **H2: Feed Optimization Tips for Better Performance** | `[KEEP]` | Các đề mục tối ưu tiêu đề, metadata, chất lượng ảnh và tần suất đồng bộ rất hay. | Giữ nguyên H2 và 5 H3 con hiện có. |
-| **H3 Mới đề xuất (dưới H2 Tips): How to Fix Common Meta Catalog Errors & Disapprovals** | `[FILL-GAP]` | Khoảng trống lớn so với các đối thủ Top (#3 Marpipe, #5 AdNabu): thiếu hướng dẫn gỡ lỗi từ chối sản phẩm trong Commerce Manager. | Thêm mục H3 hướng dẫn xử lý 4 lỗi: 1) Missing Availability, 2) Price Format Mismatch, 3) Image 404 / Cannot Download, 4) Duplicate ID. |
+| **H3 Mới đề xuất (dưới H2 Tips): How to Fix Common Meta Catalog Errors & Disapprovals** | `[FILL-GAP (+227 từ)]` | Khoảng trống lớn so với các đối thủ Top (#3 Marpipe, #5 AdNabu): thiếu hướng dẫn gỡ lỗi từ chối sản phẩm trong Commerce Manager. | Thêm mục H3 hướng dẫn xử lý 4 lỗi: 1) Missing Availability, 2) Price Format Mismatch, 3) Image 404 / Cannot Download, 4) Duplicate ID. |
 | **H2: Automate Your Facebook Product Feed with Omega Feeds** | `[KEEP]` | Giới thiệu ứng dụng Omega Feeds giúp tự động hóa đồng bộ và quản lý nhiều feed trực tiếp từ Shopify. | Giữ nguyên nội dung giới thiệu giải pháp. |
-| **H2 Mới đề xuất: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài viết chưa có khối FAQ. | Bổ sung khối H2 FAQ gồm 4 câu hỏi thường gặp bám sát People Also Ask trên Google US. |
-| **H2: Conclusion** | `[UPDATE]` | Đoạn kết luận hiện đang để định dạng text in đậm chưa có thẻ H2 độc lập. | Định dạng thành đề mục H2: *"Conclusion"* chuẩn SEO. |
+| **H2 Mới đề xuất: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+246 từ)]` | Bài viết chưa có khối FAQ. | Bổ sung khối H2 FAQ gồm 4 câu hỏi thường gặp bám sát People Also Ask trên Google US. |
+| **H2: Conclusion** | `[UPDATE (+0 từ)]` | Đoạn kết luận hiện đang để định dạng text in đậm chưa có thẻ H2 độc lập. | Định dạng thành đề mục H2: *"Conclusion"* chuẩn SEO. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 *(Ghi chú: Toàn bộ bảng hành động tuân thủ nghiêm ngặt 4 nhãn: `[KEEP]`, `[UPDATE]`, `[ENRICH]`, `[FILL-GAP]`; không sử dụng bất kỳ nhãn nào khác).*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp:
 
-### Snippet 1: Viết lại phần Mở đầu (Sapo) nâng cấp bối cảnh 2026 `[UPDATE]`
+### Snippet 1: Viết lại phần Mở đầu (Sapo) nâng cấp bối cảnh 2026 `[UPDATE (+49 từ)]`
 > **Đoạn cũ:**
 > *"In Meta Commerce Manager, products are managed inside a catalog, which acts as the central database for all product information used across Facebook and Instagram. A product feed (data file) is simply one way to supply product data to that catalog.  
 > If your feed is outdated, incomplete, or missing required attributes, your products may not even be approved or eligible to run ads. Even when the data is technically valid, poorly optimized fields such as titles, metadata, or product labels can still hurt performance and make your ads struggle to compete."*
@@ -82,7 +85,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > In this complete 2026 guide, you will master everything from foundational data specifications and catalog setup to advanced custom label segmentation and troubleshooting common feed disapprovals."*
 
-### Snippet 2: Sửa lại Bảng định dạng CSV chuẩn Markdown tại mục "What is Meta Product Feed?" `[UPDATE]`
+### Snippet 2: Sửa lại Bảng định dạng CSV chuẩn Markdown tại mục "What is Meta Product Feed?" `[UPDATE (+106 từ)]`
 > Thay thế bảng cũ ở dòng 39–43 bằng bảng dữ liệu định dạng chuẩn sau:
 >
 > | `id` | `title` | `description` | `availability` | `condition` | `price` | `link` | `image_link` | `brand` |
@@ -90,7 +93,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > | `SKU-1001` | "Men's Dri-FIT Lightweight Running Shoes - Blue" | "Breathable mesh sneakers engineered for road running and marathon training." | `in stock` | `new` | `89.99 USD` | `https://store.com/products/blue-runners` | `https://store.com/images/blue-runners.jpg` | `Nike` |
 > | `SKU-1002` | "Wireless Noise-Cancelling Headphones - Matte Black" | "Over-ear premium headphones with 30-hour battery life and spatial audio." | `in stock` | `new` | `199.00 USD` | `https://store.com/products/black-headphones` | `https://store.com/images/headphones.jpg` | `Sony` |
 
-### Snippet 3: Bảng Ma trận Chiến lược 5 Custom Labels `[ENRICH]`
+### Snippet 3: Bảng Ma trận Chiến lược 5 Custom Labels `[ENRICH (+190 từ)]`
 > Chèn vào dưới mục **Leverage Custom Labels for Smarter Product Segmentation**:
 >
 > | Custom Label | Chiến lược phân nhóm sản phẩm | Mục đích ứng dụng chiến dịch | Giá trị gán mẫu trong Feed |
@@ -101,7 +104,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > | `custom_label_3` | **Inventory Level (Mức độ tồn kho)** | Tạm dừng quảng cáo các SKU sắp hết hàng (<5 sản phẩm) để tránh lãng phí ngân sách click. | `in_stock_deep`, `low_stock_under_5`, `preorder_only` |
 > | `custom_label_4` | **Price Tiers (Phân khúc mức giá)** | Định hướng người mua theo ngưỡng ngân sách cá nhân. | `under_25_usd`, `range_25_50_usd`, `luxury_over_100_usd` |
 
-### Snippet 4: Hướng dẫn xử lý 4 lỗi từ chối Catalog phổ biến `[FILL-GAP]`
+### Snippet 4: Hướng dẫn xử lý 4 lỗi từ chối Catalog phổ biến `[FILL-GAP (+253 từ)]`
 > Chèn mục H3 mới này vào cuối mục **Feed Optimization Tips for Better Performance**:
 >
 > ```markdown
@@ -126,7 +129,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 >    - **Fix:** Ensure each individual product variant has a distinct, permanent ID (e.g., `SKU123-BLK-M` and `SKU123-BLK-L`). Never reuse IDs for deleted products.
 > ```
 
-### Snippet 5: Khối FAQ giải đáp thắc mắc chuyên sâu `[FILL-GAP]`
+### Snippet 5: Khối FAQ giải đáp thắc mắc chuyên sâu `[FILL-GAP (+265 từ)]`
 > Bổ sung khối H2 FAQ vào cuối bài viết trước phần Conclusion:
 >
 > ```markdown

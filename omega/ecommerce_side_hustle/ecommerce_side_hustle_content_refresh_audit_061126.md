@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/profitable-ecommerce-side-hustles` | Top 2 SERP Google US (Charle) | Trang live hiện hành |
-| **Nguồn nội dung audit** | `outputs/omegatheme/ecommerce_side_hustle/ecommerce_side_hustle_source.md` | — | Nguồn nạp Markdown cục bộ |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/ecommerce_side_hustle/ecommerce_side_hustle_source.md` | — | Nguồn nạp Markdown cục bộ |
 | **Primary Keyword** | `ecommerce side hustle` | — | Khối lượng tìm kiếm rất lớn |
 | **Thứ hạng SERP hiện tại** | Striking Distance (Top 5–15 US) | Top 1–3 đối thủ (Side Hustle Nation, Charle) | Cần bứt phá vào Top 1–3 |
 | **Mục tiêu tối ưu** | Nâng cao thẩm quyền & Bứt phá Top 3 | Top 1–3 mục tiêu | Định hướng chiến lược |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -34,25 +35,27 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1** | `[KEEP]` | Tiêu đề rõ ràng, chứa từ khóa chính | Giữ nguyên: *"Best Profitable E-commerce Side Hustles to Build Your Online Store"*. |
-| **Introduction / Sapo** | `[UPDATE]` | Văn phong mô tả còn chung chung, thiếu sức nặng dữ liệu | Viết lại Sapo: Bổ sung số liệu thống kê thực tế năm 2026 (gần 50% người đi làm có nghề tay trái, và thương mại điện tử chiếm hơn 70% lựa chọn). |
-| **H2: What’s An E-commerce Side Hustle?** | `[ENRICH]` | Định nghĩa lý thuyết, thiếu bức tranh tài chính thực tế | Bổ sung hộp thông tin **"Realistic Earnings Benchmark"** dựa trên khảo sát thị trường (56% kiếm dưới $500/tháng thời gian đầu, 24% kiếm $500–$1.000/tháng, và cách mở rộng lên $2.000+/tháng). |
-| **H2: 8 Profitable E-commerce Side Hustles to Implement in 2026** | `[ENRICH]` | Liệt kê tốt nhưng thiếu sự so sánh tổng thể giữa 8 mô hình | Chèn ngay đầu mục này một **Bảng Ma trận So sánh Toàn diện 8 Mô hình** (Vốn, Thời gian, Biên lợi nhuận, Đánh giá rủi ro). |
-| **H2: How to Identify the Ideal E-commerce Side Hustle?** | `[ENRICH]` | Các bước phân tích khá đầy đủ nhưng thiếu tính thực chiến về vận hành | Bổ sung tiểu mục chiến lược: **"The 9-to-5 Survival Rule: How to Automate & Protect Your Time"** (cách ứng dụng app tự động hóa để vận hành cửa hàng trong 1–2 giờ mỗi tối). |
-| **H2: FAQ about E-commerce Side Hustles** | `[FILL-GAP]` | Chỉ có 3 câu hỏi cơ bản | Bổ sung 2 câu hỏi PAA phổ biến: *"How much money do I realistically need to start an ecommerce side hustle?"* và *"Can I get fired from my full-time job for running an online store?"*. |
-| **WRAP UP & Link cuối trang** | `[UPDATE]` | Link trỏ tới slug cũ chứa `2024` | Cập nhật anchor text và URL chuẩn xác, kêu gọi hành động bài bản. |
+| **Introduction / Sapo** | `[UPDATE (+49 từ)]` | Văn phong mô tả còn chung chung, thiếu sức nặng dữ liệu | Viết lại Sapo: Bổ sung số liệu thống kê thực tế năm 2026 (gần 50% người đi làm có nghề tay trái, và thương mại điện tử chiếm hơn 70% lựa chọn). |
+| **H2: What’s An E-commerce Side Hustle?** | `[ENRICH (+53 từ)]` | Định nghĩa lý thuyết, thiếu bức tranh tài chính thực tế | Bổ sung hộp thông tin **"Realistic Earnings Benchmark"** dựa trên khảo sát thị trường (56% kiếm dưới $500/tháng thời gian đầu, 24% kiếm $500–$1.000/tháng, và cách mở rộng lên $2.000+/tháng). |
+| **H2: 8 Profitable E-commerce Side Hustles to Implement in 2026** | `[ENRICH (+242 từ)]` | Liệt kê tốt nhưng thiếu sự so sánh tổng thể giữa 8 mô hình | Chèn ngay đầu mục này một **Bảng Ma trận So sánh Toàn diện 8 Mô hình** (Vốn, Thời gian, Biên lợi nhuận, Đánh giá rủi ro). |
+| **H2: How to Identify the Ideal E-commerce Side Hustle?** | `[ENRICH (+125 từ)]` | Các bước phân tích khá đầy đủ nhưng thiếu tính thực chiến về vận hành | Bổ sung tiểu mục chiến lược: **"The 9-to-5 Survival Rule: How to Automate & Protect Your Time"** (cách ứng dụng app tự động hóa để vận hành cửa hàng trong 1–2 giờ mỗi tối). |
+| **H2: FAQ about E-commerce Side Hustles** | `[FILL-GAP (+141 từ)]` | Chỉ có 3 câu hỏi cơ bản | Bổ sung 2 câu hỏi PAA phổ biến: *"How much money do I realistically need to start an ecommerce side hustle?"* và *"Can I get fired from my full-time job for running an online store?"*. |
+| **WRAP UP & Link cuối trang** | `[UPDATE (+1 từ)]` | Link trỏ tới slug cũ chứa `2024` | Cập nhật anchor text và URL chuẩn xác, kêu gọi hành động bài bản. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp:
 
-### Snippet 1: Cập nhật Sapo với Dữ liệu Khảo sát 2026 `[UPDATE]`
+### Snippet 1: Cập nhật Sapo với Dữ liệu Khảo sát 2026 `[UPDATE (+112 từ)]`
 > **Đoạn cũ:**
 > *"A creative project that brings in cash, or a chance to turn your passion into something profitable, online side hustles can make your dreams come true. Best of all, many of these opportunities require little to no upfront investment..."*
 >
@@ -63,7 +66,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 2: Bảng Ma trận So sánh 8 Mô hình E-commerce Side Hustle `[ENRICH]`
+### Snippet 2: Bảng Ma trận So sánh 8 Mô hình E-commerce Side Hustle `[ENRICH (+264 từ)]`
 *(Chèn vào ngay dưới thẻ H2: "8 Profitable E-commerce Side Hustles to Implement in 2026")*
 
 | Mô hình kinh doanh | Vốn khởi điểm tối thiểu | Thời gian đầu tư / tuần | Biên lợi nhuận trung bình | Đánh giá độ khó kỹ thuật |
@@ -79,7 +82,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 3: Khối bổ sung Chiến lược Quản lý Thời gian (The 9-to-5 Rule) `[ENRICH]`
+### Snippet 3: Khối bổ sung Chiến lược Quản lý Thời gian (The 9-to-5 Rule) `[ENRICH (+121 từ)]`
 *(Chèn vào mục "How to Identify the Ideal E-commerce Side Hustle?")*
 
 > **The 9-to-5 Survival Playbook: How to Protect Your Job & Scale Your Side Gig:**
@@ -89,7 +92,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 4: Khối FAQ bổ sung chuẩn PAA `[FILL-GAP]`
+### Snippet 4: Khối FAQ bổ sung chuẩn PAA `[FILL-GAP (+120 từ)]`
 *(Chèn vào thẻ H2: "FAQ about E-commerce Side Hustles")*
 
 > **Q4: How much money do I realistically need to start an e-commerce side hustle?**  

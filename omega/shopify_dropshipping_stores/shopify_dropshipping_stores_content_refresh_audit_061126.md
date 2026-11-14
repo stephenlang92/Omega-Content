@@ -9,12 +9,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/top-shopify-dropshipping-stores` | — | Giữ nguyên slug |
-| **Nguồn nội dung audit** | `outputs/omegatheme/shopify_dropshipping_stores/shopify_dropshipping_stores_source.md` | — | File markdown local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/shopify_dropshipping_stores/shopify_dropshipping_stores_source.md` | — | File markdown local |
 | **Primary Keyword** | `shopify dropshipping stores` | — | Google US Desktop |
 | **Thứ hạng SERP hiện tại** | Tiệm cận trang 2 / Top 11–20 | Top 1 (Sellbrite), Top 3 (Qikink) | Cần bứt phá vào Top 1–5 |
 | **Mục tiêu tối ưu** | Đẩy Striking Distance bứt phá vào Top 3 Google US | Qikink: 3.818 từ, Sellbrite: 2.335 từ | Nâng cấp toàn diện nội dung |
@@ -23,7 +24,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -42,28 +43,30 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1** | `[KEEP]` | Title: `Top 15 Shopify Dropshipping Stores Dominating the Market in 2026` đã có năm 2026 chuẩn SEO. | Giữ nguyên URL slug và tiêu đề H1. |
-| **Introduction / Sapo** | `[UPDATE]` | Sapo hiện tại chỉ có 2 dòng ngắn ngủi, chưa định nghĩa mô hình dropshipping trên Shopify. | Mở rộng đoạn mở đầu, bổ sung định nghĩa ngắn gọn và trực diện về Shopify dropshipping trong bối cảnh thương mại điện tử 2026. |
-| *-- Bổ sung trước H2* | `[FILL-GAP]` | Đối thủ Top 1 & 3 đều có mục giải thích cơ chế hoạt động. | Thêm **H3: What is a Shopify Dropshipping Store & How Does It Work in 2026?** (mô hình 4 bước: Customer orders -> You forward to supplier -> Supplier ships -> You keep profit). |
-| **H2: Top 15 Shopify Dropshipping Stores** | `[ENRICH]` | Danh sách 15 store khá dài, người đọc khó nắm bắt tổng quan nhanh. | Chèn ngay dưới H2 một **Bảng tổng hợp nhanh 15 Shopify Dropshipping Stores (Quick Comparison Table)** với các cột: Store Name, Niche, Monthly Visits, Primary Winning Strategy. |
-| *-- Chi tiết 15 store H3* | `[UPDATE]` | Một số store có mốc thời gian cũ (2023) hoặc gây băn khoăn về mô hình (như Allbirds, Brooklinen). | Cập nhật số liệu các store (#2 Warmly, #6 Allbirds, #8 Kylie, #10 Brooklinen). Giải thích rõ các thương hiệu này là "Branded Evolution / Hybrid Dropshipping Benchmark". |
+| **Introduction / Sapo** | `[UPDATE (+90 từ)]` | Sapo hiện tại chỉ có 2 dòng ngắn ngủi, chưa định nghĩa mô hình dropshipping trên Shopify. | Mở rộng đoạn mở đầu, bổ sung định nghĩa ngắn gọn và trực diện về Shopify dropshipping trong bối cảnh thương mại điện tử 2026. |
+| *-- Bổ sung trước H2* | `[FILL-GAP (+153 từ)]` | Đối thủ Top 1 & 3 đều có mục giải thích cơ chế hoạt động. | Thêm **H3: What is a Shopify Dropshipping Store & How Does It Work in 2026?** (mô hình 4 bước: Customer orders -> You forward to supplier -> Supplier ships -> You keep profit). |
+| **H2: Top 15 Shopify Dropshipping Stores** | `[ENRICH (+304 từ)]` | Danh sách 15 store khá dài, người đọc khó nắm bắt tổng quan nhanh. | Chèn ngay dưới H2 một **Bảng tổng hợp nhanh 15 Shopify Dropshipping Stores (Quick Comparison Table)** với các cột: Store Name, Niche, Monthly Visits, Primary Winning Strategy. |
+| *-- Chi tiết 15 store H3* | `[UPDATE (+50 từ)]` | Một số store có mốc thời gian cũ (2023) hoặc gây băn khoăn về mô hình (như Allbirds, Brooklinen). | Cập nhật số liệu các store (#2 Warmly, #6 Allbirds, #8 Kylie, #10 Brooklinen). Giải thích rõ các thương hiệu này là "Branded Evolution / Hybrid Dropshipping Benchmark". |
 | **H2: What Can We Learn from The Success of These Stores?** | `[KEEP]` | Khung 4 bài học (Niche, Suppliers, Website Design, Branding) rất chuẩn xác. | Giữ nguyên cấu trúc 4 H3 gốc, chỉnh sửa các chi tiết lỗi thời bên trong. |
-| *-- H3: 1. Choose Your Niche Wisely* | `[UPDATE]` | Trích dẫn nghiên cứu *"top dropshipping products for 2025"*. | Cập nhật thành: *"Shopify's market insights on top trending niches for 2026"*, bổ sung các ngách nóng như AI gadgets, eco-home, pet tech. |
-| *-- H3: 3. Invest in Website Design* | `[UPDATE]` | Nhắc đến theme cũ Debut (đã bị Shopify khai tử) và link ghi *"Q4/2025"*. | Loại bỏ theme `Debut` (thay bằng `Dawn`, `Sense`, `Refresh`), đổi link thành *"Best Shopify Themes for Dropshipping in 2026"*. |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Thiếu khía cạnh tự động hóa bằng phần mềm mà Qikink nhấn mạnh. | Thêm **H3: 5. Streamline Operations with Essential Shopify Apps** (Order tracking, multi-channel feed management, review generation). |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Người đọc muốn có lộ trình thực chiến từng bước để tự mở store. | Thêm **H3: 6. Quick 5-Step Checklist to Launch Your Shopify Dropshipping Store in 2026**. |
-| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài viết chưa có khối FAQ. | Thêm H2 FAQ với 4 câu hỏi thực chiến chuẩn Google US PAA. |
+| *-- H3: 1. Choose Your Niche Wisely* | `[UPDATE (+48 từ)]` | Trích dẫn nghiên cứu *"top dropshipping products for 2025"*. | Cập nhật thành: *"Shopify's market insights on top trending niches for 2026"*, bổ sung các ngách nóng như AI gadgets, eco-home, pet tech. |
+| *-- H3: 3. Invest in Website Design* | `[UPDATE (+27 từ)]` | Nhắc đến theme cũ Debut (đã bị Shopify khai tử) và link ghi *"Q4/2025"*. | Loại bỏ theme `Debut` (thay bằng `Dawn`, `Sense`, `Refresh`), đổi link thành *"Best Shopify Themes for Dropshipping in 2026"*. |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+133 từ)]` | Thiếu khía cạnh tự động hóa bằng phần mềm mà Qikink nhấn mạnh. | Thêm **H3: 5. Streamline Operations with Essential Shopify Apps** (Order tracking, multi-channel feed management, review generation). |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+122 từ)]` | Người đọc muốn có lộ trình thực chiến từng bước để tự mở store. | Thêm **H3: 6. Quick 5-Step Checklist to Launch Your Shopify Dropshipping Store in 2026**. |
+| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+239 từ)]` | Bài viết chưa có khối FAQ. | Thêm H2 FAQ với 4 câu hỏi thực chiến chuẩn Google US PAA. |
 | **Conclusion** | `[KEEP]` | Đoạn kết luận và banner affiliate Shopify. | Giữ nguyên kết luận và cập nhật banner affiliate. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
-### Snippet 1: Mở rộng Sapo và cơ chế hoạt động `[UPDATE]` & `[FILL-GAP]`
+### Snippet 1: Mở rộng Sapo và cơ chế hoạt động `[UPDATE & FILL-GAP (+71 từ)]`
 > **Đoạn cũ:**
 > *"Looking to start a successful dropshipping business on Shopify? Learning from the best is a great place to start. In this article, I’ve compiled a list of top 15 Shopify dropshipping stores that have seen great success. Let’s get started!"*
 >
@@ -76,7 +79,7 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-### Snippet 2: Bảng so sánh tổng quan 15 store `[ENRICH]`
+### Snippet 2: Bảng so sánh tổng quan 15 store `[ENRICH (+281 từ)]`
 Chèn ngay đầu mục **## Top 15 Shopify Dropshipping Stores**:
 
 | Store Name | Niche Category | Est. Monthly Traffic | Key Winning Strategy |
@@ -99,7 +102,7 @@ Chèn ngay đầu mục **## Top 15 Shopify Dropshipping Stores**:
 
 ---
 
-### Snippet 3: Cập nhật thông tin lỗi thời tại mục Niche & Design `[UPDATE]`
+### Snippet 3: Cập nhật thông tin lỗi thời tại mục Niche & Design `[UPDATE (+102 từ)]`
 
 #### Cập nhật mục Niche Selection (dòng 280):
 > **Đoạn cũ:**  
@@ -124,7 +127,7 @@ Chèn ngay đầu mục **## Top 15 Shopify Dropshipping Stores**:
 
 ---
 
-### Snippet 4: Bổ sung mục App thiết yếu và Checklist 5 bước `[FILL-GAP]`
+### Snippet 4: Bổ sung mục App thiết yếu và Checklist 5 bước `[FILL-GAP (+276 từ)]`
 
 ### **5. Streamline Operations with Essential Shopify Apps**
 Running a successful dropshipping store in 2026 requires automated backend systems to save time and protect your profits:
@@ -142,7 +145,7 @@ Running a successful dropshipping store in 2026 requires automated backend syste
 
 ---
 
-### Snippet 5: Khối FAQ hoàn chỉnh `[FILL-GAP]`
+### Snippet 5: Khối FAQ hoàn chỉnh `[FILL-GAP (+234 từ)]`
 
 ## **Frequently Asked Questions (FAQs)**
 

@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/shopify-pricing-plans` | Top 1 SERP Google US (LitExtension) | Trang live hiện hành |
-| **Nguồn nội dung audit** | `outputs/omegatheme/shopify_pricing/shopify_pricing_source.md` | — | Nguồn nạp Markdown cục bộ |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/shopify_pricing/shopify_pricing_source.md` | — | Nguồn nạp Markdown cục bộ |
 | **Primary Keyword** | `shopify pricing` | — | Volume tìm kiếm khổng lồ |
 | **Thứ hạng SERP hiện tại** | Striking Distance (Top 10–20 US) | Top 1–5 đối thủ (LitExtension, TinySEO) | Cần bứt phá vào Top 1–3 |
 | **Mục tiêu tối ưu** | Bứt phá Top 3 & Đẩy đăng ký đối tác | Top 1 mục tiêu | Nâng cấp toàn diện |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -35,27 +36,29 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1** | `[KEEP]` | Tiêu đề đã tối ưu chuẩn SEO | Giữ: *"Shopify Pricing Plans: The Most Up-to-Date Guide for 2026"*. |
-| **Introduction / Sapo** | `[UPDATE]` | Sapo còn ngắn và chung chung | Viết lại Sapo: Trực diện nêu rõ khoảng giá (\$5 đến \$2.500+/tháng), phân biệt thanh toán hàng tháng vs trả theo năm (tiết kiệm 25%), và cam kết bóc tách chi phí thực tế. |
-| **H2: Shopify Plan and Pricing** | `[UPDATE]` / `[ENRICH]` | Giá niêm yết US và các nước đang ghi lẫn lộn giữa giá Annual và Monthly | - Cập nhật bảng giá chuẩn: Ghi rõ cả 2 mức giá (Monthly vs Annual trả trước).<br>- Đính chính giá US: Basic (\$39/mo vs \$29/mo annual), Shopify (\$105/mo vs \$79/mo annual), Advanced (\$399/mo vs \$299/mo annual). |
-| **H2: Core Shopify Plan Comparison** | `[UPDATE]` / `[ENRICH]` | Bảng so sánh thiếu phí xử lý thẻ (Credit Card Processing) | Cập nhật lại toàn bộ bảng: Bổ sung dòng Credit Card Rates (2.9% + 30¢ vs 2.6% + 30¢ vs 2.4% + 30¢) và Third-party transaction fee (2.0% vs 1.0% vs 0.6%). |
-| **H2: Alternative Shopify Plans** | `[UPDATE]` / `[ENRICH]` | Giá Shopify Plus chưa cập nhật (\$2.300 -> \$2.500) | Cập nhật giá Shopify Plus 2026: \$2.500/tháng (1 năm) hoặc \$2.300/tháng (3 năm); làm rõ tính năng B2B và checkout mở rộng. |
-| **H3 (Đề xuất thêm dưới Core Plans): Additional & Hidden Costs You Must Budget For** | `[FILL-GAP]` | Khoảng trống lớn nhất của bài viết | Bổ sung 5 chi phí phụ bắt buộc: 1. Custom Domain; 2. Credit Card Processing Fees; 3. Third-party Transaction Fees; 4. Premium Themes; 5. Essential Shopify Apps. |
-| **H3 (Đề xuất thêm): When Should You Upgrade Your Plan? (Breakeven Analysis)** | `[FILL-GAP]` | Đối thủ Top có phân tích điểm hòa vốn | Thêm ví dụ tính toán: Khi doanh thu đạt trên \$16.500/tháng, tiền tiết kiệm từ phí quẹt thẻ sẽ bù đắp hoàn toàn chênh lệch giá gói để nâng cấp lên plan Shopify. |
-| **H2: Cheapest Shopify Plan – Shopify 3 Months for $1** | `[KEEP]` / `[UPDATE]` | Chương trình khuyến mãi rất hút khách | Giữ nguyên các bước hướng dẫn, rà soát link đối tác Omegatheme. |
-| **H2 (Mục mới bổ sung): Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài hiện tại không có FAQ | Bổ sung 4 câu hỏi thường gặp nhất bám sát PAA của Google. |
+| **Introduction / Sapo** | `[UPDATE (+74 từ)]` | Sapo còn ngắn và chung chung | Viết lại Sapo: Trực diện nêu rõ khoảng giá (\$5 đến \$2.500+/tháng), phân biệt thanh toán hàng tháng vs trả theo năm (tiết kiệm 25%), và cam kết bóc tách chi phí thực tế. |
+| **H2: Shopify Plan and Pricing** | `[UPDATE & ENRICH (+172 từ)]` | Giá niêm yết US và các nước đang ghi lẫn lộn giữa giá Annual và Monthly | - Cập nhật bảng giá chuẩn: Ghi rõ cả 2 mức giá (Monthly vs Annual trả trước).<br>- Đính chính giá US: Basic (\$39/mo vs \$29/mo annual), Shopify (\$105/mo vs \$79/mo annual), Advanced (\$399/mo vs \$299/mo annual). |
+| **H2: Core Shopify Plan Comparison** | `[UPDATE & ENRICH (+130 từ)]` | Bảng so sánh thiếu phí xử lý thẻ (Credit Card Processing) | Cập nhật lại toàn bộ bảng: Bổ sung dòng Credit Card Rates (2.9% + 30¢ vs 2.6% + 30¢ vs 2.4% + 30¢) và Third-party transaction fee (2.0% vs 1.0% vs 0.6%). |
+| **H2: Alternative Shopify Plans** | `[UPDATE & ENRICH (+30 từ)]` | Giá Shopify Plus chưa cập nhật (\$2.300 -> \$2.500) | Cập nhật giá Shopify Plus 2026: \$2.500/tháng (1 năm) hoặc \$2.300/tháng (3 năm); làm rõ tính năng B2B và checkout mở rộng. |
+| **H3 (Đề xuất thêm dưới Core Plans): Additional & Hidden Costs You Must Budget For** | `[FILL-GAP (+199 từ)]` | Khoảng trống lớn nhất của bài viết | Bổ sung 5 chi phí phụ bắt buộc: 1. Custom Domain; 2. Credit Card Processing Fees; 3. Third-party Transaction Fees; 4. Premium Themes; 5. Essential Shopify Apps. |
+| **H3 (Đề xuất thêm): When Should You Upgrade Your Plan? (Breakeven Analysis)** | `[FILL-GAP (+170 từ)]` | Đối thủ Top có phân tích điểm hòa vốn | Thêm ví dụ tính toán: Khi doanh thu đạt trên \$16.500/tháng, tiền tiết kiệm từ phí quẹt thẻ sẽ bù đắp hoàn toàn chênh lệch giá gói để nâng cấp lên plan Shopify. |
+| **H2: Cheapest Shopify Plan – Shopify 3 Months for $1** | `[KEEP]` / `[UPDATE (+0 từ)]` | Chương trình khuyến mãi rất hút khách | Giữ nguyên các bước hướng dẫn, rà soát link đối tác Omegatheme. |
+| **H2 (Mục mới bổ sung): Frequently Asked Questions (FAQs)** | `[FILL-GAP (+270 từ)]` | Bài hiện tại không có FAQ | Bổ sung 4 câu hỏi thường gặp nhất bám sát PAA của Google. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp:
 
-### Snippet 1: Cập nhật Sapo và Biểu giá Niêm yết US 2026 `[UPDATE]`
+### Snippet 1: Cập nhật Sapo và Biểu giá Niêm yết US 2026 `[UPDATE (+89 từ)]`
 > **Đoạn cũ:**
 > *"Are you looking to find out how much is a Shopify store per month? In this guide, I’ll provide you with the most comprehensive information on Shopify Pricing Plans... Basic: $25 per month, Shopify: $65 per month, Advanced: $399 per month"*
 >
@@ -66,7 +69,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 2: Bảng Đối chiếu Biểu giá và Phí Giao dịch Toàn diện `[ENRICH]`
+### Snippet 2: Bảng Đối chiếu Biểu giá và Phí Giao dịch Toàn diện `[ENRICH (+227 từ)]`
 *(Chèn vào thẻ H2: "Core Shopify Plan Comparison")*
 
 | Gói cước / Tiêu chí | Basic Shopify | Shopify (Grow) | Advanced Shopify | Shopify Plus (Enterprise) |
@@ -82,7 +85,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 3: Khối Bóc tách Chi phí Ẩn & Phụ phí `[FILL-GAP]`
+### Snippet 3: Khối Bóc tách Chi phí Ẩn & Phụ phí `[FILL-GAP (+189 từ)]`
 *(Chèn thẻ H3: "Additional & Hidden Costs You Must Budget For")*
 
 > **The True Cost of Running a Shopify Store Beyond Subscription Fees:**
@@ -94,7 +97,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 4: Khối FAQ chuẩn PAA `[FILL-GAP]`
+### Snippet 4: Khối FAQ chuẩn PAA `[FILL-GAP (+170 từ)]`
 *(Chèn thẻ H2: "Frequently Asked Questions About Shopify Pricing")*
 
 > **Q1: Does Shopify take a cut or percentage of my sales?**  

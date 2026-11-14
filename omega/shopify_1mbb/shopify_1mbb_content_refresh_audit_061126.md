@@ -5,12 +5,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/shopify-1mbb` | Top 2–3 SERP Google US | Trang live hiện hành |
-| **Nguồn nội dung audit** | `outputs/omegatheme/shopify_1mbb/shopify_1mbb_source.md` | — | Nguồn nạp Markdown cục bộ |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/shopify_1mbb/shopify_1mbb_source.md` | — | Nguồn nạp Markdown cục bộ |
 | **Primary Keyword** | `shopify 1mbb` | — | Từ khóa định danh thương hiệu/chính sách |
 | **Thứ hạng SERP hiện tại** | Top 4–8 SERP US | Top 1–3 đối thủ (Operation HOPE, ecom-store) | Cần bứt phá vào Top 1–3 |
 | **Mục tiêu tối ưu** | Khẳng định chuyên môn & Bứt phá Top 1–3 | Top 1 mục tiêu | Nâng cấp toàn diện |
@@ -19,7 +20,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -34,28 +35,30 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
 | **Title & H1** | `[KEEP]` | Tiêu đề rất chuẩn xác và truyền cảm hứng | Giữ nguyên: *"Shopify 1MBB: 120-Day Free Trial to Foster Sustainable Black-Owned Businesses"*. |
-| **Introduction / Sapo** | `[UPDATE]` | Mở đầu tốt nhưng cần thêm cập nhật tiến độ năm 2026 | Viết lại Sapo: Nhấn mạnh tiến độ thực hiện cam kết 2030 của Operation HOPE và giá trị của runway 120 ngày trong bối cảnh kinh tế hiện tại. |
-| **H2: What is Shopify 1MBB?** | `[KEEP]` / `[UPDATE]` | Giới thiệu đầy đủ đối tác Operation HOPE | Cập nhật số liệu tác động mới nhất (hơn 170.000 doanh nghiệp đã được hỗ trợ). |
-| **H2: Key Benefits Of Black-Owned Business From 1MBB Shopify** | `[ENRICH]` | Liệt kê 5 quyền lợi nhưng thiếu so sánh trực quan | Bổ sung **Bảng so sánh: Standard Shopify Trial vs. 1MBB Program Trial** để làm bật lên giá trị vượt trội của chương trình. |
+| **Introduction / Sapo** | `[UPDATE (+33 từ)]` | Mở đầu tốt nhưng cần thêm cập nhật tiến độ năm 2026 | Viết lại Sapo: Nhấn mạnh tiến độ thực hiện cam kết 2030 của Operation HOPE và giá trị của runway 120 ngày trong bối cảnh kinh tế hiện tại. |
+| **H2: What is Shopify 1MBB?** | `[KEEP]` / `[UPDATE (+17 từ)]` | Giới thiệu đầy đủ đối tác Operation HOPE | Cập nhật số liệu tác động mới nhất (hơn 170.000 doanh nghiệp đã được hỗ trợ). |
+| **H2: Key Benefits Of Black-Owned Business From 1MBB Shopify** | `[ENRICH (+152 từ)]` | Liệt kê 5 quyền lợi nhưng thiếu so sánh trực quan | Bổ sung **Bảng so sánh: Standard Shopify Trial vs. 1MBB Program Trial** để làm bật lên giá trị vượt trội của chương trình. |
 | **H2: Getting Started with Shopify 1MBB’s 120-Day Free Trial** | `[KEEP]` | 5 bước hướng dẫn bằng hình ảnh rất chuẩn | Giữ nguyên các bước, rà soát lại link đăng ký `shopify.com/1mbb`. |
-| **H2: How Black-Owned Businesses Can Maximize Shopify’s 120-Day Trial** | `[ENRICH]` | Lời khuyên còn chung chung | Bổ sung **Lộ trình hành động 4 tháng (The 120-Day Milestone Playbook)** chia theo 4 giai đoạn cụ thể. |
+| **H2: How Black-Owned Businesses Can Maximize Shopify’s 120-Day Trial** | `[ENRICH (+184 từ)]` | Lời khuyên còn chung chung | Bổ sung **Lộ trình hành động 4 tháng (The 120-Day Milestone Playbook)** chia theo 4 giai đoạn cụ thể. |
 | **H2: The Transformative Benefits of the Shopify Black Business Trial** | `[KEEP]` | Dữ liệu xã hội rất giá trị | Giữ nguyên văn phong và số liệu nghiên cứu. |
 | **H2: Top 5 Inspiring Success Stories from 1MBB Entrepreneurs** | `[KEEP]` | 5 Case study (The Lip Bar, CurlMix...) rất chân thực | Giữ nguyên các câu chuyện này vì đây là bằng chứng xã hội (Social Proof) tuyệt vời. |
-| **H2: FAQs about Shopify 1MBB** | `[UPDATE]` / `[FILL-GAP]` | Cần cập nhật chi tiết biểu phí sau dùng thử | Sửa lại câu 1 về bảng giá chính thức; bổ sung câu hỏi PAA: *"Do I need to repay Shopify if my business does not make sales during the 120 days?"*. |
+| **H2: FAQs about Shopify 1MBB** | `[UPDATE & FILL-GAP (+113 từ)]` | Cần cập nhật chi tiết biểu phí sau dùng thử | Sửa lại câu 1 về bảng giá chính thức; bổ sung câu hỏi PAA: *"Do I need to repay Shopify if my business does not make sales during the 120 days?"*. |
 | **WRAP UP** | `[KEEP]` | Tóm lược ý nghĩa nhân văn của chương trình | Giữ nguyên kết bài. |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp:
 
-### Snippet 1: Cập nhật Sapo và Tiến độ Sáng kiến 2026 `[UPDATE]`
+### Snippet 1: Cập nhật Sapo và Tiến độ Sáng kiến 2026 `[UPDATE (+96 từ)]`
 > **Đoạn cũ:**
 > *"Entrepreneurship has long been a path to economic independence and wealth creation, yet many Black entrepreneurs face systemic barriers that limit their opportunities. To address these challenges, Shopify, in collaboration with Operation HOPE, launched the One Million Black Businesses (1MBB) Initiative..."*
 >
@@ -66,7 +69,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 2: Bảng so sánh Standard Trial vs. 1MBB Program `[ENRICH]`
+### Snippet 2: Bảng so sánh Standard Trial vs. 1MBB Program `[ENRICH (+176 từ)]`
 *(Chèn vào ngay dưới thẻ H2: "Key Benefits Of Black-Owned Business From 1MBB Shopify")*
 
 | Quyền lợi / Tiêu chí | Dùng thử Tiêu chuẩn (Standard Public Offer) | Chương trình Đối tác 1MBB (Operation HOPE) |
@@ -80,7 +83,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 3: Lộ trình Hành động 4 Tháng (The 120-Day Milestone Playbook) `[ENRICH]`
+### Snippet 3: Lộ trình Hành động 4 Tháng (The 120-Day Milestone Playbook) `[ENRICH (+149 từ)]`
 *(Chèn vào mục "How Black-Owned Businesses Can Maximize Shopify’s 120-Day Trial")*
 
 > **The 120-Day Milestone Playbook:**
@@ -95,7 +98,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 
 ---
 
-### Snippet 4: Đính chính và Cập nhật Biểu phí tại FAQ #1 `[UPDATE]`
+### Snippet 4: Đính chính và Cập nhật Biểu phí tại FAQ #1 `[UPDATE (+91 từ)]`
 > **Đoạn cũ:**
 > *"At the end of the 120 days, you have two options: Continue using Shopify by selecting a paid plan (pricing starts at $39/month)..."*
 >

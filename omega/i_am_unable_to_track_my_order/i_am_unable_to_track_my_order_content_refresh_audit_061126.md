@@ -8,12 +8,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/5-common-reasons-why-customers-cannot-track-their-orders-on-your-branded-tracking-page` | — | Trang blog hiện hữu trên hệ thống Omegatheme |
-| **Nguồn nội dung audit** | `outputs/omegatheme/i_am_unable_to_track_my_order/i_am_unable_to_track_my_order_source.md` | — | Nguồn nạp bài viết local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/i_am_unable_to_track_my_order/i_am_unable_to_track_my_order_source.md` | — | Nguồn nạp bài viết local |
 | **Primary Keyword** | `i am unable to track my order` | — | Từ khóa tìm kiếm trọng tâm Google US |
 | **Thứ hạng SERP hiện tại** | Đang nằm ngoài Top 10 Google US (Chưa tối ưu đúng search intent của người dùng tìm kiếm) | Top 1-5 (JustAnswer, Shop app, Quora) | Cần tối ưu để lọt vào Top 1–3 và ăn Featured Snippet |
 | **Mục tiêu tối ưu** | Mở rộng góc nhìn đáp ứng cả Shopper & Merchant | Đạt chuẩn toàn diện | Tăng tính chuyên sâu, bao quát intent |
@@ -22,7 +23,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -40,30 +41,30 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bảo tồn nguyên vẹn các H2 hiện có):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
-| **Title & H1** | `[UPDATE]` | Tiêu đề gốc chỉ nhắm đến góc nhìn merchant, bỏ lỡ exact match intent của người dùng tìm kiếm cụm từ *"i am unable to track my order"*. | Điều chỉnh H1 thành: *"5 Common Reasons Why Customers Say 'I Am Unable to Track My Order' (And How to Fix It in 2026)"*. Giữ nguyên slug bài viết. |
-| **Introduction / Sapo** | `[ENRICH]` | Sapo cũ chỉ có 2 câu ngắn ngủi (~40 từ), người đọc vào không thấy giải pháp ngay. | Viết lại Sapo: Trực diện trả lời câu hỏi vì sao không tra được đơn hàng, bổ sung ngay một **Quick Troubleshooting Box** cho người mua và chủ shop. |
-| **H2: 1. Order not fulfilled** | `[ENRICH]` | Giải thích ngắn, chưa làm rõ sự khác biệt giữa tạo đơn, in nhãn và xuất kho khiến khách hàng nhầm lẫn. | Bổ sung phân biệt 3 mốc: Order Placed -> Label Created -> Carrier Picked Up. Làm rõ tính năng hiển thị trạng thái "Order Processing" để khách hàng an tâm. |
-| **H2: 2. Incorrect shipment data** | `[UPDATE]` | Đoạn text ghi *"The advanced feature will be released soon..."* từ năm 2021 gây cảm giác sản phẩm chưa hoàn thiện. | Cập nhật thành tính năng hiện hữu: Hệ thống tự động nhận diện carrier (Auto-detect Carrier) và cảnh báo khi tracking number bị nhập sai định dạng. |
-| **H2: 3. Courier not supported** | `[UPDATE]` | Thông tin lỗi thời: *"supports over 500 carriers"*. | Cập nhật số liệu thực tế 2026: Hỗ trợ **1.200+ carriers** trên toàn thế giới, bao gồm cả các hãng dropshipping phổ biến (YunExpress, 4PX, Yanwen, Cainiao). |
-| **H2: 4. Orders without shipment service** | `[ENRICH]` | Hướng dẫn thủ công hơi sơ sài, thiếu ví dụ thực tế (giao hàng nội bộ, tự giao, dropship đặc thù). | Bổ sung ví dụ cụ thể về Local Delivery / In-store Pickup và cách cấu hình Custom Tracking Status để khách hàng vẫn theo dõi được tiến trình. |
-| **H2: 5. Delayed shipping update** | `[ENRICH]` | Chỉ có 2 câu kêu gọi liên hệ support, không giải thích lý do khách quan (mùa cao điểm, nghẽn cổng kết nối carrier API). | Phân tích cơ chế độ trễ quét mã của carrier (USPS, FedEx, DHL thường mất 24-48 giờ sau khi nhận bưu phẩm mới cập nhật lên hệ thống mạng). Bổ sung bảng ma trận xử lý. |
-| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài viết chưa có khối FAQ theo chuẩn SERP Norm và PAA của Google. | Thêm khối H2 FAQ ở cuối bài trả lời 4 câu hỏi tìm kiếm hàng đầu của Google US. |
+| **Title & H1** | `[UPDATE (+6 từ)]` | Tiêu đề gốc chỉ nhắm đến góc nhìn merchant, bỏ lỡ exact match intent của người dùng tìm kiếm cụm từ *"i am unable to track my order"*. | Điều chỉnh H1 thành: *"5 Common Reasons Why Customers Say 'I Am Unable to Track My Order' (And How to Fix It in 2026)"*. Giữ nguyên slug bài viết. |
+| **Introduction / Sapo** | `[ENRICH (+97 từ)]` | Sapo cũ chỉ có 2 câu ngắn ngủi (~40 từ), người đọc vào không thấy giải pháp ngay. | Viết lại Sapo: Trực diện trả lời câu hỏi vì sao không tra được đơn hàng, bổ sung ngay một **Quick Troubleshooting Box** cho người mua và chủ shop. |
+| **H2: 1. Order not fulfilled** | `[ENRICH (+82 từ)]` | Giải thích ngắn, chưa làm rõ sự khác biệt giữa tạo đơn, in nhãn và xuất kho khiến khách hàng nhầm lẫn. | Bổ sung phân biệt 3 mốc: Order Placed -> Label Created -> Carrier Picked Up. Làm rõ tính năng hiển thị trạng thái "Order Processing" để khách hàng an tâm. |
+| **H2: 2. Incorrect shipment data** | `[UPDATE (+2 từ)]` | Đoạn text ghi *"The advanced feature will be released soon..."* từ năm 2021 gây cảm giác sản phẩm chưa hoàn thiện. | Cập nhật thành tính năng hiện hữu: Hệ thống tự động nhận diện carrier (Auto-detect Carrier) và cảnh báo khi tracking number bị nhập sai định dạng. |
+| **H2: 3. Courier not supported** | `[UPDATE (+45 từ)]` | Thông tin lỗi thời: *"supports over 500 carriers"*. | Cập nhật số liệu thực tế 2026: Hỗ trợ **1.200+ carriers** trên toàn thế giới, bao gồm cả các hãng dropshipping phổ biến (YunExpress, 4PX, Yanwen, Cainiao). |
+| **H2: 4. Orders without shipment service** | `[ENRICH (+18 từ)]` | Hướng dẫn thủ công hơi sơ sài, thiếu ví dụ thực tế (giao hàng nội bộ, tự giao, dropship đặc thù). | Bổ sung ví dụ cụ thể về Local Delivery / In-store Pickup và cách cấu hình Custom Tracking Status để khách hàng vẫn theo dõi được tiến trình. |
+| **H2: 5. Delayed shipping update** | `[ENRICH (+251 từ)]` | Chỉ có 2 câu kêu gọi liên hệ support, không giải thích lý do khách quan (mùa cao điểm, nghẽn cổng kết nối carrier API). | Phân tích cơ chế độ trễ quét mã của carrier (USPS, FedEx, DHL thường mất 24-48 giờ sau khi nhận bưu phẩm mới cập nhật lên hệ thống mạng). Bổ sung bảng ma trận xử lý. |
+| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+253 từ)]` | Bài viết chưa có khối FAQ theo chuẩn SERP Norm và PAA của Google. | Thêm khối H2 FAQ ở cuối bài trả lời 4 câu hỏi tìm kiếm hàng đầu của Google US. |
 
-*(Nhãn hành động: `[KEEP]` - Giữ nguyên | `[UPDATE]` - Cập nhật dữ liệu cũ | `[ENRICH]` - Làm giàu thông tin | `[FILL-GAP]` - Bổ sung mục thiếu theo SERP Norm & FAQ)*
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp vào bài viết:
 
-### Snippet 1: Cập nhật Sapo & Hộp Xử lý Nhanh `[ENRICH]`
+### Snippet 1: Cập nhật Sapo & Hộp Xử lý Nhanh `[ENRICH (+97 từ)]`
 > **Đoạn cũ:**
 > *"Are you running a branded order tracking page in your store but sometimes get stuck with “not found order”. This blog deserves to have your quick stare. Check out 5 common reasons why your customers cannot track their order on your embedded tracking page and what you should do to resolve it on your end."*
 >
@@ -76,7 +77,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > *Let's break down the 5 root causes why customers cannot track their orders and the exact steps to fix each one instantly."*
 
-### Snippet 2: Cập nhật thông tin lỗi thời tại H2 "3. Courier not supported" `[UPDATE]`
+### Snippet 2: Cập nhật thông tin lỗi thời tại H2 "3. Courier not supported" `[UPDATE (+41 từ)]`
 > **Đoạn cũ:**
 > *"The app only can track delivery shipments from supported carriers. Order Tracking by Omega currently supports over 500 carriers across the world, including numerous of the most common in the United States, Canada, and China, such as USPS, UPS, FedEx, DHL, Canadian Post, and China Post. If you don’t see a carrier on the list that’s crucial to you, please email contact@omegatheme.com and we’ll try to connect it!"*
 >
@@ -85,7 +86,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > *In 2026, **Omega Order Tracking** connects natively with **over 1,200+ couriers globally**—from top-tier national services (USPS, UPS, FedEx, DHL, Canada Post, Royal Mail, Australia Post) to fast-growing cross-border eCommerce carriers (YunExpress, 4PX, Yanwen, Cainiao, CJ Packet). If you ever operate with a specialized courier not yet on the roster, our engineering team can integrate custom webhooks to ensure 100% shipment visibility."*
 
-### Snippet 3: Bảng ma trận đối chiếu nguyên nhân và hướng xử lý `[ENRICH]`
+### Snippet 3: Bảng ma trận đối chiếu nguyên nhân và hướng xử lý `[ENRICH (+213 từ)]`
 *(Chèn vào cuối mục 5 để trực quan hóa toàn bộ bài viết)*
 
 | Tình trạng hiển thị | Nguyên nhân cốt lõi | Hướng xử lý cho Khách mua hàng | Hướng xử lý cho Chủ shop (Merchant) |
@@ -95,7 +96,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 | **"Carrier Mismatch / Error"** | Nhầm lẫn giữa các hãng vận chuyển (VD: gán mã USPS vào FedEx) | Thử tra cứu mã trên trang tổng hợp (17TRACK, ParcelApp) | Bật tính năng Auto-detect Carrier trên app Omega Order Tracking |
 | **"Tracking Stopped Updating"** | Đơn hàng đa chặng đang chuyển giao giữa các đơn vị vận chuyển | Theo dõi mục "Last-mile courier" hoặc liên hệ shop sau 5 ngày | Cung cấp mã vận đơn chặng cuối (local tracking number) cho khách hàng |
 
-### Snippet 4: Khối FAQ giải đáp theo chuẩn SERP Norm `[FILL-GAP]`
+### Snippet 4: Khối FAQ giải đáp theo chuẩn SERP Norm `[FILL-GAP (+253 từ)]`
 *(Chèn thành khối H2: Frequently Asked Questions ở cuối bài viết)*
 
 > **Q: Why does my tracking number say "Not Found" even though I received a shipping confirmation?**  

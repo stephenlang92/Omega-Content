@@ -9,12 +9,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/what-is-tiktok-smart-campaign` | — | Giữ nguyên slug |
-| **Nguồn nội dung audit** | `outputs/omegatheme/tiktok_smart_campaign/tiktok_smart_campaign_source.md` | — | File markdown local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/tiktok_smart_campaign/tiktok_smart_campaign_source.md` | — | File markdown local |
 | **Primary Keyword** | `tiktok smart+ campaign` | — | Google US Desktop |
 | **Thứ hạng SERP hiện tại** | Striking Distance (Top 10–20) | Top 1 (rplg.io), Top 2 (ads.tiktok.com) | Cần bứt phá vào Top 1–3 |
 | **Mục tiêu tối ưu** | Đẩy Striking Distance bứt phá vào Top 1–3 Google US | RPLG: 1.307 từ, Trung bình: ~705 từ | Cập nhật công nghệ AI mới nhất |
@@ -23,7 +24,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -39,29 +40,31 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
-| **Title & H1** | `[UPDATE]` | Tiêu đề hiện tại: `What is TikTok Smart Campaign? Smart or Manual is Right for You?` thiếu dấu ấn nhận diện **Smart+** và năm 2026. | Cập nhật H1 thành: `What is TikTok Smart+ Campaign? Smart+ vs Manual: Which is Right for You in 2026?` (giữ nguyên slug). |
-| **Introduction / Sapo** | `[UPDATE]` | Sapo hiện tại nhắc đến "Smart Campaign" cũ. | Cập nhật Sapo: Giới thiệu bước chuyển đổi sang **TikTok Smart+**, nhấn mạnh công nghệ tự động hóa AI và vai trò của Pixel attribution. |
+| **Title & H1** | `[UPDATE (+3 từ)]` | Tiêu đề hiện tại: `What is TikTok Smart Campaign? Smart or Manual is Right for You?` thiếu dấu ấn nhận diện **Smart+** và năm 2026. | Cập nhật H1 thành: `What is TikTok Smart+ Campaign? Smart+ vs Manual: Which is Right for You in 2026?` (giữ nguyên slug). |
+| **Introduction / Sapo** | `[UPDATE (+71 từ)]` | Sapo hiện tại nhắc đến "Smart Campaign" cũ. | Cập nhật Sapo: Giới thiệu bước chuyển đổi sang **TikTok Smart+**, nhấn mạnh công nghệ tự động hóa AI và vai trò của Pixel attribution. |
 | **H2: What is a Manual TikTok Campaign?** | `[KEEP]` | Định nghĩa và phân tích ưu/nhược điểm của Manual campaign rất chuẩn. | Giữ nguyên toàn bộ nội dung và danh sách bullet point. |
-| **H2: What is a Smart TikTok Campaign?** | `[UPDATE]` | Cần chuẩn hóa tên gọi thành **Smart+** và cập nhật link tài liệu chính thức. | Viết lại định nghĩa, nêu rõ 3 loại chiến dịch Smart+ (Smart+ Web, Smart+ App, Smart+ Lead Gen). |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Đối thủ Top 2 & 4 đều tập trung vào công nghệ AI Creative của TikTok. | Thêm **H3: How TikTok Smart+ Works: The Power of AI Creative & TikTok Symphony** (giải thích tính năng Generate with AI từ URL store). |
-| *-- Bổ sung dưới H2 trên* | `[ENRICH]` | Cần cái nhìn khách quan về điểm mạnh và hạn chế. | Thêm **H3: Pros and Cons of TikTok Smart+ Campaigns** (tổng hợp ưu và nhược điểm thực tế). |
+| **H2: What is a Smart TikTok Campaign?** | `[UPDATE (+29 từ)]` | Cần chuẩn hóa tên gọi thành **Smart+** và cập nhật link tài liệu chính thức. | Viết lại định nghĩa, nêu rõ 3 loại chiến dịch Smart+ (Smart+ Web, Smart+ App, Smart+ Lead Gen). |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+122 từ)]` | Đối thủ Top 2 & 4 đều tập trung vào công nghệ AI Creative của TikTok. | Thêm **H3: How TikTok Smart+ Works: The Power of AI Creative & TikTok Symphony** (giải thích tính năng Generate with AI từ URL store). |
+| *-- Bổ sung dưới H2 trên* | `[ENRICH (+98 từ)]` | Cần cái nhìn khách quan về điểm mạnh và hạn chế. | Thêm **H3: Pros and Cons of TikTok Smart+ Campaigns** (tổng hợp ưu và nhược điểm thực tế). |
 | **H2: TikTok Smart vs Manual Campaign: What’s the Difference?** | `[KEEP]` | Bảng so sánh 7 tiêu chí rất trực quan và có giá trị cao. | Giữ nguyên cấu trúc bảng, bổ sung thêm 2 hàng: *Creative Generation Method* và *Learning Phase Threshold*. |
-| *-- Bổ sung dưới H2 trên* | `[ENRICH]` | Đối thủ RPLG cung cấp số liệu thực tế so sánh hiệu quả. | Thêm **H3: Performance Reality: Upper-Funnel vs. Lower-Funnel Metrics** (phân tích chi phí CPM/CPC rẻ hơn nhưng cần theo dõi sát ROAS mua hàng). |
+| *-- Bổ sung dưới H2 trên* | `[ENRICH (+207 từ)]` | Đối thủ RPLG cung cấp số liệu thực tế so sánh hiệu quả. | Thêm **H3: Performance Reality: Upper-Funnel vs. Lower-Funnel Metrics** (phân tích chi phí CPM/CPC rẻ hơn nhưng cần theo dõi sát ROAS mua hàng). |
 | **H2: Proven Tips to Optimize Your Smart Campaign** | `[KEEP]` | 6 mẹo sáng tạo video (3s đầu, CTA, trends, relatable...) vẫn giữ nguyên giá trị thực chiến. | Giữ nguyên 6 H3 hiện tại. |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Smart+ đòi hỏi số lượng asset lớn để chống bão hòa (fatigue). | Thêm **H3: 7. Provide 5–10 Creative Variations to Prevent Ad Fatigue**. |
-| *-- Bổ sung dưới H2 trên* | `[FILL-GAP]` | Smart+ cần lượng dữ liệu pixel lớn để tối ưu. | Thêm **H3: 8. Ensure Accurate Server-Side Tracking to Exit the Learning Phase Fast**. |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+51 từ)]` | Smart+ đòi hỏi số lượng asset lớn để chống bão hòa (fatigue). | Thêm **H3: 7. Provide 5–10 Creative Variations to Prevent Ad Fatigue**. |
+| *-- Bổ sung dưới H2 trên* | `[FILL-GAP (+88 từ)]` | Smart+ cần lượng dữ liệu pixel lớn để tối ưu. | Thêm **H3: 8. Ensure Accurate Server-Side Tracking to Exit the Learning Phase Fast**. |
 | **H2: How Omega TikShop Helps You Run and Track TikTok Campaigns Smarter** | `[KEEP]` | 3 tính năng cốt lõi (Tạo Smart+ trong app, gắn UTM tự động, xem Order Journey) thể hiện rõ Information Gain của Omegatheme. | Giữ nguyên cấu trúc và nội dung giới thiệu tính năng. |
-| **H2: FAQs** | `[UPDATE]` | 3 câu hỏi hiện tại khá tốt, cần cập nhật bổ sung thêm 2 câu hỏi mới theo SERP PAA. | Giữ 3 câu hỏi cũ, bổ sung FAQ 4 (Ngân sách tối thiểu) và FAQ 5 (Cách chuyển đổi creative). |
+| **H2: FAQs** | `[UPDATE (+130 từ)]` | 3 câu hỏi hiện tại khá tốt, cần cập nhật bổ sung thêm 2 câu hỏi mới theo SERP PAA. | Giữ 3 câu hỏi cũ, bổ sung FAQ 4 (Ngân sách tối thiểu) và FAQ 5 (Cách chuyển đổi creative). |
+
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
-### Snippet 1: Cập nhật Sapo và định nghĩa Smart+ Campaign `[UPDATE]`
+### Snippet 1: Cập nhật Sapo và định nghĩa Smart+ Campaign `[UPDATE (+64 từ)]`
 > **Đoạn cũ:**
 > *"When launching TikTok Conversion Ads, one important question comes up: should you go with Smart or Manual campaigns? Each option affects your ad performance, budget usage, and return on investment in different ways. While TikTok Smart Campaign offers automation and ease, Manual Campaigns give you more control and flexibility."*
 >
@@ -74,7 +77,7 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-### Snippet 2: Khối kiến thức về AI Creative & Symphony `[FILL-GAP]`
+### Snippet 2: Khối kiến thức về AI Creative & Symphony `[FILL-GAP (+135 từ)]`
 Chèn vào vị trí H3 mới bên dưới **H2: What is a Smart TikTok Campaign?**:
 
 ### **How TikTok Smart+ Works: The Power of AI Creative & TikTok Symphony**
@@ -85,7 +88,7 @@ Unlike legacy Smart Performance Campaigns that merely adjusted bid caps, **TikTo
 
 ---
 
-### Snippet 3: Khối bổ sung số liệu thực tế Upper vs Lower Funnel `[ENRICH]`
+### Snippet 3: Khối bổ sung số liệu thực tế Upper vs Lower Funnel `[ENRICH (+203 từ)]`
 Chèn dưới mục **## TikTok Smart vs Manual Campaign: What’s the Difference?**:
 
 ### **Performance Reality: Upper-Funnel vs. Lower-Funnel Metrics**
@@ -102,7 +105,7 @@ Real-world A/B testing data comparing Smart+ campaigns against manual ROAS-optim
 
 ---
 
-### Snippet 4: Mẹo vượt qua giai đoạn học máy và chống bão hòa creative `[FILL-GAP]`
+### Snippet 4: Mẹo vượt qua giai đoạn học máy và chống bão hòa creative `[FILL-GAP (+161 từ)]`
 Chèn vào mục **## Proven Tips to Optimize Your Smart Campaign**:
 
 ### **7. Provide 5–10 Creative Variations to Prevent Ad Fatigue**
@@ -115,7 +118,7 @@ TikTok Smart+ requires **at least 50 conversion events per week** to successfull
 
 ---
 
-### Snippet 5: Khối FAQ bổ sung câu hỏi PAA `[FILL-GAP]`
+### Snippet 5: Khối FAQ bổ sung câu hỏi PAA `[FILL-GAP (+162 từ)]`
 
 #### Bổ sung vào **## FAQs**:
 

@@ -8,12 +8,13 @@
 
 ---
 
-## 0. Tổng quan Hiện trạng (Audit Metadata)
+## 0. Metadata
 
 | Chỉ số / Thông tin | Giá trị hiện tại | Điểm chuẩn SERP (Benchmark) | Đánh giá chênh lệch (Delta) |
 |:---|:---|:---|:---|
+| **Site (`SITE`)** | `omega` | — | `omegatheme.com` |
 | **URL bài viết** | `https://www.omegatheme.com/blogs/catalog-match-rate` | — | Trang live của Omegatheme |
-| **Nguồn nội dung audit** | `outputs/omegatheme/catalog_match_rate/catalog_match_rate_source.md` | — | Bản nạp bài viết local |
+| **Nguồn nội dung audit** | `sites/omega/outputs/content/catalog_match_rate/catalog_match_rate_source.md` | — | Bản nạp bài viết local |
 | **Primary Keyword** | `catalog match rate` | — | Từ khóa tìm kiếm kỹ thuật Google US |
 | **Thứ hạng SERP hiện tại** | **Rank 5 Google US** (Vị trí tiệm cận Top - Striking Distance) | Top 1-2 (Meta Business Help Center), Top 3 (Reddit) | Cơ hội rất lớn để vượt qua Reddit và cạnh tranh trực tiếp với tài liệu Meta |
 | **Mục tiêu tối ưu** | Làm giàu chiều sâu kỹ thuật và trường hợp thực tế của Shopify | Top 1–3 mục tiêu | Giữ vững vị thế blog chuyên sâu số 1 |
@@ -22,7 +23,7 @@
 
 ---
 
-## 1. Bảng Tổng hợp Rà soát Lỗi thời & Thiếu hụt (Gap & Fact-check)
+## 1. Gap & Fact-check
 
 Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
@@ -40,35 +41,35 @@ Checklist phát hiện các điểm nghẽn của bài viết so với SERP:
 
 ---
 
-## 2. Ma trận Kế hoạch Hành động Từng Mục (Section-by-Section Action Plan)
+## 2. Section-by-Section Action Plan
 
 Bảng chi tiết hướng dẫn sửa đổi cho từng phần của bài viết (bảo tồn nguyên vẹn các H2 hiện có):
 
-| Vị trí / Heading hiện tại | Nhãn hành động | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
+| Vị trí / Heading hiện tại | Action | Vấn đề hiện tại | Hành động chỉnh sửa chi tiết |
 |:---|:---|:---|:---|
-| **Title & H1** | `[UPDATE]` | Tiêu đề: *"Why Catalog Match Rate Matters More Than You Think [Guide]"*. | Thêm nhãn cập nhật: *"Why Catalog Match Rate Matters More Than You Think [Complete 2026 Guide]"*. Giữ nguyên slug. |
+| **Title & H1** | `[UPDATE (+2 từ)]` | Tiêu đề: *"Why Catalog Match Rate Matters More Than You Think [Guide]"*. | Thêm nhãn cập nhật: *"Why Catalog Match Rate Matters More Than You Think [Complete 2026 Guide]"*. Giữ nguyên slug. |
 | **Introduction / Sapo** | `[KEEP]` | Sapo đã nêu được tầm quan trọng của metric. | Giữ nguyên văn phong, thêm 1 câu liên kết đến chiến dịch Advantage+ Catalog Ads. |
-| **H2: What is Catalog Match Rate?** | `[ENRICH]` | Giải thích đúng định nghĩa nhưng chưa phân biệt với Event Match Quality (EMQ). | Bổ sung mục H3 phân tích chuyên sâu: CMR (ghép sản phẩm) khác gì EMQ (ghép danh tính người dùng) kèm bảng so sánh. |
+| **H2: What is Catalog Match Rate?** | `[ENRICH (+178 từ)]` | Giải thích đúng định nghĩa nhưng chưa phân biệt với Event Match Quality (EMQ). | Bổ sung mục H3 phân tích chuyên sâu: CMR (ghép sản phẩm) khác gì EMQ (ghép danh tính người dùng) kèm bảng so sánh. |
 | **H2: How to Calculate Catalog Match Rate?** | `[KEEP]` | Công thức và ví dụ 85% rất rõ ràng, chuẩn xác theo Meta. | Giữ nguyên cấu trúc mục này. |
-| **H2: Why Catalog Match Rate Matters** | `[UPDATE]` | Các luận điểm đã tốt nhưng cần cập nhật thuật ngữ mới (Advantage+ Catalog Ads, AI Signal Delivery). | Cập nhật bổ sung tác động của match rate đến việc thoát khỏi giai đoạn máy học (Learning Phase) của Meta. |
-| **H2: Catalog Match Rate Benchmarks** | `[ENRICH]` | Bảng benchmark đã có 3 mức, nhưng thiếu trạng thái *"Paused"*. | Bổ sung giải thích trạng thái *"Catalog Match Rate is Paused"* (cơ chế tự động tạm dừng sau 28 ngày không chạy ads theo tài liệu chính thức của Meta). |
-| **H2: How to Check Your Catalog Match Rate** | `[UPDATE]` | Các bước hướng dẫn cần khớp với giao diện Commerce Manager 2026. | Kiểm tra các bước, bổ sung lưu ý kiểm tra trong tab Diagnostics / Issues. |
-| **H2: Common Reasons for Low Match Rates** | `[ENRICH]` | Liệt kê dạng bullet point nhưng chưa có ví dụ thực tế về cú pháp sai. | Bổ sung các ví dụ cụ thể về lỗi code tham số: mảng `content_ids` bị gộp chuỗi, xung đột Product ID và Variant ID của Shopify. |
-| **H2: How to Improve Meta Catalog Match Rate** | `[ENRICH]` | Hướng dẫn 6 bước tốt nhưng cần làm rõ cách cấu hình feed sản phẩm. | Nêu rõ cách thiết lập định dạng ID nhất quán giữa feed và Pixel/CAPI. |
+| **H2: Why Catalog Match Rate Matters** | `[UPDATE (+24 từ)]` | Các luận điểm đã tốt nhưng cần cập nhật thuật ngữ mới (Advantage+ Catalog Ads, AI Signal Delivery). | Cập nhật bổ sung tác động của match rate đến việc thoát khỏi giai đoạn máy học (Learning Phase) của Meta. |
+| **H2: Catalog Match Rate Benchmarks** | `[ENRICH (+72 từ)]` | Bảng benchmark đã có 3 mức, nhưng thiếu trạng thái *"Paused"*. | Bổ sung giải thích trạng thái *"Catalog Match Rate is Paused"* (cơ chế tự động tạm dừng sau 28 ngày không chạy ads theo tài liệu chính thức của Meta). |
+| **H2: How to Check Your Catalog Match Rate** | `[UPDATE (+32 từ)]` | Các bước hướng dẫn cần khớp với giao diện Commerce Manager 2026. | Kiểm tra các bước, bổ sung lưu ý kiểm tra trong tab Diagnostics / Issues. |
+| **H2: Common Reasons for Low Match Rates** | `[ENRICH (+222 từ)]` | Liệt kê dạng bullet point nhưng chưa có ví dụ thực tế về cú pháp sai. | Bổ sung các ví dụ cụ thể về lỗi code tham số: mảng `content_ids` bị gộp chuỗi, xung đột Product ID và Variant ID của Shopify. |
+| **H2: How to Improve Meta Catalog Match Rate** | `[ENRICH (+29 từ)]` | Hướng dẫn 6 bước tốt nhưng cần làm rõ cách cấu hình feed sản phẩm. | Nêu rõ cách thiết lập định dạng ID nhất quán giữa feed và Pixel/CAPI. |
 | **H2: Optimize Catalog Match Rate with Omega Feeds** | `[KEEP]` | Giới thiệu app Omega Google & Facebook Feed giải quyết đúng bài toán. | Giữ nguyên vị trí và nội dung cốt lõi. |
 | **H2: Best Practices to Maintain a High Match Rate** | `[KEEP]` | 6 nguyên tắc chuẩn. | Giữ nguyên các đề mục thực hành tốt nhất. |
-| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP]` | Bài viết chưa có khối FAQ giải đáp theo chuẩn SERP Norm và PAA. | Bổ sung 4 câu hỏi thường gặp nhất của các nhà quảng cáo Meta. |
+| **H2: Frequently Asked Questions (FAQs)** | `[FILL-GAP (+256 từ)]` | Bài viết chưa có khối FAQ giải đáp theo chuẩn SERP Norm và PAA. | Bổ sung 4 câu hỏi thường gặp nhất của các nhà quảng cáo Meta. |
 | **Conclusion** | `[KEEP]` | Tóm tắt súc tích, định hướng hành động rõ ràng. | Giữ nguyên kết luận. |
 
-*(Nhãn hành động: `[KEEP]` - Giữ nguyên | `[UPDATE]` - Cập nhật dữ liệu cũ | `[ENRICH]` - Làm giàu thông tin | `[FILL-GAP]` - Bổ sung mục thiếu theo SERP Norm & FAQ)*
+*(Lưu ý: Với các nhãn thay đổi nội dung như UPDATE, ENRICH, FILL-GAP, bắt buộc ghi kèm `+[số từ thay đổi so với bản gốc]`, ví dụ: `[UPDATE (+50 từ)]`, `[ENRICH (+150 từ)]`, `[FILL-GAP (+200 từ)]`)*
 
 ---
 
-## 3. Nội dung Mẫu Đề xuất Sửa đổi (Draft Rewrite & Enrichment Snippets)
+## 3. Nội dung đề xuất sửa
 
 Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có thể copy/paste trực tiếp vào bài viết:
 
-### Snippet 1: Bảng so sánh Catalog Match Rate (CMR) vs. Event Match Quality (EMQ) `[ENRICH]`
+### Snippet 1: Bảng so sánh Catalog Match Rate (CMR) vs. Event Match Quality (EMQ) `[ENRICH (+210 từ)]`
 *(Chèn vào dưới mục H2: What is Catalog Match Rate?)*
 
 > ### Catalog Match Rate vs. Event Match Quality (EMQ): Understand the Difference
@@ -82,7 +83,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 | **Điểm chuẩn lý tưởng** | **> 90%** (Cảnh báo đỏ nếu < 75%) | **> 8.0 / 10** đối với các sự kiện cốt lõi (Purchase, Lead) |
 | **Bộ phận chịu trách nhiệm** | Product Feed Sync & Cấu hình tham số Pixel sự kiện sản phẩm | Thiết lập Conversion API (CAPI) & Advanced Matching |
 
-### Snippet 2: Làm giàu các ví dụ lỗi cú pháp mã `content_ids` `[ENRICH]`
+### Snippet 2: Làm giàu các ví dụ lỗi cú pháp mã `content_ids` `[ENRICH (+168 từ)]`
 *(Chèn vào mục H2: Common Reasons for Low Match Rates)*
 
 > #### Common Code Syntax Mistakes in `content_ids`
@@ -99,7 +100,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 >    - When passing a single specific variant ID, use `content_type: 'product'`.
 >    - When passing an item group identifier, use `content_type: 'product_group'`. Declaring `'product'` while passing group IDs will cause rejection.
 
-### Snippet 3: Giải thích cảnh báo "Catalog Match Rate is Paused" `[ENRICH]`
+### Snippet 3: Giải thích cảnh báo "Catalog Match Rate is Paused" `[ENRICH (+80 từ)]`
 *(Chèn vào mục H2: Catalog Match Rate Benchmarks)*
 
 > #### What Does "Catalog Match Rate Paused" Mean?
@@ -107,7 +108,7 @@ Cung cấp sẵn các đoạn văn hoàn chỉnh để người biên tập có 
 > 
 > Once you launch or resume an Advantage+ Catalog campaign or Dynamic Product Ad that delivers impressions, Meta will reactivate the calculation within 24 to 48 hours as new pixel events stream in.
 
-### Snippet 4: Khối giải đáp thắc mắc thường gặp (FAQs) `[FILL-GAP]`
+### Snippet 4: Khối giải đáp thắc mắc thường gặp (FAQs) `[FILL-GAP (+256 từ)]`
 *(Chèn thành khối H2 ở cuối bài)*
 
 > **Q: What is a good Catalog Match Rate on Meta?**  
